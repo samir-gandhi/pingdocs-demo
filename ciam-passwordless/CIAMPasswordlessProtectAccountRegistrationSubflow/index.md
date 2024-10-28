@@ -154,6 +154,7 @@ flowchart LR
     dpyuspmzna[Risk Score from PingOne Protect] --> obdb16fbj2((EVAL))
     obdb16fbj2((EVAL)) --> rffad6f7jp[Return to calling node]
     dpyuspmzna[Risk Score from PingOne Protect] --> v7rng0sn5c((EVAL))
+    updxs8x4oi((EVAL)) --> 6oeo925wfc[Http]
 
     click v7rng0sn5c "v7rng0sn5c" "v7rng0sn5c"
     click hqbldfgp75 "hqbldfgp75" "hqbldfgp75"
@@ -379,4 +380,6 @@ flowchart LR
     click rffad6f7jp "rffad6f7jp" "rffad6f7jp"
     click dpyuspmzna "dpyuspmzna" "dpyuspmzna"
     click v7rng0sn5c "v7rng0sn5c" "v7rng0sn5c"
+    click updxs8x4oi "updxs8x4oi" "updxs8x4oi"
+    click 6oeo925wfc "6oeo925wfc" "6oeo925wfc"
 ```
