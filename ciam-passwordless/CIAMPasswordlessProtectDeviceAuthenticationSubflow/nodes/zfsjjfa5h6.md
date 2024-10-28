@@ -1,4 +1,5 @@
-# Http - Present FIDO2 Form 
+# Http - string 
+Present FIDO2 Form 
 ## Configuration
 ID:  zfsjjfa5h6
 
@@ -6,20 +7,17 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 ## Custom CSS
 ```css
+json 
 .hidden-button{
     display: none;
 }
 ```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -79,7 +77,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 var authAbortController = window.PublicKeyCredential ? new AbortController() : null;
 var authAbortSignal = window.PublicKeyCredential ? authAbortController.signal : null;
 
@@ -205,9 +203,26 @@ function startFido() {
 fidoButton.click();
 ```
 
+### Output Schema
+``` json 
+{
+	"type": "object",
+	"properties": {
+		"buttonValue": {
+			"type": "string",
+			"propertyName": "buttonValue"
+		},
+		"assertionValue": {
+			"type": "string",
+			"propertyName": "assertionValue"
+		}
+	}
+} 
+```
+
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -239,13 +254,12 @@ canChangeDevice
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
     "type": "object",
     "properties": {
@@ -269,26 +283,8 @@ inputSchema
 ```
 
 
-outputSchema
- ```json 
-{
-	"type": "object",
-	"properties": {
-		"buttonValue": {
-			"type": "string",
-			"propertyName": "buttonValue"
-		},
-		"assertionValue": {
-			"type": "string",
-			"propertyName": "assertionValue"
-		}
-	}
-}
-```
-
-
 publicKeyCredentialCreationOptions
- ```json 
+```json 
 [
   {
     "children": [
@@ -320,7 +316,7 @@ publicKeyCredentialCreationOptions
 
 
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -352,20 +348,26 @@ type
 
 
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [t04dles3gs](./t04dles3gs.md) | [9pb86bg0qi](./9pb86bg0qi.md) |
+| EVAL | [t04dles3gs](./t04dles3gs.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[9pb86bg0qi](./9pb86bg0qi.md) | 

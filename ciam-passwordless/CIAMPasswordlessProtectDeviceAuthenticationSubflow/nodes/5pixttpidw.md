@@ -1,4 +1,5 @@
-# Error Message - Invalid Passcode Error
+# Error Message - string 
+Invalid Passcode Error
 ## Configuration
 ID:  5pixttpidw
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +29,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [v97rmwpban](./v97rmwpban.md) |  |

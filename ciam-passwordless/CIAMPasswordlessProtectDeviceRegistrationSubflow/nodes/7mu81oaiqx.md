@@ -1,4 +1,5 @@
-# Functions - Check If User Needs To Enter Email
+# Functions - string 
+Check If User Needs To Enter Email
 ## Configuration
 ID:  7mu81oaiqx
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [k90u9roz6q](./k90u9roz6q.md) | [4smjdpxvyk](./4smjdpxvyk.md) |
+| EVAL | [k90u9roz6q](./k90u9roz6q.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[4smjdpxvyk](./4smjdpxvyk.md) | 

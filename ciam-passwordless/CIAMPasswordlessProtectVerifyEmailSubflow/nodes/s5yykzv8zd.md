@@ -1,4 +1,5 @@
-# Http - Prompt For Verification Code
+# Http - string 
+Prompt For Verification Code
 ## Configuration
 ID:  s5yykzv8zd
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Displays a form for the user to enter the verification code | 
- 
+| Node Description | string 
+Displays a form for the user to enter the verification code | 
 
 
 ## Custom HTML
-```html
+```html 
 <div
   class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
   <div style="max-width: 400px; min-width: 400px; width: 100%">
@@ -54,7 +55,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const focusOnFirstInputElement = () => {
   document.getElementById("verificationCode").focus();
 };
@@ -77,28 +78,35 @@ if (document.readyState === "loading") {
 
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 oeInteractionCacheExpire
- ```json 
+```bool 
 false
 ```
 
 
 validationRules
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qskpbqg2yf](./qskpbqg2yf.md) | [sju60xf677](./sju60xf677.md) |
+| EVAL | [qskpbqg2yf](./qskpbqg2yf.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[sju60xf677](./sju60xf677.md) | 

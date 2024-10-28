@@ -1,4 +1,5 @@
-# Http - Show Expiration Error
+# Http - string 
+Show Expiration Error
 ## Configuration
 ID:  utjcbphp35
 
@@ -6,14 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 ## Custom HTML
-```html
+```html 
 <div class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
    <div style="max-width: 400px; min-width: 400px; width: 100%">
         <div class="card shadow mb-5">
@@ -28,7 +25,4 @@ CapabilityName: customHTMLTemplate
 ```
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [v0rkta2j1x](./v0rkta2j1x.md) |  |
+

@@ -5,15 +5,20 @@ ID:  s1axmvsfoq
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wms6o050jb](./wms6o050jb.md) | [wgvcj4rbmh](./wgvcj4rbmh.md) |
+| Check Status | [wms6o050jb](./wms6o050jb.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[wgvcj4rbmh](./wgvcj4rbmh.md) | 

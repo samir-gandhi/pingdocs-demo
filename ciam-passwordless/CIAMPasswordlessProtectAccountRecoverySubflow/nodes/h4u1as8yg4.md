@@ -1,4 +1,5 @@
-# Http - Recovery Code Form
+# Http - string 
+Recovery Code Form
 ## Configuration
 ID:  h4u1as8yg4
 
@@ -9,11 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | A form to enter the password recovery code and a new password | 
- 
+| Node Description | string 
+A form to enter the password recovery code and a new password | 
 
 ## Custom CSS
 ```css
+html 
 .input-policy-error {
     margin-top: 0rem;
     text-align: left;
@@ -25,7 +27,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom HTML
-```html
+```html 
 <div
   class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
   <div style="max-width: 400px; min-width: 400px; width: 100%">
@@ -88,7 +90,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const focusOnFirstInputElement = () => {
   document.getElementById("recoveryCode").focus();
 };
@@ -206,34 +208,41 @@ function contentChanged() {
 }
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 nextButtonText
- ```json 
+```string 
 Sign On
 ```
 
 
 title
- ```json 
+```string 
 Recover Password
 ```
 
 
 validationRules
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zvl6xidgq9](./zvl6xidgq9.md) | [n9tgrbpiz4](./n9tgrbpiz4.md) |
+| EVAL | [zvl6xidgq9](./zvl6xidgq9.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[n9tgrbpiz4](./n9tgrbpiz4.md) | 

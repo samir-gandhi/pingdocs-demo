@@ -1,4 +1,5 @@
-# Functions - Check if Risk ID is empty
+# Functions - string 
+Check if Risk ID is empty
 ## Configuration
 ID:  7050iwhzic
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [u0kjt3cxvi](./u0kjt3cxvi.md) | [p46u12kavc](./p46u12kavc.md) |
+| EVAL | [u0kjt3cxvi](./u0kjt3cxvi.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[p46u12kavc](./p46u12kavc.md) | 

@@ -1,4 +1,5 @@
-# Flow Connector - CIAM - Account Recovery 
+# Flow Connector - string 
+CIAM - Account Recovery 
 ## Configuration
 ID:  5b7wgayb4e
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ ciam_companyLogo
 
 
 passwordRecovery
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ passwordRecovery
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [rc315a9uh1](./rc315a9uh1.md) | [w9egwegsnj](./w9egwegsnj.md) |
+| EVAL | [rc315a9uh1](./rc315a9uh1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[w9egwegsnj](./w9egwegsnj.md) | 

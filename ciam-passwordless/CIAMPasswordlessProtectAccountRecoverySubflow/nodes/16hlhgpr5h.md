@@ -1,4 +1,5 @@
-# Functions - Verify Passwords Match
+# Functions - string 
+Verify Passwords Match
 ## Configuration
 ID:  16hlhgpr5h
 
@@ -9,15 +10,29 @@ CapabilityName: customFunction
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Verify new passwords match before setting | 
- 
+| Node Description | string 
+Verify new passwords match before setting | 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"success": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Test to ensure passwords match
 module.exports = a = async ({ params }) => {
 	const newPassword = params.newPassword;
@@ -32,30 +47,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"success": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fecpsdg3u3](./fecpsdg3u3.md) | [9o0jtjpq4i](./9o0jtjpq4i.md) |
+| EVAL | [fecpsdg3u3](./fecpsdg3u3.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[9o0jtjpq4i](./9o0jtjpq4i.md) | 

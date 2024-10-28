@@ -1,4 +1,5 @@
-# Node - Reset Password
+# Node - string 
+Reset Password
 ## Configuration
 ID:  powvchr4kr
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -104,7 +102,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [85rxatuk44](./85rxatuk44.md) |

@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ canChangeDevice
 
 
 deviceAuthId
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ deviceAuthId
 
 
 maskedMagicLinkEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +109,7 @@ maskedMagicLinkEmail
 
 
 maskedUsableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,13 +141,13 @@ maskedUsableDevices
 
 
 nodeInstanceId
- ```json 
+```string 
 7vpjww2ek2
 ```
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -182,7 +179,7 @@ origin
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -214,7 +211,7 @@ pingOneUserId
 
 
 publicKeyCredentialCreationOptions
- ```json 
+```json 
 [
   {
     "children": [
@@ -246,7 +243,7 @@ publicKeyCredentialCreationOptions
 
 
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -278,7 +275,7 @@ type
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -311,7 +308,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [h8dtvwld36](./h8dtvwld36.md) |  |

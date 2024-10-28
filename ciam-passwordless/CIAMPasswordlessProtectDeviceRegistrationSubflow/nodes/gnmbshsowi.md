@@ -1,4 +1,5 @@
-# Functions - Is Error Invalid Phone Number/Email Address?
+# Functions - string 
+Is Error Invalid Phone Number/Email Address?
 ## Configuration
 ID:  gnmbshsowi
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [thtxgh5tye](./thtxgh5tye.md) | [2my7xaouma](./2my7xaouma.md) |
+| EVAL | [thtxgh5tye](./thtxgh5tye.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[2my7xaouma](./2my7xaouma.md) | 

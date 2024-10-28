@@ -5,24 +5,29 @@ ID:  ydy90pbw5k
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 6tbnogu9pe
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1vqqpdh7jj](./1vqqpdh7jj.md) | [c6trci9e40](./c6trci9e40.md), [6tbnogu9pe](./6tbnogu9pe.md) |
+| Invoke PingOne Protect subflow | [1vqqpdh7jj](./1vqqpdh7jj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Get Values from PingOne Protect analysis |[6tbnogu9pe](./6tbnogu9pe.md) | 

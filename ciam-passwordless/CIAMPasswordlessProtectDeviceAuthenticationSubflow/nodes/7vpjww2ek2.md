@@ -1,4 +1,5 @@
-# Node - FIDO2
+# Node - string 
+FIDO2
 ## Configuration
 ID:  7vpjww2ek2
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -97,7 +95,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [t04dles3gs](./t04dles3gs.md) |

@@ -1,4 +1,5 @@
-# Error Message - Error message for Non Active user
+# Error Message - string 
+Error message for Non Active user
 ## Configuration
 ID:  ou1gi7wq5d
 
@@ -9,21 +10,22 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Error message for non active user. | 
- 
+| Node Description | string 
+Error message for non active user. | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -37,7 +39,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -52,7 +54,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ph08u6bgi1](./ph08u6bgi1.md) |  |

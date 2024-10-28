@@ -5,15 +5,20 @@ ID:  eqr4ril6n5
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zqb2rroahz](./zqb2rroahz.md) | [kmq13sjqim](./kmq13sjqim.md) |
+| Check User Selection  | [zqb2rroahz](./zqb2rroahz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[kmq13sjqim](./kmq13sjqim.md) | 

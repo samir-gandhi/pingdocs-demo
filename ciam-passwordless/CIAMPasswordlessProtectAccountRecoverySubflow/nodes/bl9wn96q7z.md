@@ -5,15 +5,20 @@ ID:  bl9wn96q7z
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [rtv1hwltfy](./rtv1hwltfy.md) | [ao6h6cnxrq](./ao6h6cnxrq.md) |
+| Split By User&#39;s Selection | [rtv1hwltfy](./rtv1hwltfy.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[ao6h6cnxrq](./ao6h6cnxrq.md) | 

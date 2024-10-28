@@ -1,4 +1,5 @@
-# Functions - Detect Threat
+# Functions - string 
+Detect Threat
 ## Configuration
 ID:  c2ulwnph9p
 
@@ -9,15 +10,16 @@ CapabilityName: arrayOfAIncludesB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if PingOne protect has detected a BOT or AITM attack | 
- 
+| Node Description | string 
+Check if PingOne protect has detected a BOT or AITM attack | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -81,14 +83,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vknqtnu7y2](./vknqtnu7y2.md) | [uizc04ybxq](./uizc04ybxq.md) |
+| EVAL | [vknqtnu7y2](./vknqtnu7y2.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[uizc04ybxq](./uizc04ybxq.md) | 

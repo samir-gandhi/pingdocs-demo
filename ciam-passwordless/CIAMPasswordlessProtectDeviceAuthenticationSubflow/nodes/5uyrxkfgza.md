@@ -5,15 +5,20 @@ ID:  5uyrxkfgza
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [k46n95w9eo](./k46n95w9eo.md) | [tidk1pmqix](./tidk1pmqix.md), [wi6hu0ai62](./wi6hu0ai62.md) |
+| Success  | [k46n95w9eo](./k46n95w9eo.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check if Risk Policy ID is empty |[wi6hu0ai62](./wi6hu0ai62.md)Return Success Response |[tidk1pmqix](./tidk1pmqix.md) | 

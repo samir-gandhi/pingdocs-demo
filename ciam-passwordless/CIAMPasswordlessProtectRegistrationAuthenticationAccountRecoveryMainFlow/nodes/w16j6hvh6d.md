@@ -1,4 +1,5 @@
-# PingOne Authentication - Check For Valid Session
+# PingOne Authentication - string 
+Check For Valid Session
 ## Configuration
 ID:  w16j6hvh6d
 
@@ -9,15 +10,16 @@ CapabilityName: checkSession
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if there is an existing session that&#39;s valid in current browser | 
- 
+| Node Description | string 
+Check if there is an existing session that&#39;s valid in current browser | 
+
 
 
 
 
 ### Additional Properties
 authenticationMethodLastUsedIn
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,14 +51,22 @@ authenticationMethodLastUsedIn
 
 
 checkSessionAuthenticator
- ```json 
+```string 
 rememberme
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fqkfitsm9p](./fqkfitsm9p.md) | [lbhyjujyjv](./lbhyjujyjv.md) |
+| EVAL | [fqkfitsm9p](./fqkfitsm9p.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[lbhyjujyjv](./lbhyjujyjv.md) | 

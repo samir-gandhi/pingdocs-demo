@@ -1,4 +1,5 @@
-# Http - Password Form
+# Http - string 
+Password Form
 ## Configuration
 ID:  gnh7rkcsg6
 
@@ -6,14 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 ## Custom HTML
-```html
+```html 
 <div
   class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0">
   <div style="max-width: 400px; width: 100%">
@@ -53,7 +50,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const focusOnFirstInputElement = () => {
   document.getElementById("password").focus();
 };
@@ -99,16 +96,24 @@ if (document.readyState === "loading") {
 
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [tcgo0fso3q](./tcgo0fso3q.md) | [3os5ylwizz](./3os5ylwizz.md) |
+| EVAL | [tcgo0fso3q](./tcgo0fso3q.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[3os5ylwizz](./3os5ylwizz.md) | 

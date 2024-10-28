@@ -1,4 +1,5 @@
-# PingOne MFA - Create MFA Device
+# PingOne MFA - string 
+Create MFA Device
 ## Configuration
 ID:  8jrbqcts2g
 
@@ -9,46 +10,46 @@ CapabilityName: createDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 customApplicationId
- ```json 
+```json 
 {}
 ```
 
 
 customDeviceType
- ```json 
+```json 
 {}
 ```
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceType
- ```json 
+```string 
 EMAIL
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,13 +81,13 @@ email
 
 
 notificationPolicyId
- ```json 
+```string 
 6c9eb591-d8ea-4f90-8c04-8610e4f70203
 ```
 
 
 oneTimeDeviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -100,7 +101,7 @@ oneTimeDeviceType
 
 
 oneTimeEmailDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -132,20 +133,28 @@ oneTimeEmailDevice
 
 
 selectedDevice
- ```json 
+```string 
 oneTime
 ```
 
 
 status
- ```json 
+```string 
 ACTIVATION_REQUIRED
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [mtaqacdw1m](./mtaqacdw1m.md) | [hk00gx2f95](./hk00gx2f95.md) |
+| Evaluator | [mtaqacdw1m](./mtaqacdw1m.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[hk00gx2f95](./hk00gx2f95.md) | 

@@ -1,4 +1,5 @@
-# Http - Error
+# Http - string 
+Error
 ## Configuration
 ID:  25d4oxyqsl
 
@@ -9,22 +10,22 @@ CapabilityName: createErrorResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 message
- ```json 
+```json 
 [
   {
     "children": [
@@ -78,7 +79,3 @@ message
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ovgv5ycn3o](./ovgv5ycn3o.md) |  |

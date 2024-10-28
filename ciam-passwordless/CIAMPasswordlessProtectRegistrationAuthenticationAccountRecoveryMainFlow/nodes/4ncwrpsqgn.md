@@ -1,4 +1,5 @@
-# Functions - Check account status
+# Functions - string 
+Check account status
 ## Configuration
 ID:  4ncwrpsqgn
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if account status is Active | 
- 
+| Node Description | string 
+Check if account status is Active | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -64,7 +66,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fm7p6z4lgt](./fm7p6z4lgt.md) | [ph08u6bgi1](./ph08u6bgi1.md) |
+| EVAL | [fm7p6z4lgt](./fm7p6z4lgt.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[ph08u6bgi1](./ph08u6bgi1.md) | 

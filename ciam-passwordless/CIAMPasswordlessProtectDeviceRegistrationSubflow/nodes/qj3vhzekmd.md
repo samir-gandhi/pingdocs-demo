@@ -5,24 +5,29 @@ ID:  qj3vhzekmd
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 bdbxj0ct3v
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2tv7r1hqp9](./2tv7r1hqp9.md) | [fly72kbjyx](./fly72kbjyx.md), [bdbxj0ct3v](./bdbxj0ct3v.md) |
+| Can User Register Another Device? | [2tv7r1hqp9](./2tv7r1hqp9.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[bdbxj0ct3v](./bdbxj0ct3v.md) | 

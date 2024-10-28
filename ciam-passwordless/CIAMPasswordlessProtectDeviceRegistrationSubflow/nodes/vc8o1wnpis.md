@@ -1,4 +1,5 @@
-# Node - FIDO2
+# Node - string 
+FIDO2
 ## Configuration
 ID:  vc8o1wnpis
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -62,7 +60,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [t0my8smuad](./t0my8smuad.md) |

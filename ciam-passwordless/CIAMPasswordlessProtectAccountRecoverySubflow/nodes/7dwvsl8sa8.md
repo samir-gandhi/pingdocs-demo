@@ -1,4 +1,5 @@
-# PingOne Protect - Update Risk Evaluation - FAILURE
+# PingOne Protect - string 
+Update Risk Evaluation - FAILURE
 ## Configuration
 ID:  7dwvsl8sa8
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: updateRiskEvaluation
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 completionStatus
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,7 +28,7 @@ completionStatus
 
 
 riskId
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,3 @@ riskId
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [p46u12kavc](./p46u12kavc.md) |  |

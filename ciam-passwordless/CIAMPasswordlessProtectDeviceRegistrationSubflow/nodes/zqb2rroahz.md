@@ -1,4 +1,5 @@
-# Functions - Check User Selection 
+# Functions - string 
+Check User Selection 
 ## Configuration
 ID:  zqb2rroahz
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wtcsrlx6i1](./wtcsrlx6i1.md) | [eqr4ril6n5](./eqr4ril6n5.md), [car7f7wytu](./car7f7wytu.md), [h00gom93pv](./h00gom93pv.md) |
+| EVAL | [wtcsrlx6i1](./wtcsrlx6i1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[h00gom93pv](./h00gom93pv.md) | 

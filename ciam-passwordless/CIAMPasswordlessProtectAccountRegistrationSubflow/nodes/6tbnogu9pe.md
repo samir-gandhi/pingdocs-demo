@@ -1,4 +1,5 @@
-# Variables - Get Values from PingOne Protect analysis
+# Variables - string 
+Get Values from PingOne Protect analysis
 ## Configuration
 ID:  6tbnogu9pe
 
@@ -9,22 +10,30 @@ CapabilityName: saveValue
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Get Values from PingOne Protect analysis. | 
- 
+| Node Description | string 
+Get Values from PingOne Protect analysis. | 
+
 
 
 
 
 ### Additional Properties
 saveVariables
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ydy90pbw5k](./ydy90pbw5k.md) | [3lg1avddlj](./3lg1avddlj.md) |
+| Evaluator | [ydy90pbw5k](./ydy90pbw5k.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[3lg1avddlj](./3lg1avddlj.md) | 

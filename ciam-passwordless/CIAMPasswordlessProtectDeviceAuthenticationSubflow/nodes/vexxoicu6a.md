@@ -5,24 +5,29 @@ ID:  vexxoicu6a
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 j6salon8z4
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [u9ab712lfx](./u9ab712lfx.md) | [3s5kidc2wc](./3s5kidc2wc.md), [j6salon8z4](./j6salon8z4.md) |
+| Invoke PingOne Protect subflow | [u9ab712lfx](./u9ab712lfx.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Get Values from PingOne Protect analysis |[j6salon8z4](./j6salon8z4.md) | 

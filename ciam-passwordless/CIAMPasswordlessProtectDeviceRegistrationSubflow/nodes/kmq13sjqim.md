@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +45,13 @@ deviceId
 
 
 nodeInstanceId
- ```json 
+```string 
 7qi7idcwvv
 ```
 
 
 otp
- ```json 
+```json 
 [
   {
     "children": [
@@ -87,7 +84,3 @@ otp
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [eqr4ril6n5](./eqr4ril6n5.md) |  |

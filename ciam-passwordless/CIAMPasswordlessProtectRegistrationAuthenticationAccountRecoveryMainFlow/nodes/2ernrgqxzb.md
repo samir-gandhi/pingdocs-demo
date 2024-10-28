@@ -1,4 +1,5 @@
-# PingOne - Lookup User
+# PingOne - string 
+Lookup User
 ## Configuration
 ID:  2ernrgqxzb
 
@@ -9,21 +10,21 @@ CapabilityName: userLookup
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Searches for the user in PingOne&#39;s cloud directory | 
- 
+| Node Description | string 
+Searches for the user in PingOne&#39;s cloud directory | 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +57,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1nt8111fdv](./1nt8111fdv.md) | [71chk8uoyb](./71chk8uoyb.md) |
+| EVAL | [1nt8111fdv](./1nt8111fdv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[71chk8uoyb](./71chk8uoyb.md) | 

@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ email
 
 
 flowAccountRecoveryEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ flowAccountRecoveryEnabled
 
 
 flowAgreementEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +109,7 @@ flowAgreementEnabled
 
 
 flowAgreementId
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,7 +141,7 @@ flowAgreementId
 
 
 flowAllowedDeviceTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -176,7 +173,7 @@ flowAllowedDeviceTypes
 
 
 flowAppleEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -208,7 +205,7 @@ flowAppleEnabled
 
 
 flowFacebookEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -240,7 +237,7 @@ flowFacebookEnabled
 
 
 flowGoogleEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -272,7 +269,7 @@ flowGoogleEnabled
 
 
 flowMagicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -304,7 +301,7 @@ flowMagicLinkEnabled
 
 
 flowMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -336,7 +333,7 @@ flowMethod
 
 
 flowPasswordlessRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -368,13 +365,13 @@ flowPasswordlessRequired
 
 
 nodeInstanceId
- ```json 
+```string 
 rstodi2zw1
 ```
 
 
 password
- ```json 
+```json 
 [
   {
     "children": [
@@ -406,7 +403,7 @@ password
 
 
 rememberMe
- ```json 
+```json 
 [
   {
     "children": [
@@ -438,7 +435,7 @@ rememberMe
 
 
 username
- ```json 
+```json 
 [
   {
     "children": [
@@ -471,7 +468,3 @@ username
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [vconl69bto](./vconl69bto.md) |  |

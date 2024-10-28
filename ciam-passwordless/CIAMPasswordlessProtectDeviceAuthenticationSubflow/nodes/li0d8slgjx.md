@@ -1,4 +1,5 @@
-# PingOne Notifications - Send email for new device
+# PingOne Notifications - string 
+Send email for new device
 ## Configuration
 ID:  li0d8slgjx
 
@@ -9,23 +10,24 @@ CapabilityName: sendEmail
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Configure email notification to send an email for new device added. | 
- 
+| Node Description | string 
+Configure email notification to send an email for new device added. | 
+
 
 
 
 
 ### Additional Properties
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -58,7 +60,15 @@ email
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qw4n733f3t](./qw4n733f3t.md) | [e3httj56zd](./e3httj56zd.md) |
+| EVAL | [qw4n733f3t](./qw4n733f3t.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[e3httj56zd](./e3httj56zd.md) | 

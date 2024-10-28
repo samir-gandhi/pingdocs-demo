@@ -1,4 +1,5 @@
-# Http - Return Success Response
+# Http - string 
+Return Success Response
 ## Configuration
 ID:  6pm68xyuuo
 
@@ -9,23 +10,19 @@ CapabilityName: createSuccessResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #9dc967ff | 
+| Node Background Color | html 
+#9dc967ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [r20nxc61oc](./r20nxc61oc.md) |  |

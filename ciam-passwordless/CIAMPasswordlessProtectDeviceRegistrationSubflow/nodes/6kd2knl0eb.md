@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +45,10 @@ errorMessage
 
 
 nodeInstanceId
- ```json 
+```string 
 8tr8nq23dr
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [p8n9w6rdgy](./p8n9w6rdgy.md) |  |

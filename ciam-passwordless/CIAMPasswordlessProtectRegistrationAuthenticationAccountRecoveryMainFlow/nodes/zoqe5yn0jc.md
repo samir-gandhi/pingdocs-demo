@@ -1,4 +1,5 @@
-# Error Message - No User Found Error
+# Error Message - string 
+No User Found Error
 ## Configuration
 ID:  zoqe5yn0jc
 
@@ -9,15 +10,16 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | No existing user with this email. | 
- 
+| Node Description | string 
+No existing user with this email. | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -34,7 +36,7 @@ errorCode
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +53,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -74,7 +76,7 @@ errorMessage
 
 
 errorReason
- ```json 
+```json 
 [
   {
     "children": [
@@ -89,7 +91,3 @@ errorReason
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [y7f4468q9f](./y7f4468q9f.md) |  |

@@ -1,4 +1,5 @@
-# Node - Error
+# Node - string 
+Error
 ## Configuration
 ID:  xbvfnq8o31
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -34,7 +32,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [90g8cf6l2u](./90g8cf6l2u.md) |

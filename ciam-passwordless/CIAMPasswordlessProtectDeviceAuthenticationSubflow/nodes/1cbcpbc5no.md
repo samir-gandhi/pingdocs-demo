@@ -5,15 +5,20 @@ ID:  1cbcpbc5no
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [9zctbmveoc](./9zctbmveoc.md) | [4psx471uwp](./4psx471uwp.md) |
+| Enrich Device Details | [9zctbmveoc](./9zctbmveoc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Authentication Required |[4psx471uwp](./4psx471uwp.md) | 

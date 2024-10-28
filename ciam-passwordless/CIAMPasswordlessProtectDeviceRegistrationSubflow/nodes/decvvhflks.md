@@ -1,4 +1,5 @@
-# Http - Display Device Types
+# Http - string 
+Display Device Types
 ## Configuration
 ID:  decvvhflks
 
@@ -9,12 +10,17 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Display available methods | 
- 
+| Node Description | string 
+Display available methods | 
 
+## Custom CSS
+```css
+string 
+
+```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -112,7 +118,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 // Change the displayed message if autoenroll variable is enabled and email passed from the calling flow is not empty
 function autoEnrollDisplayMessage() {
     if(`{{global.parameters.ciam_autoEnrollEmail}}` === "true" &amp;&amp; `{{maskedEmail}}`) {
@@ -131,9 +137,22 @@ if (document.readyState === "loading") {
 
 ```
 
+### Output Schema
+``` json 
+{
+	"type": "object",
+	"properties": {
+		"buttonValue": {
+			"type": "string",
+			"propertyName": "buttonValue"
+		}
+	}
+} 
+```
+
 ### Additional Properties
 allowCancel
- ```json 
+```json 
 [
   {
     "children": [
@@ -165,7 +184,7 @@ allowCancel
 
 
 allowedTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -197,13 +216,12 @@ allowedTypes
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -225,7 +243,7 @@ inputSchema
 
 
 maskedEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -257,7 +275,7 @@ maskedEmail
 
 
 messageTitle
- ```json 
+```json 
 [
   {
     "children": [
@@ -270,22 +288,8 @@ messageTitle
 ```
 
 
-outputSchema
- ```json 
-{
-	"type": "object",
-	"properties": {
-		"buttonValue": {
-			"type": "string",
-			"propertyName": "buttonValue"
-		}
-	}
-}
-```
-
-
 passwordlessRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -317,7 +321,7 @@ passwordlessRequired
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -349,20 +353,26 @@ typeDisplayNames
 
 
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [h2d7rovpq5](./h2d7rovpq5.md) | [k44ne8uadp](./k44ne8uadp.md) |
+| EVAL | [h2d7rovpq5](./h2d7rovpq5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[k44ne8uadp](./k44ne8uadp.md) | 

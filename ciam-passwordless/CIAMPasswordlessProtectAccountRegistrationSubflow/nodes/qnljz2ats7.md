@@ -1,4 +1,5 @@
-# Node - Set Password
+# Node - string 
+Set Password
 ## Configuration
 ID:  qnljz2ats7
 
@@ -9,15 +10,16 @@ CapabilityName: startNode
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Post account creation | 
- 
+| Node Description | string 
+Post account creation | 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -35,7 +37,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [tcgo0fso3q](./tcgo0fso3q.md) |

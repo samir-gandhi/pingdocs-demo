@@ -5,15 +5,20 @@ ID:  00j11fkhbx
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qurffyxc2d](./qurffyxc2d.md) | [beakf43h8t](./beakf43h8t.md) |
+| Split by user selection  | [qurffyxc2d](./qurffyxc2d.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[beakf43h8t](./beakf43h8t.md) | 

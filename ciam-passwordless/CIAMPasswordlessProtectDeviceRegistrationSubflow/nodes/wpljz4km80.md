@@ -5,15 +5,20 @@ ID:  wpljz4km80
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wms6o050jb](./wms6o050jb.md) | [iru6qhsncf](./iru6qhsncf.md) |
+| Check Status | [wms6o050jb](./wms6o050jb.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Activate FIDO2 Device |[iru6qhsncf](./iru6qhsncf.md) | 

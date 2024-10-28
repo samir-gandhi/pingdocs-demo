@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -33,14 +30,10 @@ errorMessage
 
 
 nodeInstanceId
- ```json 
+```string 
 o8lq26j99n
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [1brhauigps](./1brhauigps.md) |  |

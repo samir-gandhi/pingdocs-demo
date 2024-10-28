@@ -9,65 +9,62 @@ CapabilityName: updateAnnotationProperties
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #5d00d6ff | 
+| Node Background Color | html 
+#5d00d6ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 annotation
- ```json 
+```string 
 User select device to register with
 ```
 
 
 annotationTextColor
- ```json 
+```html 
 #ffffffff
 ```
 
 
 cornerRadius
- ```json 
+```float64 
 20.00
 ```
 
 
 fontFamily
- ```json 
+```string 
 sans-serif
 ```
 
 
 fontSize
- ```json 
+```float64 
 14.00
 ```
 
 
 fontStyle
- ```json 
+```string 
 bold
 ```
 
 
 strokeWidth
- ```json 
+```float64 
 0.00
 ```
 
 
 width
- ```json 
+```float64 
 1000.00
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  |  |

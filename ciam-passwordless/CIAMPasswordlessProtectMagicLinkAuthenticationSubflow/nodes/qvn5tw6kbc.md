@@ -1,4 +1,5 @@
-# Functions - Is Challenge Approved?
+# Functions - string 
+Is Challenge Approved?
 ## Configuration
 ID:  qvn5tw6kbc
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +49,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -65,14 +63,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qcxgcbyy02](./qcxgcbyy02.md) | [3ma220y2v8](./3ma220y2v8.md) |
+| Evaluator | [qcxgcbyy02](./qcxgcbyy02.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[3ma220y2v8](./3ma220y2v8.md) | 

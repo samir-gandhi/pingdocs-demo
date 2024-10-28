@@ -5,30 +5,35 @@ ID:  oep2ke136
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 1fdy8se6nx
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 fqw47ezfd4
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [0cdm5xwnl3](./0cdm5xwnl3.md) | [1fdy8se6nx](./1fdy8se6nx.md) |
+| Check if Risk ID is Empty | [0cdm5xwnl3](./0cdm5xwnl3.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Update risk evaluation with FAILURE |[1fdy8se6nx](./1fdy8se6nx.md) | 

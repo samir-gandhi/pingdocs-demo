@@ -1,4 +1,5 @@
-# PingOne - Find user and error out if user not found
+# PingOne - string 
+Find user and error out if user not found
 ## Configuration
 ID:  8a3rp16jhq
 
@@ -6,29 +7,25 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 useCustomSCIMFilter
- ```json 
+```bool 
 false
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -61,7 +58,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ncdawmfdmo](./ncdawmfdmo.md) | [ybma422b3i](./ybma422b3i.md) |
+| EVAL | [ncdawmfdmo](./ncdawmfdmo.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ybma422b3i](./ybma422b3i.md) | 

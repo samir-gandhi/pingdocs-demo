@@ -1,4 +1,5 @@
-# Functions - Check if user can authenticate
+# Functions - string 
+Check if user can authenticate
 ## Configuration
 ID:  ptslfr1den
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if user can authenticate  | 
- 
+| Node Description | string 
+Check if user can authenticate  | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [5gz6jcxdng](./5gz6jcxdng.md) | [dfcr1art1l](./dfcr1art1l.md) |
+| Evaluator | [5gz6jcxdng](./5gz6jcxdng.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[dfcr1art1l](./dfcr1art1l.md) | 

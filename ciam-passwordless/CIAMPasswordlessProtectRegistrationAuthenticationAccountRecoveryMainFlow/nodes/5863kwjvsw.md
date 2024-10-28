@@ -1,4 +1,5 @@
-# PingOne MFA - Activate Device
+# PingOne MFA - string 
+Activate Device
 ## Configuration
 ID:  5863kwjvsw
 
@@ -9,35 +10,36 @@ CapabilityName: activateDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Activate Device | 
- 
+| Node Description | string 
+Activate Device | 
+
 
 
 
 
 ### Additional Properties
 customDeviceType
- ```json 
+```json 
 {}
 ```
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -69,13 +71,13 @@ deviceId
 
 
 deviceType
- ```json 
+```string 
 EMAIL
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -107,7 +109,7 @@ email
 
 
 otp
- ```json 
+```json 
 [
   {
     "children": [
@@ -139,14 +141,22 @@ otp
 
 
 status
- ```json 
+```string 
 ACTIVE
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wb4u3n0g7a](./wb4u3n0g7a.md) | [oiy97ee3bv](./oiy97ee3bv.md) |
+| Evaluator | [wb4u3n0g7a](./wb4u3n0g7a.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[oiy97ee3bv](./oiy97ee3bv.md) | 

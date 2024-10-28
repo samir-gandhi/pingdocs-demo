@@ -1,4 +1,5 @@
-# Node - SMS/EMAIL OTP
+# Node - string 
+SMS/EMAIL OTP
 ## Configuration
 ID:  eh45uuo9ep
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -69,7 +67,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [522ujtnujz](./522ujtnujz.md) |

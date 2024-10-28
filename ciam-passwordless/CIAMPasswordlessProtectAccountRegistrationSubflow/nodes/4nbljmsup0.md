@@ -5,15 +5,20 @@ ID:  4nbljmsup0
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [6trtikxvu3](./6trtikxvu3.md) | [rgghrjdny1](./rgghrjdny1.md) |
+| Device Registration | [6trtikxvu3](./6trtikxvu3.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| User Chose Passwordless Registration? |[rgghrjdny1](./rgghrjdny1.md) | 

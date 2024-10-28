@@ -5,15 +5,20 @@ ID:  zep1ojf98g
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [dp43hy7h76](./dp43hy7h76.md) | [9f0dokmcu9](./9f0dokmcu9.md) |
+| Get authMethod Value | [dp43hy7h76](./dp43hy7h76.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[9f0dokmcu9](./9f0dokmcu9.md) | 

@@ -5,24 +5,29 @@ ID:  gjg587c8af
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 yqx4phhtcl
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8ytvupm9en](./8ytvupm9en.md) | [yqx4phhtcl](./yqx4phhtcl.md), [0h8so1sxqq](./0h8so1sxqq.md) |
+| Get Agreement | [8ytvupm9en](./8ytvupm9en.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Agreement Form |[0h8so1sxqq](./0h8so1sxqq.md)Node |[yqx4phhtcl](./yqx4phhtcl.md) | 

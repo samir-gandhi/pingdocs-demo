@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ canChangeDevice
 
 
 deviceAuthId
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ deviceAuthId
 
 
 maskedMagicLinkEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +109,7 @@ maskedMagicLinkEmail
 
 
 maskedUsableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,13 +141,13 @@ maskedUsableDevices
 
 
 nodeInstanceId
- ```json 
+```string 
 uoyh9kzwil
 ```
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -182,7 +179,7 @@ origin
 
 
 publicKeyCredentialCreationOptions
- ```json 
+```json 
 [
   {
     "children": [
@@ -214,7 +211,7 @@ publicKeyCredentialCreationOptions
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -247,7 +244,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ayodtok1lb](./ayodtok1lb.md) |  |

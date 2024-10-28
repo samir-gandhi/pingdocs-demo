@@ -1,4 +1,5 @@
-# Functions - Check Status
+# Functions - string 
+Check Status
 ## Configuration
 ID:  wms6o050jb
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [kbzya62ydz](./kbzya62ydz.md) | [s1axmvsfoq](./s1axmvsfoq.md), [wpljz4km80](./wpljz4km80.md), [7z5i8o5gts](./7z5i8o5gts.md), [nxc2amxsdh](./nxc2amxsdh.md), [p0xbtjpw30](./p0xbtjpw30.md) |
+| EVAL | [kbzya62ydz](./kbzya62ydz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[p0xbtjpw30](./p0xbtjpw30.md) | 

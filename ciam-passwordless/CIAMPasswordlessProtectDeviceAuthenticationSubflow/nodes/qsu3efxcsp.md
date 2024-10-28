@@ -5,24 +5,29 @@ ID:  qsu3efxcsp
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 muund54c7j
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [te0bcdks99](./te0bcdks99.md) | [1lam7h7jbc](./1lam7h7jbc.md), [muund54c7j](./muund54c7j.md) |
+| Magic Link Authentication | [te0bcdks99](./te0bcdks99.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[muund54c7j](./muund54c7j.md)Split By Subflow&#39;s Result |[1lam7h7jbc](./1lam7h7jbc.md) | 

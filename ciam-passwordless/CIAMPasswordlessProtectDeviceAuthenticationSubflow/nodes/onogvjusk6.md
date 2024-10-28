@@ -1,4 +1,5 @@
-# Http - Prompt For OTP
+# Http - string 
+Prompt For OTP
 ## Configuration
 ID:  onogvjusk6
 
@@ -6,13 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 ## Custom CSS
 ```css
+json 
 .form-control {
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
@@ -21,7 +19,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -75,7 +73,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const passcode = document.getElementById("passcode");
 const focusOnFirstInputElement = () => {
   document.getElementById("passcode").focus();
@@ -123,9 +121,10 @@ if (document.readyState === "loading") {
 }
 ```
 
+
 ### Additional Properties
 cannotChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -157,7 +156,7 @@ cannotChangeDevice
 
 
 disableCancel
- ```json 
+```json 
 [
   {
     "children": [
@@ -171,7 +170,7 @@ disableCancel
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -203,13 +202,12 @@ email
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
     "type": "object",
     "properties": {
@@ -224,7 +222,7 @@ inputSchema
 
 
 isEmailDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -256,7 +254,7 @@ isEmailDevice
 
 
 maskedEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -288,7 +286,7 @@ maskedEmail
 
 
 maskedPhone
- ```json 
+```json 
 [
   {
     "children": [
@@ -319,14 +317,8 @@ maskedPhone
 ```
 
 
-outputSchema
- ```json 
-
-```
-
-
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -358,7 +350,7 @@ phone
 
 
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -390,20 +382,26 @@ type
 
 
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [hk00gx2f95](./hk00gx2f95.md) | [kho2rpwvb7](./kho2rpwvb7.md) |
+| EVAL | [hk00gx2f95](./hk00gx2f95.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[kho2rpwvb7](./kho2rpwvb7.md) | 

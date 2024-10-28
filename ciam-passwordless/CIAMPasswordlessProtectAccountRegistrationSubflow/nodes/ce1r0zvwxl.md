@@ -1,4 +1,5 @@
-# Node - Enter Email
+# Node - string 
+Enter Email
 ## Configuration
 ID:  ce1r0zvwxl
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -27,7 +25,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [xfe79n7ylz](./xfe79n7ylz.md) |

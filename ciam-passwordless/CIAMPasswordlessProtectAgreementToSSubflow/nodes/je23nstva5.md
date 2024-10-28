@@ -5,15 +5,20 @@ ID:  je23nstva5
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qhcqow5g8y](./qhcqow5g8y.md) | [8ytvupm9en](./8ytvupm9en.md) |
+| Ask for agreement | [qhcqow5g8y](./qhcqow5g8y.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Get Agreement |[8ytvupm9en](./8ytvupm9en.md) | 

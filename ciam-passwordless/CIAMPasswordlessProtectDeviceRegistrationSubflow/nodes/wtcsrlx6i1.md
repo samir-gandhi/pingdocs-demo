@@ -5,15 +5,20 @@ ID:  wtcsrlx6i1
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qdsmqnczwr](./qdsmqnczwr.md) | [zqb2rroahz](./zqb2rroahz.md) |
+| Prompt For OTP | [qdsmqnczwr](./qdsmqnczwr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check User Selection  |[zqb2rroahz](./zqb2rroahz.md) | 

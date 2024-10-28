@@ -1,4 +1,5 @@
-# Functions - Boolean Check
+# Functions - string 
+Boolean Check
 ## Configuration
 ID:  jn53bcmsnv
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if successShowMessage is set to true or false | 
- 
+| Node Description | string 
+Check if successShowMessage is set to true or false | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [d3ziqry02i](./d3ziqry02i.md) | [mjqbph9elz](./mjqbph9elz.md) |
+| EVAL | [d3ziqry02i](./d3ziqry02i.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[mjqbph9elz](./mjqbph9elz.md) | 

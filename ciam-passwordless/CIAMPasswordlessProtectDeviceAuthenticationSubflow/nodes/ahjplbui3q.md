@@ -1,4 +1,5 @@
-# PingOne Notifications - PingOne Notifications
+# PingOne Notifications - string 
+PingOne Notifications
 ## Configuration
 ID:  ahjplbui3q
 
@@ -9,23 +10,24 @@ CapabilityName: sendEmail
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Configure email notification | 
- 
+| Node Description | string 
+Configure email notification | 
+
 
 
 
 
 ### Additional Properties
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -58,7 +60,15 @@ email
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [nl0cxyid0x](./nl0cxyid0x.md) | [x8ainlbr6x](./x8ainlbr6x.md) |
+| EVAL | [nl0cxyid0x](./nl0cxyid0x.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[x8ainlbr6x](./x8ainlbr6x.md) | 

@@ -1,4 +1,5 @@
-# Functions - Device Registration Result
+# Functions - string 
+Device Registration Result
 ## Configuration
 ID:  ounerl6t9
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8euk2r8qqp](./8euk2r8qqp.md) | [oi73z7ak2s](./oi73z7ak2s.md), [e6v7ewqrvc](./e6v7ewqrvc.md), [j5sho28srg](./j5sho28srg.md) |
+| Evaluator | [8euk2r8qqp](./8euk2r8qqp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[j5sho28srg](./j5sho28srg.md) | 

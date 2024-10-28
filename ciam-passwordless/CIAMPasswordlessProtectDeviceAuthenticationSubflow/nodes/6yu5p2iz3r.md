@@ -5,15 +5,20 @@ ID:  6yu5p2iz3r
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wzzac3ucto](./wzzac3ucto.md) | [ms19ql02hi](./ms19ql02hi.md) |
+| Create Masked Devices | [wzzac3ucto](./wzzac3ucto.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Get MFA Status |[ms19ql02hi](./ms19ql02hi.md) | 

@@ -5,15 +5,20 @@ ID:  qwx56pgrc8
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [t9jyjrzivl](./t9jyjrzivl.md) | [7nzxn0tx9f](./7nzxn0tx9f.md) |
+| User action  | [t9jyjrzivl](./t9jyjrzivl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[7nzxn0tx9f](./7nzxn0tx9f.md) | 

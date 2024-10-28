@@ -5,30 +5,35 @@ ID:  nl0cxyid0x
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 0ty53qnqlk
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 ahjplbui3q
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gsmghrxxoy](./gsmghrxxoy.md) | [ahjplbui3q](./ahjplbui3q.md), [ndm5er34sv](./ndm5er34sv.md) |
+| Check for KNOWN DEVICE | [gsmghrxxoy](./gsmghrxxoy.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| PingOne Notifications |[ahjplbui3q](./ahjplbui3q.md)Risk Score from PingOne Protect |[ndm5er34sv](./ndm5er34sv.md) | 

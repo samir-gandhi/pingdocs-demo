@@ -5,24 +5,29 @@ ID:  k44ne8uadp
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ke8k376byf
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [decvvhflks](./decvvhflks.md) | [cxjw4q2ocj](./cxjw4q2ocj.md) |
+| Display Device Types | [decvvhflks](./decvvhflks.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check Method Selected |[cxjw4q2ocj](./cxjw4q2ocj.md) | 

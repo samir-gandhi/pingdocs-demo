@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ authMethod
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,13 +59,13 @@ errorMessage
 
 
 nodeInstanceId
- ```json 
+```string 
 c9rl5wctez
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -100,7 +97,7 @@ pingOneUserId
 
 
 rememberMe
- ```json 
+```json 
 [
   {
     "children": [
@@ -133,7 +130,3 @@ rememberMe
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ali9zum89s](./ali9zum89s.md) |  |

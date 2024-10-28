@@ -5,24 +5,29 @@ ID:  nb3y5kcx2q
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ze4pz75nx
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [e01o5o4i77](./e01o5o4i77.md) | [ze4pz75nx](./ze4pz75nx.md), [whgnox29ew](./whgnox29ew.md) |
+| Has User Cancelled Auth | [e01o5o4i77](./e01o5o4i77.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[whgnox29ew](./whgnox29ew.md) | 

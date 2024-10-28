@@ -1,4 +1,5 @@
-# Http - Select Authentication Device
+# Http - string 
+Select Authentication Device
 ## Configuration
 ID:  1qtib8s0uu
 
@@ -6,14 +7,15 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
+## Custom CSS
+```css
+string 
+
+```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -128,9 +130,10 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 devices
- ```json 
+```json 
 [
   {
     "children": [
@@ -162,13 +165,12 @@ devices
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
     "type": "array",
     "properties": {
@@ -201,7 +203,7 @@ inputSchema
 
 
 magicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -232,27 +234,27 @@ magicLinkEnabled
 ```
 
 
-outputSchema
- ```json 
-
-```
-
-
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [bhgtvbjvu1](./bhgtvbjvu1.md) | [iagfrg0an6](./iagfrg0an6.md) |
+| EVAL | [bhgtvbjvu1](./bhgtvbjvu1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[iagfrg0an6](./iagfrg0an6.md) | 

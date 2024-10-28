@@ -1,4 +1,5 @@
-# PingOne MFA - Resend OTP
+# PingOne MFA - string 
+Resend OTP
 ## Configuration
 ID:  m1e0cw0ygl
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: deviceSelectDeviceAuthentication
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 deviceAuthenticationId
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +52,7 @@ deviceAuthenticationId
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -93,7 +91,15 @@ deviceId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ig2ndq8bf2](./ig2ndq8bf2.md) | [fzjj3nuh7m](./fzjj3nuh7m.md) |
+| EVAL | [ig2ndq8bf2](./ig2ndq8bf2.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[fzjj3nuh7m](./fzjj3nuh7m.md) | 

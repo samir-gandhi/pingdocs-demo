@@ -1,4 +1,5 @@
-# Functions - Check MFA devices size
+# Functions - string 
+Check MFA devices size
 ## Configuration
 ID:  nf4hv96sui
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [n69ynlsgag](./n69ynlsgag.md) | [mtaqacdw1m](./mtaqacdw1m.md) |
+| EVAL | [n69ynlsgag](./n69ynlsgag.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[mtaqacdw1m](./mtaqacdw1m.md) | 

@@ -5,15 +5,20 @@ ID:  vr1msssq3l
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wa07p8s7qm](./wa07p8s7qm.md) | [wpbqyomp7z](./wpbqyomp7z.md) |
+| Not Magic Link? | [wa07p8s7qm](./wa07p8s7qm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[wpbqyomp7z](./wpbqyomp7z.md) | 

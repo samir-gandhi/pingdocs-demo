@@ -1,4 +1,5 @@
-# Functions - Check If There Are Usable Device Types?
+# Functions - string 
+Check If There Are Usable Device Types?
 ## Configuration
 ID:  orf96wndkv
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: ALessThanB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -65,7 +63,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -100,14 +98,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2ewaah2axe](./2ewaah2axe.md) | [jh39me4hnk](./jh39me4hnk.md) |
+| EVAL | [2ewaah2axe](./2ewaah2axe.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[jh39me4hnk](./jh39me4hnk.md) | 

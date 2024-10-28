@@ -6,23 +6,20 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 nyw41b5mjr
 ```
 
 
 useremail
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +52,15 @@ useremail
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [907z7uvt6v](./907z7uvt6v.md) | [1nt8111fdv](./1nt8111fdv.md) |
+| EVAL | [907z7uvt6v](./907z7uvt6v.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[1nt8111fdv](./1nt8111fdv.md) | 

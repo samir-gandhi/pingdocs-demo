@@ -1,4 +1,5 @@
-# Error Message - Invalid password
+# Error Message - string 
+Invalid password
 ## Configuration
 ID:  abmzqz1u6f
 
@@ -9,15 +10,16 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | An error occurred while changing the password | 
- 
+| Node Description | string 
+An error occurred while changing the password | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +33,7 @@ errorCode
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +50,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -83,7 +85,7 @@ errorMessage
 
 
 errorReason
- ```json 
+```json 
 [
   {
     "children": [
@@ -119,7 +121,3 @@ errorReason
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [um3lcpaulo](./um3lcpaulo.md) |  |

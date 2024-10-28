@@ -1,4 +1,5 @@
-# PingOne - Accept Agreement
+# PingOne - string 
+Accept Agreement
 ## Configuration
 ID:  4qv73tz0ug
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: acceptAgreement
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 agreementPresentationId
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ agreementPresentationId
 
 
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -81,7 +79,15 @@ identifier
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ldx8d6ahwt](./ldx8d6ahwt.md) | [npztwu892l](./npztwu892l.md) |
+| EVAL | [ldx8d6ahwt](./ldx8d6ahwt.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[npztwu892l](./npztwu892l.md) | 

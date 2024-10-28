@@ -5,24 +5,29 @@ ID:  2ynekjzhbj
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fhoue68esb](./fhoue68esb.md) | [z80t8d8glj](./z80t8d8glj.md) |
+| Magic Link Polling | [fhoue68esb](./fhoue68esb.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check Challenge Status |[z80t8d8glj](./z80t8d8glj.md) | 

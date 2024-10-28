@@ -1,4 +1,5 @@
-# Flow Connector - Device Registration
+# Flow Connector - string 
+Device Registration
 ## Configuration
 ID:  hbtxkrrfyo
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 allowCancel
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,7 +28,7 @@ allowCancel
 
 
 allowedDeviceTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,7 +60,7 @@ allowedDeviceTypes
 
 
 ciam_autoEnrollEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -76,7 +74,7 @@ ciam_autoEnrollEmail
 
 
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -108,7 +106,7 @@ ciam_companyLogo
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -140,7 +138,7 @@ email
 
 
 passwordlessRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -172,7 +170,7 @@ passwordlessRequired
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -205,7 +203,15 @@ pingOneUserId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [r6sues2bxt](./r6sues2bxt.md) | [8euk2r8qqp](./8euk2r8qqp.md) |
+| EVAL | [r6sues2bxt](./r6sues2bxt.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[8euk2r8qqp](./8euk2r8qqp.md) | 

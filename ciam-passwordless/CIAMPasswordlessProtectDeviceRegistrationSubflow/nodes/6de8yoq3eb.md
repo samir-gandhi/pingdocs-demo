@@ -1,4 +1,5 @@
-# Error Message - Wrong Relying Party ID
+# Error Message - string 
+Wrong Relying Party ID
 ## Configuration
 ID:  6de8yoq3eb
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -34,7 +32,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [7z5i8o5gts](./7z5i8o5gts.md) |  |

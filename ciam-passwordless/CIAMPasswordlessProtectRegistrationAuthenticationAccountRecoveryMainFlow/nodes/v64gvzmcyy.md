@@ -1,4 +1,5 @@
-# Functions - Check if MFA is enabled to this user.
+# Functions - string 
+Check if MFA is enabled to this user.
 ## Configuration
 ID:  v64gvzmcyy
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if MFA is enabled to this user. | 
- 
+| Node Description | string 
+Check if MFA is enabled to this user. | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [dfcr1art1l](./dfcr1art1l.md) | [fm7p6z4lgt](./fm7p6z4lgt.md) |
+| Evaluator | [dfcr1art1l](./dfcr1art1l.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[fm7p6z4lgt](./fm7p6z4lgt.md) | 

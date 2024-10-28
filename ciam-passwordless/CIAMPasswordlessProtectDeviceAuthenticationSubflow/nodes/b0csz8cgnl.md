@@ -5,15 +5,20 @@ ID:  b0csz8cgnl
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zxfluj3oxa](./zxfluj3oxa.md) | [fq7l0s8w2s](./fq7l0s8w2s.md) |
+| OTP | [zxfluj3oxa](./zxfluj3oxa.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Mask Device |[fq7l0s8w2s](./fq7l0s8w2s.md) | 

@@ -1,4 +1,5 @@
-# Functions - Create Masked Devices
+# Functions - string 
+Create Masked Devices
 ## Configuration
 ID:  wzzac3ucto
 
@@ -6,17 +7,33 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+  "output": {
+    "type": "object",
+    "properties": {
+      "maskedUsableDevices": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "maskedMagicLinkEmail": {
+        "type": "string"
+      }
+    }
+  }
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 module.exports = a = async ({ params }) => {
   String.prototype.maskEmail = function() {
     const [username, domain] = this.split("@");
@@ -54,36 +71,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-  "output": {
-    "type": "object",
-    "properties": {
-      "maskedUsableDevices": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "maskedMagicLinkEmail": {
-        "type": "string"
-      }
-    }
-  }
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [se271xaurx](./se271xaurx.md) | [6yu5p2iz3r](./6yu5p2iz3r.md) |
+| EVAL | [se271xaurx](./se271xaurx.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[6yu5p2iz3r](./6yu5p2iz3r.md) | 

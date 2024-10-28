@@ -1,4 +1,5 @@
-# Challenge - Approve Challenge Status
+# Challenge - string 
+Approve Challenge Status
 ## Configuration
 ID:  ebtd5fr0tn
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: updateChallenge
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 challenge
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,26 +46,33 @@ challenge
 
 
 challengeStatus
- ```json 
+```string 
 approved
 ```
 
 
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 isChallengeComplete
- ```json 
+```bool 
 false
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [v0rkta2j1x](./v0rkta2j1x.md) | [drn0tajuo1](./drn0tajuo1.md) |
+| EVAL | [v0rkta2j1x](./v0rkta2j1x.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[drn0tajuo1](./drn0tajuo1.md) | 

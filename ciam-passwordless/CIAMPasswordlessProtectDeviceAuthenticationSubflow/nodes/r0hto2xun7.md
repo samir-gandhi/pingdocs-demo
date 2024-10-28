@@ -1,4 +1,5 @@
-# Http - Present OTP Form
+# Http - string 
+Present OTP Form
 ## Configuration
 ID:  r0hto2xun7
 
@@ -6,14 +7,15 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
+## Custom CSS
+```css
+string 
+
+```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -77,7 +79,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const errorDiv = document.getElementById(&#39;error-wrap&#39;);
 
 if (window.addEventListener) {
@@ -110,9 +112,10 @@ function contentChanged() {
 
 ```
 
+
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,7 +147,7 @@ canChangeDevice
 
 
 deviceName
- ```json 
+```json 
 [
   {
     "children": [
@@ -176,7 +179,7 @@ deviceName
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -208,13 +211,12 @@ email
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
     "type": "object",
     "properties": {
@@ -248,14 +250,8 @@ inputSchema
 ```
 
 
-outputSchema
- ```json 
-
-```
-
-
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -287,7 +283,7 @@ phone
 
 
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -319,20 +315,26 @@ type
 
 
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [bdjeulfdki](./bdjeulfdki.md) | [l5z3ngnhjv](./l5z3ngnhjv.md) |
+| EVAL | [bdjeulfdki](./bdjeulfdki.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[l5z3ngnhjv](./l5z3ngnhjv.md) | 

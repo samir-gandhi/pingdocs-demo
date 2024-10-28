@@ -5,30 +5,35 @@ ID:  d3ziqry02i
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 jn53bcmsnv
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 yo6nv4gud2
- ```json 
+```string 
 allTriggersTrue
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [h330sqhk7o](./h330sqhk7o.md) | [yo6nv4gud2](./yo6nv4gud2.md), [jn53bcmsnv](./jn53bcmsnv.md) |
+| Empty Check | [h330sqhk7o](./h330sqhk7o.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Boolean Check |[jn53bcmsnv](./jn53bcmsnv.md)Node |[yo6nv4gud2](./yo6nv4gud2.md) | 

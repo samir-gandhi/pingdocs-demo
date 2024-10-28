@@ -1,4 +1,5 @@
-# Error Message - Invalid OTP 
+# Error Message - string 
+Invalid OTP 
 ## Configuration
 ID:  w4i8a0zmx4
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +29,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [vqogwo2qjm](./vqogwo2qjm.md) |  |

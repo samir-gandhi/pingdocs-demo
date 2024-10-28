@@ -1,4 +1,5 @@
-# Functions - Enrich Device Details
+# Functions - string 
+Enrich Device Details
 ## Configuration
 ID:  9zctbmveoc
 
@@ -6,17 +7,39 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"selectedDeviceType": {
+				"type": "string"
+			},
+			"selectedDeviceEmail": {
+				"type": "string"
+			},
+			"selectedDevicePhone": {
+				"type": "string"
+			},
+			"selectedDeviceName": {
+				"type": "string"
+			},
+			"selectedDeviceOtpEnabled": {
+				"type": "bool"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 module.exports = a = async ({ params }) => {
 	var selected = JSON.parse(params.devices).filter(device => {
 		return device.id == params.id;
@@ -45,42 +68,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"selectedDeviceType": {
-				"type": "string"
-			},
-			"selectedDeviceEmail": {
-				"type": "string"
-			},
-			"selectedDevicePhone": {
-				"type": "string"
-			},
-			"selectedDeviceName": {
-				"type": "string"
-			},
-			"selectedDeviceOtpEnabled": {
-				"type": "bool"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ybwxgols9w](./ybwxgols9w.md) | [1cbcpbc5no](./1cbcpbc5no.md) |
+| EVAL | [ybwxgols9w](./ybwxgols9w.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[1cbcpbc5no](./1cbcpbc5no.md) | 

@@ -1,4 +1,5 @@
-# Http - Initiate Sk-risk
+# Http - string 
+Initiate Sk-risk
 ## Configuration
 ID:  qimhttv2jm
 
@@ -6,20 +7,17 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 ## Custom CSS
 ```css
+json 
 .hidden-button {
   display: none;
 }
 ```
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -88,22 +86,30 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 setTimeout(function() {
     document.getElementById(&#39;autoSubmit&#39;).click();
 }, 1000);
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [lbhyjujyjv](./lbhyjujyjv.md) | [i21ma1l9mn](./i21ma1l9mn.md) |
+| Evaluator | [lbhyjujyjv](./lbhyjujyjv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[i21ma1l9mn](./i21ma1l9mn.md) | 

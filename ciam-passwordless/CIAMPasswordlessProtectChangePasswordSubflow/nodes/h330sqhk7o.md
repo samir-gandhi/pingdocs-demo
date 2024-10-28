@@ -1,4 +1,5 @@
-# Functions - Empty Check
+# Functions - string 
+Empty Check
 ## Configuration
 ID:  h330sqhk7o
 
@@ -9,15 +10,16 @@ CapabilityName: AIsEmpty
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if showSuccessMessage is empty | 
- 
+| Node Description | string 
+Check if showSuccessMessage is empty | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,14 +51,22 @@ leftValueA
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ateb0l10nl](./ateb0l10nl.md) | [d3ziqry02i](./d3ziqry02i.md) |
+| Evaluator | [ateb0l10nl](./ateb0l10nl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[d3ziqry02i](./d3ziqry02i.md) | 

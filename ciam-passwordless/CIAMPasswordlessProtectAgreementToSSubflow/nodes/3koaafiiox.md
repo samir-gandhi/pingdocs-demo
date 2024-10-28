@@ -6,24 +6,17 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 pt563yeug9
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [npztwu892l](./npztwu892l.md) |  |

@@ -5,36 +5,41 @@ ID:  n0ympwqzwl
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 h4u1as8yg4
- ```json 
+```string 
 allTriggersTrue
 ```
 
 
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 ycc8uizvh4
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ujwd58v2j5](./ujwd58v2j5.md) | [z1uxnr4psu](./z1uxnr4psu.md), [ycc8uizvh4](./ycc8uizvh4.md) |
+| Send Recovery Code | [ujwd58v2j5](./ujwd58v2j5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Set Validation Attempt To Zero |[z1uxnr4psu](./z1uxnr4psu.md)User Cancelled |[ycc8uizvh4](./ycc8uizvh4.md) | 

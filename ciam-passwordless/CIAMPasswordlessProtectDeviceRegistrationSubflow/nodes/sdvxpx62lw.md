@@ -1,4 +1,5 @@
-# Functions - Check If User Can Auto Enroll?
+# Functions - string 
+Check If User Can Auto Enroll?
 ## Configuration
 ID:  sdvxpx62lw
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | User&#39;s email will be auto enrolled, assuming the email is already verified in the calling flow | 
- 
+| Node Description | string 
+User&#39;s email will be auto enrolled, assuming the email is already verified in the calling flow | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [4smjdpxvyk](./4smjdpxvyk.md) | [zdzabypfcv](./zdzabypfcv.md) |
+| EVAL | [4smjdpxvyk](./4smjdpxvyk.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[zdzabypfcv](./zdzabypfcv.md) | 

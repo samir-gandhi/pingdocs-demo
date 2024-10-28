@@ -1,4 +1,5 @@
-# PingOne - Find User
+# PingOne - string 
+Find User
 ## Configuration
 ID:  jimu9wsyls
 
@@ -6,23 +7,19 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +52,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [jv8lvv5w4x](./jv8lvv5w4x.md) | [jio5trsqxr](./jio5trsqxr.md) |
+| EVAL | [jv8lvv5w4x](./jv8lvv5w4x.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[jio5trsqxr](./jio5trsqxr.md) | 

@@ -1,4 +1,5 @@
-# Node - First Screen
+# Node - string 
+First Screen
 ## Configuration
 ID:  el9cmscetd
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -97,7 +95,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [f0p9tnng3j](./f0p9tnng3j.md) |

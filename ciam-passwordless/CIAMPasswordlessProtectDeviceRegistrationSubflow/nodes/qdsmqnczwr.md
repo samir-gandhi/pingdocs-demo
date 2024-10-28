@@ -1,4 +1,5 @@
-# Http - Prompt For OTP
+# Http - string 
+Prompt For OTP
 ## Configuration
 ID:  qdsmqnczwr
 
@@ -6,14 +7,15 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
+## Custom CSS
+```css
+string 
+
+```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -85,7 +87,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const passcode = document.getElementById("passcode");
 
 if (window.addEventListener) {
@@ -118,15 +120,15 @@ function contentChanged() {
 
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
     "type": "object",
     "properties": {
@@ -140,14 +142,8 @@ inputSchema
 ```
 
 
-outputSchema
- ```json 
-
-```
-
-
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -179,20 +175,26 @@ type
 
 
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [xceoebu0xh](./xceoebu0xh.md) | [wtcsrlx6i1](./wtcsrlx6i1.md) |
+| EVAL | [xceoebu0xh](./xceoebu0xh.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[wtcsrlx6i1](./wtcsrlx6i1.md) | 

@@ -1,4 +1,5 @@
-# PingOne - Create the PingOne user
+# PingOne - string 
+Create the PingOne user
 ## Configuration
 ID:  rx35m4y6sp
 
@@ -9,21 +10,21 @@ CapabilityName: createUser
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Creates the PingOne account for the user | 
- 
+| Node Description | string 
+Creates the PingOne account for the user | 
+
 
 
 
 
 ### Additional Properties
 additionalUserProperties
- ```json 
-
+```
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +56,7 @@ email
 
 
 family
- ```json 
+```json 
 [
   {
     "children": [
@@ -87,7 +88,7 @@ family
 
 
 given
- ```json 
+```json 
 [
   {
     "children": [
@@ -119,13 +120,13 @@ given
 
 
 lifecycleStatus
- ```json 
+```string 
 VERIFICATION_REQUIRED
 ```
 
 
 password
- ```json 
+```json 
 [
   {
     "children": [
@@ -157,7 +158,7 @@ password
 
 
 passwordForCreateUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -189,13 +190,13 @@ passwordForCreateUser
 
 
 population
- ```json 
+```string 
 useDefaultPopulation
 ```
 
 
 populationId
- ```json 
+```json 
 [
   {
     "children": [
@@ -227,7 +228,7 @@ populationId
 
 
 username
- ```json 
+```json 
 [
   {
     "children": [
@@ -260,7 +261,15 @@ username
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [updxs8x4oi](./updxs8x4oi.md) | [ocq1m14pys](./ocq1m14pys.md) |
+| EVAL | [updxs8x4oi](./updxs8x4oi.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ocq1m14pys](./ocq1m14pys.md) | 

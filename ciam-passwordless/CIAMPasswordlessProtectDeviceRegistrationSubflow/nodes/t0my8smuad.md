@@ -5,15 +5,20 @@ ID:  t0my8smuad
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vc8o1wnpis](./vc8o1wnpis.md) | [5y2z6x314y](./5y2z6x314y.md) |
+| FIDO2 | [vc8o1wnpis](./vc8o1wnpis.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Create FIDO2 Device |[5y2z6x314y](./5y2z6x314y.md) | 

@@ -1,4 +1,5 @@
-# Functions - Adjust Auth Method
+# Functions - string 
+Adjust Auth Method
 ## Configuration
 ID:  jx2e1mgzth
 
@@ -6,17 +7,27 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"adjustedAuthMethod": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -31,30 +42,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"adjustedAuthMethod": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vs1a4w3l05](./vs1a4w3l05.md) | [8tqp4g8v75](./8tqp4g8v75.md) |
+| EVAL | [vs1a4w3l05](./vs1a4w3l05.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[8tqp4g8v75](./8tqp4g8v75.md) | 

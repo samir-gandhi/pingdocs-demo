@@ -1,4 +1,5 @@
-# Variables - Get Values from PingOne Protect analysis
+# Variables - string 
+Get Values from PingOne Protect analysis
 ## Configuration
 ID:  3s5kidc2wc
 
@@ -9,22 +10,30 @@ CapabilityName: saveValue
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Get Values from PingOne Protect analysis | 
- 
+| Node Description | string 
+Get Values from PingOne Protect analysis | 
+
 
 
 
 
 ### Additional Properties
 saveVariables
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vexxoicu6a](./vexxoicu6a.md) | [u22hch23vs](./u22hch23vs.md) |
+| Evaluator | [vexxoicu6a](./vexxoicu6a.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[u22hch23vs](./u22hch23vs.md) | 

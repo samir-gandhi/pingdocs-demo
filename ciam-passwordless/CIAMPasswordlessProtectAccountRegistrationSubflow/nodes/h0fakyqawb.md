@@ -1,4 +1,5 @@
-# Functions - Password Form Selection
+# Functions - string 
+Password Form Selection
 ## Configuration
 ID:  h0fakyqawb
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3os5ylwizz](./3os5ylwizz.md) | [46fi95z8qq](./46fi95z8qq.md), [kerq5fyp8w](./kerq5fyp8w.md) |
+| EVAL | [3os5ylwizz](./3os5ylwizz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[kerq5fyp8w](./kerq5fyp8w.md) | 

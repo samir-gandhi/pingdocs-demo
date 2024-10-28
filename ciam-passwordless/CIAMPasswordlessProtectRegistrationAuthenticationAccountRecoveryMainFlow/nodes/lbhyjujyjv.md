@@ -5,36 +5,41 @@ ID:  lbhyjujyjv
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 hk1hymxs4y
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 vztjuyevpz
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 xrcrg8sh9e
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [w16j6hvh6d](./w16j6hvh6d.md) | [vztjuyevpz](./vztjuyevpz.md), [qimhttv2jm](./qimhttv2jm.md) |
+| Check For Valid Session | [w16j6hvh6d](./w16j6hvh6d.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check If No Existing Session Token |[vztjuyevpz](./vztjuyevpz.md)Initiate Sk-risk |[qimhttv2jm](./qimhttv2jm.md) | 

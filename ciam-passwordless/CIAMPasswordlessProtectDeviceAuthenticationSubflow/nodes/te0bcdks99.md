@@ -1,4 +1,5 @@
-# Flow Connector - Magic Link Authentication
+# Flow Connector - string 
+Magic Link Authentication
 ## Configuration
 ID:  te0bcdks99
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 allowedDeviceTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,7 +28,7 @@ allowedDeviceTypes
 
 
 anyMfaDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -44,7 +42,7 @@ anyMfaDevices
 
 
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -58,7 +56,7 @@ canChangeDevice
 
 
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -90,7 +88,7 @@ ciam_companyLogo
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -122,7 +120,7 @@ email
 
 
 hideSkipButton
- ```json 
+```json 
 [
   {
     "children": [
@@ -136,7 +134,7 @@ hideSkipButton
 
 
 magicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -168,7 +166,7 @@ magicLinkEnabled
 
 
 p1UserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -200,7 +198,7 @@ p1UserId
 
 
 pingUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -232,7 +230,7 @@ pingUserId
 
 
 returnResponse
- ```json 
+```json 
 [
   {
     "children": [
@@ -247,7 +245,15 @@ returnResponse
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vul5k2q2dw](./vul5k2q2dw.md) | [qsu3efxcsp](./qsu3efxcsp.md) |
+| EVAL | [vul5k2q2dw](./vul5k2q2dw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[qsu3efxcsp](./qsu3efxcsp.md) | 

@@ -9,41 +9,38 @@ CapabilityName: updateAnnotationProperties
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #5d00d6ff | 
+| Node Background Color | html 
+#5d00d6ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 annotation
- ```json 
+```string 
 See https://docs.pingidentity.com/access/sources/dita/topic?resourceid=ciam_passwordless_ciam_main for flow reference information.
 ```
 
 
 annotationTextColor
- ```json 
+```html 
 #ffffffff
 ```
 
 
 fontFamily
- ```json 
+```string 
 sans-serif
 ```
 
 
 fontSize
- ```json 
+```float64 
 16.00
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  |  |

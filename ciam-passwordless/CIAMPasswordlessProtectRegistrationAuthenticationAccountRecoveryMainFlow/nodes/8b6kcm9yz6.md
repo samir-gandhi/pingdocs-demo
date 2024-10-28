@@ -1,4 +1,5 @@
-# Error Message - Password Check Failure Error
+# Error Message - string 
+Password Check Failure Error
 ## Configuration
 ID:  8b6kcm9yz6
 
@@ -9,15 +10,16 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Failed to validate the submitted password | 
- 
+| Node Description | string 
+Failed to validate the submitted password | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -34,7 +36,7 @@ errorCode
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +53,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -68,7 +70,7 @@ errorMessage
 
 
 errorReason
- ```json 
+```json 
 [
   {
     "children": [
@@ -83,7 +85,3 @@ errorReason
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [scxeegwacj](./scxeegwacj.md) |  |

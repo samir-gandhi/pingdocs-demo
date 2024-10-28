@@ -5,24 +5,29 @@ ID:  v0rkta2j1x
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 utjcbphp35
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [jdrbqfg1mz](./jdrbqfg1mz.md) | [ebtd5fr0tn](./ebtd5fr0tn.md), [utjcbphp35](./utjcbphp35.md) |
+| Is Challenge Not Expired? | [jdrbqfg1mz](./jdrbqfg1mz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Approve Challenge Status |[ebtd5fr0tn](./ebtd5fr0tn.md)Show Expiration Error |[utjcbphp35](./utjcbphp35.md) | 

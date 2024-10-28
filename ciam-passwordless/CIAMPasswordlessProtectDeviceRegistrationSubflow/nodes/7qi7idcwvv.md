@@ -1,4 +1,5 @@
-# Node - Activate OTP Device
+# Node - string 
+Activate OTP Device
 ## Configuration
 ID:  7qi7idcwvv
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -34,7 +32,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [ih33zryjpu](./ih33zryjpu.md) |

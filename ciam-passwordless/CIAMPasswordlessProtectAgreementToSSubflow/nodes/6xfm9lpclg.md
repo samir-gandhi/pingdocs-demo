@@ -5,30 +5,35 @@ ID:  6xfm9lpclg
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 canivkxqjq
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 o5cgjow8id
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [v68793bc1v](./v68793bc1v.md) | [canivkxqjq](./canivkxqjq.md), [6x74clj9zm](./6x74clj9zm.md) |
+| Is Agreement Enabled? | [v68793bc1v](./v68793bc1v.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check For User Consent? |[6x74clj9zm](./6x74clj9zm.md)Node |[canivkxqjq](./canivkxqjq.md) | 

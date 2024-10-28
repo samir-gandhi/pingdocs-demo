@@ -1,4 +1,5 @@
-# Functions - Password Sign On Page Button Pressed
+# Functions - string 
+Password Sign On Page Button Pressed
 ## Configuration
 ID:  cppsibbyhy
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gersdqsi8h](./gersdqsi8h.md) | [8epxzybfo](./8epxzybfo.md), [n5vpbff54](./n5vpbff54.md), [d5jso3qit5](./d5jso3qit5.md), [rc315a9uh1](./rc315a9uh1.md), [ncdawmfdmo](./ncdawmfdmo.md) |
+| Evaluator | [gersdqsi8h](./gersdqsi8h.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ncdawmfdmo](./ncdawmfdmo.md) | 

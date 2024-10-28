@@ -1,4 +1,5 @@
-# PingOne MFA - Validate Passcode
+# PingOne MFA - string 
+Validate Passcode
 ## Configuration
 ID:  fgc8woctfo
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: validateOtpDeviceAuthentication
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 deviceAuthenticationId
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +52,7 @@ deviceAuthenticationId
 
 
 otp
- ```json 
+```json 
 [
   {
     "children": [
@@ -90,7 +88,15 @@ otp
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [mt9kvt7hnn](./mt9kvt7hnn.md) | [7vrrd3uuhm](./7vrrd3uuhm.md) |
+| EVAL | [mt9kvt7hnn](./mt9kvt7hnn.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[7vrrd3uuhm](./7vrrd3uuhm.md) | 

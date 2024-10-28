@@ -5,15 +5,20 @@ ID:  iagfrg0an6
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1qtib8s0uu](./1qtib8s0uu.md) | [wa07p8s7qm](./wa07p8s7qm.md) |
+| Select Authentication Device | [1qtib8s0uu](./1qtib8s0uu.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Not Magic Link? |[wa07p8s7qm](./wa07p8s7qm.md) | 

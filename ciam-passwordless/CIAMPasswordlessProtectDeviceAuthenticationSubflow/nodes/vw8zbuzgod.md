@@ -5,15 +5,20 @@ ID:  vw8zbuzgod
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [icy7kw57ll](./icy7kw57ll.md) | [j55n69o5i7](./j55n69o5i7.md) |
+| Authentication Prompt | [icy7kw57ll](./icy7kw57ll.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[j55n69o5i7](./j55n69o5i7.md) | 

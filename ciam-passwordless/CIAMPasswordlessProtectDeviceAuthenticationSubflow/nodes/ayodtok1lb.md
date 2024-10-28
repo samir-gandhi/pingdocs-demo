@@ -5,24 +5,29 @@ ID:  ayodtok1lb
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 b01n00fwkm
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [xsm25p5qf7](./xsm25p5qf7.md) | [x9k0uusly8](./x9k0uusly8.md), [b01n00fwkm](./b01n00fwkm.md) |
+| Magic Link Enabled | [xsm25p5qf7](./xsm25p5qf7.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Continue MFA With Only Device |[b01n00fwkm](./b01n00fwkm.md)Node |[x9k0uusly8](./x9k0uusly8.md) | 

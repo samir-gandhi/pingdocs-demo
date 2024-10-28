@@ -5,15 +5,20 @@ ID:  imhudhsy1w
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wa07p8s7qm](./wa07p8s7qm.md) | [e717up82dy](./e717up82dy.md) |
+| Not Magic Link? | [wa07p8s7qm](./wa07p8s7qm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Device Selected By The User |[e717up82dy](./e717up82dy.md) | 

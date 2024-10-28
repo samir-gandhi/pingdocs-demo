@@ -5,15 +5,20 @@ ID:  vqogwo2qjm
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3zzt3vrb0k](./3zzt3vrb0k.md) | [w4i8a0zmx4](./w4i8a0zmx4.md) |
+| Error Type | [3zzt3vrb0k](./3zzt3vrb0k.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Invalid OTP  |[w4i8a0zmx4](./w4i8a0zmx4.md) | 

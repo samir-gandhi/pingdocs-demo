@@ -1,4 +1,5 @@
-# Node - Success 
+# Node - string 
+Success 
 ## Configuration
 ID:  v9e53rljmv
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -41,7 +39,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [r20nxc61oc](./r20nxc61oc.md) |

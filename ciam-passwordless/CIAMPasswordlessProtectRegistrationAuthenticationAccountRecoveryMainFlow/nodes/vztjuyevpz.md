@@ -1,4 +1,5 @@
-# Functions - Check If No Existing Session Token
+# Functions - string 
+Check If No Existing Session Token
 ## Configuration
 ID:  vztjuyevpz
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [lbhyjujyjv](./lbhyjujyjv.md) | [qn65h94yqq](./qn65h94yqq.md) |
+| Evaluator | [lbhyjujyjv](./lbhyjujyjv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[qn65h94yqq](./qn65h94yqq.md) | 

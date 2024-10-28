@@ -5,24 +5,29 @@ ID:  x1gd8ktif6
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 hhileu4ydz
- ```json 
+```string 
 allTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zmdygh0diw](./zmdygh0diw.md) | [hhileu4ydz](./hhileu4ydz.md) |
+| Check if RiskID is empty | [zmdygh0diw](./zmdygh0diw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Update Risk Evaluation - SUCCESS |[hhileu4ydz](./hhileu4ydz.md) | 

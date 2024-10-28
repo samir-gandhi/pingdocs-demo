@@ -1,4 +1,5 @@
-# Functions - Check if user is enabled.
+# Functions - string 
+Check if user is enabled.
 ## Configuration
 ID:  r7ddjgug4y
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if the user is enabled. | 
- 
+| Node Description | string 
+Check if the user is enabled. | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [71uz2oxfw9](./71uz2oxfw9.md) | [5gz6jcxdng](./5gz6jcxdng.md) |
+| Evaluator | [71uz2oxfw9](./71uz2oxfw9.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[5gz6jcxdng](./5gz6jcxdng.md) | 

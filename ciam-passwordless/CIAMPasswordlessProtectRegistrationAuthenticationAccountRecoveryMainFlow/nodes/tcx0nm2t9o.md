@@ -5,15 +5,20 @@ ID:  tcx0nm2t9o
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1qqopmsxn1](./1qqopmsxn1.md) | [096blcsiod](./096blcsiod.md) |
+| Split By Subflow&#39;s Result | [1qqopmsxn1](./1qqopmsxn1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[096blcsiod](./096blcsiod.md) | 

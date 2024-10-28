@@ -5,24 +5,29 @@ ID:  p8n9w6rdgy
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 6kd2knl0eb
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [te6t0zwohr](./te6t0zwohr.md) | [na4hef71sq](./na4hef71sq.md), [6kd2knl0eb](./6kd2knl0eb.md) |
+| Read All Devices | [te6t0zwohr](./te6t0zwohr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Gather Browser Information |[na4hef71sq](./na4hef71sq.md)Node |[6kd2knl0eb](./6kd2knl0eb.md) | 

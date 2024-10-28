@@ -1,4 +1,5 @@
-# PingOne - Find user details
+# PingOne - string 
+Find user details
 ## Configuration
 ID:  g3ie4cp1z5
 
@@ -6,23 +7,19 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +52,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8fh7taswpw](./8fh7taswpw.md) | [0gubix0onw](./0gubix0onw.md) |
+| EVAL | [8fh7taswpw](./8fh7taswpw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[0gubix0onw](./0gubix0onw.md) | 

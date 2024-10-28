@@ -1,4 +1,5 @@
-# Http - Get Origin
+# Http - string 
+Get Origin
 ## Configuration
 ID:  4cgf9zgns7
 
@@ -6,20 +7,17 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 ## Custom CSS
 ```css
+json 
 .hidden-button {
   display: none;
 }
 ```
 
 ## Custom HTML
-```html
+```json 
 [
   {
     "children": [
@@ -66,7 +64,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 setTimeout(function() {
     const origin = window.location.origin;
     document.getElementById("origin").value = origin;
@@ -77,16 +75,12 @@ setTimeout(function() {
 }, 1000);
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [aduo0dhos1](./aduo0dhos1.md) |

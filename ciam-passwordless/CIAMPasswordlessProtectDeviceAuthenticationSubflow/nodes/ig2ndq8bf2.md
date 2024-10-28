@@ -5,15 +5,20 @@ ID:  ig2ndq8bf2
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qurffyxc2d](./qurffyxc2d.md) | [m1e0cw0ygl](./m1e0cw0ygl.md) |
+| Split by user selection  | [qurffyxc2d](./qurffyxc2d.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Resend OTP |[m1e0cw0ygl](./m1e0cw0ygl.md) | 

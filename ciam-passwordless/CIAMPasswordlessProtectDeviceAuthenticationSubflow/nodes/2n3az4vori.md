@@ -1,4 +1,5 @@
-# Functions - User Has Active Devices
+# Functions - string 
+User Has Active Devices
 ## Configuration
 ID:  2n3az4vori
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AGreaterThanB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [bf9jlbogz1](./bf9jlbogz1.md) | [0sua91hqk7](./0sua91hqk7.md) |
+| EVAL | [bf9jlbogz1](./bf9jlbogz1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[0sua91hqk7](./0sua91hqk7.md) | 

@@ -5,30 +5,35 @@ ID:  4mpcqubv22
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 vp9pfw2l9i
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [rfwgqmb87x](./rfwgqmb87x.md) | [tfdqp94azq](./tfdqp94azq.md), [vp9pfw2l9i](./vp9pfw2l9i.md) |
+| Resend recovery code | [rfwgqmb87x](./rfwgqmb87x.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| OTP Resent Message |[tfdqp94azq](./tfdqp94azq.md)User Cancelled |[vp9pfw2l9i](./vp9pfw2l9i.md) | 

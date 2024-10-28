@@ -1,4 +1,5 @@
-# Functions - Check if Risk ID is Empty
+# Functions - string 
+Check if Risk ID is Empty
 ## Configuration
 ID:  0cdm5xwnl3
 
@@ -9,21 +10,22 @@ CapabilityName: AIsEmpty
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | If risk ID is empty, it can be returning from subflows. | 
- 
+| Node Description | string 
+If risk ID is empty, it can be returning from subflows. | 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +58,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2ixdpv74ih](./2ixdpv74ih.md) | [oep2ke136](./oep2ke136.md) |
+| EVAL | [2ixdpv74ih](./2ixdpv74ih.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[oep2ke136](./oep2ke136.md) | 

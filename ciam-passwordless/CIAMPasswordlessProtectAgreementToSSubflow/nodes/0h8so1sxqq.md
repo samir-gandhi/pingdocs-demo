@@ -1,4 +1,5 @@
-# Http - Agreement Form
+# Http - string 
+Agreement Form
 ## Configuration
 ID:  0h8so1sxqq
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Display agreement form to user | 
- 
+| Node Description | string 
+Display agreement form to user | 
 
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0"
 >
@@ -64,16 +65,24 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gjg587c8af](./gjg587c8af.md) | [it43isf5sm](./it43isf5sm.md) |
+| Evaluator | [gjg587c8af](./gjg587c8af.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[it43isf5sm](./it43isf5sm.md) | 

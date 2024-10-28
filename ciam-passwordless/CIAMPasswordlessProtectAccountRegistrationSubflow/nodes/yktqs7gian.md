@@ -1,4 +1,5 @@
-# Functions - Name Form Selection
+# Functions - string 
+Name Form Selection
 ## Configuration
 ID:  yktqs7gian
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [q574pstasq](./q574pstasq.md) | [x3sr98yxnv](./x3sr98yxnv.md), [7z7q9efrmf](./7z7q9efrmf.md) |
+| EVAL | [q574pstasq](./q574pstasq.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[7z7q9efrmf](./7z7q9efrmf.md) | 

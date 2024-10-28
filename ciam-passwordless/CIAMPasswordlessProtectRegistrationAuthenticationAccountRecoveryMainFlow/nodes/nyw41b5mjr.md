@@ -1,4 +1,5 @@
-# Node - Check User
+# Node - string 
+Check User
 ## Configuration
 ID:  nyw41b5mjr
 
@@ -9,15 +10,16 @@ CapabilityName: startNode
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if User is active | 
- 
+| Node Description | string 
+Check if User is active | 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -42,7 +44,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [iui85ujva3](./iui85ujva3.md) |

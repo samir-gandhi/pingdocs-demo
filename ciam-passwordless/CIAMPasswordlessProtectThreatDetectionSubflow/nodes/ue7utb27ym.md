@@ -1,4 +1,5 @@
-# Http - Error Message
+# Http - string 
+Error Message
 ## Configuration
 ID:  ue7utb27ym
 
@@ -9,14 +10,20 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
-| Node Description | Configuration value not set error | 
- 
+| Node Description | string 
+Configuration value not set error | 
 
+## Custom CSS
+```css
+string 
+
+```
 
 ## Custom HTML
-```html
+```html 
 <div
   class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
   <div style="max-width: 400px; min-width: 400px; width: 100%">
@@ -31,10 +38,15 @@ CapabilityName: customHTMLTemplate
 </div>
 ```
 
+## Custom Script
+```string 
+
+```
+
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +60,12 @@ errorMessage
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -70,27 +81,16 @@ inputSchema
 ```
 
 
-outputSchema
- ```json 
-
-```
-
-
 sktemplate
- ```json 
-Error Template
+```string 
+4283c0de636208a4273efe1c9fda225f
 ```
 
 
 validationRules
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [6b03psy0ol](./6b03psy0ol.md) |  |

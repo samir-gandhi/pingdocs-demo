@@ -5,24 +5,29 @@ ID:  kgxiu8h9i5
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 p3914imkz7
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [dxowhkk5n5](./dxowhkk5n5.md) | [9w2fwmdjtp](./9w2fwmdjtp.md), [p3914imkz7](./p3914imkz7.md) |
+| Check if Risk Policy ID is empty | [dxowhkk5n5](./dxowhkk5n5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| PingOne Protect Risk ID is Empty/NULL |[9w2fwmdjtp](./9w2fwmdjtp.md)Update Risk Evaluation - FAILURE |[p3914imkz7](./p3914imkz7.md) | 

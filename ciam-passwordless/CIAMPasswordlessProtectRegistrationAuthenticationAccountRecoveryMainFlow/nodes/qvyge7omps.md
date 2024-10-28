@@ -5,15 +5,20 @@ ID:  qvyge7omps
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [dr1asu53u6](./dr1asu53u6.md) | [d2ltnk9gkn](./d2ltnk9gkn.md) |
+| Get Values from PingOne Protect analysis | [dr1asu53u6](./dr1asu53u6.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Notify user on disabling the account for threat detection. |[d2ltnk9gkn](./d2ltnk9gkn.md) | 

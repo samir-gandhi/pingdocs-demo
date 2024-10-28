@@ -1,4 +1,5 @@
-# PingOne Protect - Create PingOne Protect Risk with user and Environment details
+# PingOne Protect - string 
+Create PingOne Protect Risk with user and Environment details
 ## Configuration
 ID:  y6rdbg2ky5
 
@@ -9,17 +10,18 @@ CapabilityName: createRiskEvaluation
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "userID",        "data": "{{global.parameters.userID}}",        "tooltip": "{{global.parameters.userID}}",        "children": [          {            "text": "userID"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "userID",        "data": "{{global.parameters.userID}}",        "tooltip": "{{global.parameters.userID}}",        "children": [          {            "text": "userID"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Should have required variables to start the risk evaluation. | 
- 
+| Node Description | string 
+Should have required variables to start the risk evaluation. | 
+
 
 
 
 
 ### Additional Properties
 cookie
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +53,7 @@ cookie
 
 
 customAttributes
- ```json 
+```json 
 [
   {
     "children": [
@@ -83,7 +85,7 @@ customAttributes
 
 
 flowType
- ```json 
+```json 
 [
   {
     "children": [
@@ -115,7 +117,7 @@ flowType
 
 
 ipAddress
- ```json 
+```json 
 [
   {
     "children": [
@@ -147,7 +149,7 @@ ipAddress
 
 
 riskPolicySetId
- ```json 
+```json 
 [
   {
     "children": [
@@ -179,7 +181,7 @@ riskPolicySetId
 
 
 sessionId
- ```json 
+```json 
 [
   {
     "children": [
@@ -211,7 +213,7 @@ sessionId
 
 
 skRiskFP
- ```json 
+```json 
 [
   {
     "children": [
@@ -243,7 +245,7 @@ skRiskFP
 
 
 targetResourceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -275,7 +277,7 @@ targetResourceId
 
 
 userAgent
- ```json 
+```json 
 [
   {
     "children": [
@@ -307,7 +309,7 @@ userAgent
 
 
 userName
- ```json 
+```json 
 [
   {
     "children": [
@@ -339,14 +341,22 @@ userName
 
 
 userType
- ```json 
+```string 
 PING_ONE
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [6b03psy0ol](./6b03psy0ol.md) | [vknqtnu7y2](./vknqtnu7y2.md) |
+| EVAL | [6b03psy0ol](./6b03psy0ol.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[vknqtnu7y2](./vknqtnu7y2.md) | 

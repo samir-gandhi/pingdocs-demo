@@ -1,4 +1,5 @@
-# Node - Success Error
+# Node - string 
+Success Error
 ## Configuration
 ID:  brpmsv8uag
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -41,7 +39,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [b900rty9pd](./b900rty9pd.md) |

@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ciam_magicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ ciam_magicLinkEnabled
 
 
 ciam_passwordlessRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ ciam_passwordlessRequired
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -94,7 +91,7 @@ errorMessage
 
 
 flowAccountRecoveryEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -126,7 +123,7 @@ flowAccountRecoveryEnabled
 
 
 flowAgreementEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -158,7 +155,7 @@ flowAgreementEnabled
 
 
 flowAgreementId
- ```json 
+```json 
 [
   {
     "children": [
@@ -190,7 +187,7 @@ flowAgreementId
 
 
 flowAllowedDeviceTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -222,7 +219,7 @@ flowAllowedDeviceTypes
 
 
 flowAppleEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -254,7 +251,7 @@ flowAppleEnabled
 
 
 flowFacebookEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -286,7 +283,7 @@ flowFacebookEnabled
 
 
 flowGoogleEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -318,7 +315,7 @@ flowGoogleEnabled
 
 
 flowMagicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -350,7 +347,7 @@ flowMagicLinkEnabled
 
 
 flowMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -382,7 +379,7 @@ flowMethod
 
 
 flowPasswordlessRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -414,14 +411,10 @@ flowPasswordlessRequired
 
 
 nodeInstanceId
- ```json 
+```string 
 el9cmscetd
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [59qszmzgg5](./59qszmzgg5.md) |  |

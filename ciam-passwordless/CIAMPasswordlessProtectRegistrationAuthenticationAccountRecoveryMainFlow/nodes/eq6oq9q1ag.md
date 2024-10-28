@@ -1,4 +1,5 @@
-# PingOne - Find user in PingOne
+# PingOne - string 
+Find user in PingOne
 ## Configuration
 ID:  eq6oq9q1ag
 
@@ -9,21 +10,21 @@ CapabilityName: userLookup
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Find user by Username or email as entered in login page | 
- 
+| Node Description | string 
+Find user by Username or email as entered in login page | 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +57,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [iui85ujva3](./iui85ujva3.md) | [71uz2oxfw9](./71uz2oxfw9.md) |
+| EVAL | [iui85ujva3](./iui85ujva3.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[71uz2oxfw9](./71uz2oxfw9.md) | 

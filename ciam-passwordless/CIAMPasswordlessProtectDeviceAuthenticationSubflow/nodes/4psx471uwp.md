@@ -1,4 +1,5 @@
-# Functions - Authentication Required
+# Functions - string 
+Authentication Required
 ## Configuration
 ID:  4psx471uwp
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1cbcpbc5no](./1cbcpbc5no.md) | [1gtc5d0awz](./1gtc5d0awz.md), [h8dtvwld36](./h8dtvwld36.md) |
+| EVAL | [1cbcpbc5no](./1cbcpbc5no.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[h8dtvwld36](./h8dtvwld36.md) | 

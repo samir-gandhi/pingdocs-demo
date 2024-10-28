@@ -1,4 +1,5 @@
-# Node - Check Session
+# Node - string 
+Check Session
 ## Configuration
 ID:  ins74ygtvc
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -97,7 +95,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [fqkfitsm9p](./fqkfitsm9p.md) |

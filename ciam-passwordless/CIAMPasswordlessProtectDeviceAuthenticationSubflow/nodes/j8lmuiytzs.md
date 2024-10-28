@@ -1,4 +1,5 @@
-# Functions - Is MFA Enabled?
+# Functions - string 
+Is MFA Enabled?
 ## Configuration
 ID:  j8lmuiytzs
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fd7o3icva4](./fd7o3icva4.md) | [bf9jlbogz1](./bf9jlbogz1.md) |
+| EVAL | [fd7o3icva4](./fd7o3icva4.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[bf9jlbogz1](./bf9jlbogz1.md) | 

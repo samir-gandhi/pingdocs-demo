@@ -1,4 +1,5 @@
-# Functions - Set Flow Variables
+# Functions - string 
+Set Flow Variables
 ## Configuration
 ID:  byomx9u9ci
 
@@ -6,17 +7,54 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"flowAccountRecoveryEnabled": {
+				"type": "boolean"
+			},
+			"flowMagicLinkEnabled": {
+				"type": "boolean"
+			},
+			"flowAgreementEnabled": {
+				"type": "boolean"
+			},
+			"flowPasswordlessRequired": {
+				"type": "boolean"
+			},
+			"flowAllowedDeviceTypes": {
+				"type": "string"
+			},
+			"flowAppleEnabled": {
+				"type": "boolean"
+			},
+			"flowFacebookEnabled": {
+				"type": "boolean"
+			},
+			"flowGoogleEnabled": {
+				"type": "boolean"
+			},
+			"flowSocialRegistrationEnabled": {
+				"type": "boolean"
+			},
+			"flowMethod": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -69,57 +107,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"flowAccountRecoveryEnabled": {
-				"type": "boolean"
-			},
-			"flowMagicLinkEnabled": {
-				"type": "boolean"
-			},
-			"flowAgreementEnabled": {
-				"type": "boolean"
-			},
-			"flowPasswordlessRequired": {
-				"type": "boolean"
-			},
-			"flowAllowedDeviceTypes": {
-				"type": "string"
-			},
-			"flowAppleEnabled": {
-				"type": "boolean"
-			},
-			"flowFacebookEnabled": {
-				"type": "boolean"
-			},
-			"flowGoogleEnabled": {
-				"type": "boolean"
-			},
-			"flowSocialRegistrationEnabled": {
-				"type": "boolean"
-			},
-			"flowMethod": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3lgnmx50te](./3lgnmx50te.md) | [2t8o7qakxh](./2t8o7qakxh.md) |
+| EVAL | [3lgnmx50te](./3lgnmx50te.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[2t8o7qakxh](./2t8o7qakxh.md) | 

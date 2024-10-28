@@ -1,4 +1,5 @@
-# Http - Return Error Response
+# Http - string 
+Return Error Response
 ## Configuration
 ID:  zgq483nez5
 
@@ -9,23 +10,19 @@ CapabilityName: createErrorResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [0m7rxlhf9o](./0m7rxlhf9o.md) |  |

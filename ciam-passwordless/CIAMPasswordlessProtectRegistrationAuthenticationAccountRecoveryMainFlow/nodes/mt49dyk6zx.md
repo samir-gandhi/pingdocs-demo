@@ -1,4 +1,5 @@
-# Flow Connector - Invoke PingOne Protect subflow
+# Flow Connector - string 
+Invoke PingOne Protect subflow
 ## Configuration
 ID:  mt49dyk6zx
 
@@ -9,15 +10,16 @@ CapabilityName: startSubFlow
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Invoke PingOne Protect Sub flow for threat detection analysis using PingOne protect feature. | 
- 
+| Node Description | string 
+Invoke PingOne Protect Sub flow for threat detection analysis using PingOne protect feature. | 
+
 
 
 
 
 ### Additional Properties
 flowType
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +33,7 @@ flowType
 
 
 ipAddress
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +65,7 @@ ipAddress
 
 
 riskPolicyID
- ```json 
+```json 
 [
   {
     "children": [
@@ -95,7 +97,7 @@ riskPolicyID
 
 
 skriskcomponent
- ```json 
+```json 
 [
   {
     "children": [
@@ -127,7 +129,7 @@ skriskcomponent
 
 
 userName
- ```json 
+```json 
 [
   {
     "children": [
@@ -160,7 +162,15 @@ userName
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [k3qn24f8pv](./k3qn24f8pv.md) | [w5t7jozp5a](./w5t7jozp5a.md) |
+| EVAL | [k3qn24f8pv](./k3qn24f8pv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[w5t7jozp5a](./w5t7jozp5a.md) | 

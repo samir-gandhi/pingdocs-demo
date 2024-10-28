@@ -1,4 +1,5 @@
-# PingOne - Send Verification Code
+# PingOne - string 
+Send Verification Code
 ## Configuration
 ID:  e0fk3mmhht
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: sendVerificationCode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +47,15 @@ identifier
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [cao68g3gyc](./cao68g3gyc.md) | [ozb119ee81](./ozb119ee81.md) |
+| EVAL | [cao68g3gyc](./cao68g3gyc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ozb119ee81](./ozb119ee81.md) | 

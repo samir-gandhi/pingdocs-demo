@@ -5,24 +5,29 @@ ID:  zdzabypfcv
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 866hws1wwv
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [sdvxpx62lw](./sdvxpx62lw.md) | [2yjiwd8na2](./2yjiwd8na2.md), [866hws1wwv](./866hws1wwv.md) |
+| Check If User Can Auto Enroll? | [sdvxpx62lw](./sdvxpx62lw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[866hws1wwv](./866hws1wwv.md)Register User&#39;s Email As MFA Device |[2yjiwd8na2](./2yjiwd8na2.md) | 

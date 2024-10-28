@@ -1,4 +1,5 @@
-# Flow Connector - Agreement
+# Flow Connector - string 
+Agreement
 ## Configuration
 ID:  ce4oo61zup
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,7 +28,7 @@ checkRequired
 
 
 ciam_agreementEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,7 +60,7 @@ ciam_agreementEnabled
 
 
 ciam_agreementId
- ```json 
+```json 
 [
   {
     "children": [
@@ -94,7 +92,7 @@ ciam_agreementId
 
 
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -126,7 +124,7 @@ ciam_companyLogo
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -159,7 +157,15 @@ pingOneUserId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [waqap3wtx](./waqap3wtx.md) | [3ey8zk3woh](./3ey8zk3woh.md) |
+| EVAL | [waqap3wtx](./waqap3wtx.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[3ey8zk3woh](./3ey8zk3woh.md) | 

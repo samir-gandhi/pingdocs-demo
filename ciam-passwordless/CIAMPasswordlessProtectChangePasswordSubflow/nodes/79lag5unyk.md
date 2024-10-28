@@ -1,4 +1,5 @@
-# Http - NOP UI Page
+# Http - string 
+NOP UI Page
 ## Configuration
 ID:  79lag5unyk
 
@@ -6,14 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -86,16 +83,12 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [a3oth8yspq](./a3oth8yspq.md) |

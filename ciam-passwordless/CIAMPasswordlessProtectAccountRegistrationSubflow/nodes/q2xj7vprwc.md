@@ -1,4 +1,5 @@
-# Flow Connector - Verify Email
+# Flow Connector - string 
+Verify Email
 ## Configuration
 ID:  q2xj7vprwc
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ ciam_companyLogo
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -81,7 +79,15 @@ pingOneUserId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3ey8zk3woh](./3ey8zk3woh.md) | [yauguijv8y](./yauguijv8y.md) |
+| EVAL | [3ey8zk3woh](./3ey8zk3woh.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[yauguijv8y](./yauguijv8y.md) | 

@@ -1,4 +1,5 @@
-# Error Message - Passwords Do Not Match Error
+# Error Message - string 
+Passwords Do Not Match Error
 ## Configuration
 ID:  gm535zgls3
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -36,7 +34,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +49,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [9o0jtjpq4i](./9o0jtjpq4i.md) |  |

@@ -1,4 +1,5 @@
-# Node - Create OTP Device
+# Node - string 
+Create OTP Device
 ## Configuration
 ID:  dc2mhwx86e
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -62,7 +60,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [9a49qb1y7k](./9a49qb1y7k.md) |

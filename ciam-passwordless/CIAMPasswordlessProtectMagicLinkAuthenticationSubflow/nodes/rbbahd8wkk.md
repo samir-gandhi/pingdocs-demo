@@ -5,15 +5,20 @@ ID:  rbbahd8wkk
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [si1p71skgq](./si1p71skgq.md) | [2nagahrwxs](./2nagahrwxs.md) |
+| Deny Challenge After Expiration | [si1p71skgq](./si1p71skgq.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[2nagahrwxs](./2nagahrwxs.md) | 

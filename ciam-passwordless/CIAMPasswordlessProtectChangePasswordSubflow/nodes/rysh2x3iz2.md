@@ -1,4 +1,5 @@
-# Variables - Set error message
+# Variables - string 
+Set error message
 ## Configuration
 ID:  rysh2x3iz2
 
@@ -6,24 +7,28 @@ Type: CONNECTION
 
 CapabilityName: saveValue
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 saveVariables
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ateb0l10nl](./ateb0l10nl.md) | [ym31re8b7g](./ym31re8b7g.md) |
+| Evaluator | [ateb0l10nl](./ateb0l10nl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ym31re8b7g](./ym31re8b7g.md) | 

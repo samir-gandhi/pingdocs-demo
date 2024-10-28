@@ -1,4 +1,5 @@
-# Node - Device Selection
+# Node - string 
+Device Selection
 ## Configuration
 ID:  uoyh9kzwil
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -76,7 +74,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [bhgtvbjvu1](./bhgtvbjvu1.md) |

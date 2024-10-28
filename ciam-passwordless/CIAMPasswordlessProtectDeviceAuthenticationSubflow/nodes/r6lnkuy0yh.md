@@ -1,4 +1,5 @@
-# Functions - Transform Passcode To Lowercase
+# Functions - string 
+Transform Passcode To Lowercase
 ## Configuration
 ID:  r6lnkuy0yh
 
@@ -6,27 +7,12 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
 
-### Additional Properties
-code
- ```json 
-module.exports = a = async ({ params }) => {
-	const passcode = params.selectedDeviceType === "YUBIKEY" ? params.passcode.toLowerCase() : params.passcode;
-
-	return { "passcode": passcode }
-}
-```
-
-
-outputSchema
- ```json 
+### Output Schema
+``` json 
 {
 	"output": {
 		"type": "object",
@@ -36,19 +22,36 @@ outputSchema
 			}
 		}
 	}
+} 
+```
+
+### Additional Properties
+code
+```js 
+module.exports = a = async ({ params }) => {
+	const passcode = params.selectedDeviceType === "YUBIKEY" ? params.passcode.toLowerCase() : params.passcode;
+
+	return { "passcode": passcode }
 }
 ```
 
 
 variableInputList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gsw5wwtm7t](./gsw5wwtm7t.md) | [mt9kvt7hnn](./mt9kvt7hnn.md) |
+| EVAL | [gsw5wwtm7t](./gsw5wwtm7t.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[mt9kvt7hnn](./mt9kvt7hnn.md) | 

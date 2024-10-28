@@ -1,4 +1,5 @@
-# Node - Return Success
+# Node - string 
+Return Success
 ## Configuration
 ID:  x8uq3h1ccd
 
@@ -9,15 +10,16 @@ CapabilityName: startNode
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Redirect back to requesting resource (success) | 
- 
+| Node Description | js 
+Redirect back to requesting resource (success) | 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -49,7 +51,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [sdz87dk9h3](./sdz87dk9h3.md) |

@@ -1,4 +1,5 @@
-# Error Message - Error message for user authentication.
+# Error Message - string 
+Error message for user authentication.
 ## Configuration
 ID:  j23r4buol6
 
@@ -9,21 +10,22 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Error message for user authentication. | 
- 
+| Node Description | string 
+Error message for user authentication. | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -37,7 +39,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -52,7 +54,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [dfcr1art1l](./dfcr1art1l.md) |  |

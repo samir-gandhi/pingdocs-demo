@@ -1,4 +1,5 @@
-# Http - Send Error Response
+# Http - string 
+Send Error Response
 ## Configuration
 ID:  hxmqf7sb52
 
@@ -9,22 +10,22 @@ CapabilityName: createErrorResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 message
- ```json 
+```json 
 [
   {
     "children": [
@@ -57,7 +58,3 @@ message
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [b900rty9pd](./b900rty9pd.md) |  |

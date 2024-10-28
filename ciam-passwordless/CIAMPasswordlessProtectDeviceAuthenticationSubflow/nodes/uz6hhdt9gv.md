@@ -1,4 +1,5 @@
-# Error Message - OTP Resent Message
+# Error Message - string 
+OTP Resent Message
 ## Configuration
 ID:  uz6hhdt9gv
 
@@ -9,16 +10,17 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #afd5ffff | 
+| Node Background Color | html 
+#afd5ffff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -33,7 +35,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [fzjj3nuh7m](./fzjj3nuh7m.md) |  |

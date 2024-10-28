@@ -1,4 +1,5 @@
-# Functions - Did Subflow Return Success
+# Functions - string 
+Did Subflow Return Success
 ## Configuration
 ID:  y1g5lzp3md
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ug3m1588jl](./ug3m1588jl.md) | [8b7afymuxh](./8b7afymuxh.md) |
+| Evaluator | [ug3m1588jl](./ug3m1588jl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[8b7afymuxh](./8b7afymuxh.md) | 

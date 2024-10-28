@@ -5,15 +5,20 @@ ID:  ybwxgols9w
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zbhvblc83s](./zbhvblc83s.md) | [9zctbmveoc](./9zctbmveoc.md) |
+| Authentication Method Selection | [zbhvblc83s](./zbhvblc83s.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Enrich Device Details |[9zctbmveoc](./9zctbmveoc.md) | 

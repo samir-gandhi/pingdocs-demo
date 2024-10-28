@@ -1,4 +1,5 @@
-# Functions - Update error message
+# Functions - string 
+Update error message
 ## Configuration
 ID:  5vhs0j1lcd
 
@@ -6,17 +7,27 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"updatedErrorMessage": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -88,30 +99,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"updatedErrorMessage": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [uh6ap9pj4p](./uh6ap9pj4p.md) | [kj7e51zikv](./kj7e51zikv.md) |
+| EVAL | [uh6ap9pj4p](./uh6ap9pj4p.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[kj7e51zikv](./kj7e51zikv.md) | 

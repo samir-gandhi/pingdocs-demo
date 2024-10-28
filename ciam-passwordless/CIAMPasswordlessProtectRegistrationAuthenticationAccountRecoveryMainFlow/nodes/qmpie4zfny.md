@@ -1,4 +1,5 @@
-# Functions - Check if Known Device
+# Functions - string 
+Check if Known Device
 ## Configuration
 ID:  qmpie4zfny
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [o0ebgiurvi](./o0ebgiurvi.md) | [gaj3ygo1j4](./gaj3ygo1j4.md) |
+| EVAL | [o0ebgiurvi](./o0ebgiurvi.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[gaj3ygo1j4](./gaj3ygo1j4.md) | 

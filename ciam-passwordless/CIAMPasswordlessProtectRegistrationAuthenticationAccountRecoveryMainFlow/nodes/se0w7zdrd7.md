@@ -1,4 +1,5 @@
-# Http - Reset Password Success Message
+# Http - string 
+Reset Password Success Message
 ## Configuration
 ID:  se0w7zdrd7
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Displays a success page for update password | 
- 
+| Node Description | string 
+Displays a success page for update password | 
 
 
 ## Custom HTML
-```html
+```html 
 <div
   class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
   <div style="max-width: 400px; width: 100%">
@@ -40,16 +41,24 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8b7afymuxh](./8b7afymuxh.md) | [liu3llworn](./liu3llworn.md) |
+| EVAL | [8b7afymuxh](./8b7afymuxh.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[liu3llworn](./liu3llworn.md) | 

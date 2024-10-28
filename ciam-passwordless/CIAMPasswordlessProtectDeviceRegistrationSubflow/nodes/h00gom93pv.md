@@ -5,15 +5,20 @@ ID:  h00gom93pv
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zqb2rroahz](./zqb2rroahz.md) | [slu740f2kg](./slu740f2kg.md) |
+| Check User Selection  | [zqb2rroahz](./zqb2rroahz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Delete Previous Device |[slu740f2kg](./slu740f2kg.md) | 

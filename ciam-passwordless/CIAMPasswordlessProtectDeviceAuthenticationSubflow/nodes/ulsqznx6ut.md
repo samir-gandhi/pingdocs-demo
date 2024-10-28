@@ -1,4 +1,5 @@
-# Functions - Is Constraint Violation Error
+# Functions - string 
+Is Constraint Violation Error
 ## Configuration
 ID:  ulsqznx6ut
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [845xzgf4bk](./845xzgf4bk.md) | [fu06ckn12l](./fu06ckn12l.md), [3a77bpgwom](./3a77bpgwom.md) |
+| EVAL | [845xzgf4bk](./845xzgf4bk.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[3a77bpgwom](./3a77bpgwom.md) | 

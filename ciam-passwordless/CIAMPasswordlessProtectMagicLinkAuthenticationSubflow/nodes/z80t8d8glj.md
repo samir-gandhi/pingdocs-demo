@@ -1,4 +1,5 @@
-# Challenge - Check Challenge Status
+# Challenge - string 
+Check Challenge Status
 ## Configuration
 ID:  z80t8d8glj
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: getChallenge
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 challenge
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +47,15 @@ challenge
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2ynekjzhbj](./2ynekjzhbj.md) | [qcxgcbyy02](./qcxgcbyy02.md) |
+| Evaluator | [2ynekjzhbj](./2ynekjzhbj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[qcxgcbyy02](./qcxgcbyy02.md) | 

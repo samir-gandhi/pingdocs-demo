@@ -5,15 +5,20 @@ ID:  gsw5wwtm7t
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qurffyxc2d](./qurffyxc2d.md) | [r6lnkuy0yh](./r6lnkuy0yh.md) |
+| Split by user selection  | [qurffyxc2d](./qurffyxc2d.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Transform Passcode To Lowercase |[r6lnkuy0yh](./r6lnkuy0yh.md) | 

@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,13 +27,13 @@ authMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 k46n95w9eo
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -69,7 +66,3 @@ pingOneUserId
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [9fzm9oj8fd](./9fzm9oj8fd.md) |  |

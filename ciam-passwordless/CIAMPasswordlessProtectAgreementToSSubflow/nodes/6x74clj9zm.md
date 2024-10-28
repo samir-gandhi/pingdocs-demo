@@ -1,4 +1,5 @@
-# Functions - Check For User Consent?
+# Functions - string 
+Check For User Consent?
 ## Configuration
 ID:  6x74clj9zm
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | If there is the need to check if user has consent before directing user to agreement | 
- 
+| Node Description | string 
+If there is the need to check if user has consent before directing user to agreement | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [6xfm9lpclg](./6xfm9lpclg.md) | [prjjhhmndv](./prjjhhmndv.md) |
+| EVAL | [6xfm9lpclg](./6xfm9lpclg.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[prjjhhmndv](./prjjhhmndv.md) | 

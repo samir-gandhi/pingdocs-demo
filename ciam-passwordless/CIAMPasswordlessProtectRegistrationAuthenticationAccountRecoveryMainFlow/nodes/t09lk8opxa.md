@@ -1,4 +1,5 @@
-# PingOne - User Lookup
+# PingOne - string 
+User Lookup
 ## Configuration
 ID:  t09lk8opxa
 
@@ -9,15 +10,16 @@ CapabilityName: userLookup
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Attempts to find the user in PingOne by the submitted username | 
- 
+| Node Description | string 
+Attempts to find the user in PingOne by the submitted username | 
+
 
 
 
 
 ### Additional Properties
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -52,13 +54,12 @@ identifier
 
 
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -90,14 +91,21 @@ userIdentifierForFindUser
 
 
 userLookup_localizedErrors
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [bilu0ighwr](./bilu0ighwr.md) | [y7f4468q9f](./y7f4468q9f.md) |
+| EVAL | [bilu0ighwr](./bilu0ighwr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[y7f4468q9f](./y7f4468q9f.md) | 

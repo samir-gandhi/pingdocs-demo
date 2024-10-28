@@ -1,4 +1,5 @@
-# Http - Magic Link Polling
+# Http - string 
+Magic Link Polling
 ## Configuration
 ID:  fhoue68esb
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Magic Link polling screen | 
- 
+| Node Description | string 
+Magic Link polling screen | 
 
 
 ## Custom HTML
-```html
+```html 
 <div class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div style="max-width: 400px; min-width: 400px; width: 100%">
         <div class="card shadow mb-5">
@@ -31,9 +32,10 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 challenge
- ```json 
+```json 
 [
   {
     "children": [
@@ -65,14 +67,21 @@ challenge
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ali9zum89s](./ali9zum89s.md) | [2ynekjzhbj](./2ynekjzhbj.md) |
+| EVAL | [ali9zum89s](./ali9zum89s.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[2ynekjzhbj](./2ynekjzhbj.md) | 

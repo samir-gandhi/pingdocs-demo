@@ -1,4 +1,5 @@
-# PingOne - Get Agreement
+# PingOne - string 
+Get Agreement
 ## Configuration
 ID:  8ytvupm9en
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: readAgreementContent
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 agreementId
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +47,15 @@ agreementId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [je23nstva5](./je23nstva5.md) | [gjg587c8af](./gjg587c8af.md) |
+| EVAL | [je23nstva5](./je23nstva5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[gjg587c8af](./gjg587c8af.md) | 

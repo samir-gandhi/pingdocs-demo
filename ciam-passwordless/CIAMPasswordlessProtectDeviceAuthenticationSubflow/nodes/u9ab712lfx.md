@@ -1,4 +1,5 @@
-# Flow Connector - Invoke PingOne Protect subflow
+# Flow Connector - string 
+Invoke PingOne Protect subflow
 ## Configuration
 ID:  u9ab712lfx
 
@@ -9,15 +10,16 @@ CapabilityName: startSubFlow
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Invoke PingOne Protect Sub flow for threat detection analysis using PingOne protect feature. | 
- 
+| Node Description | string 
+Invoke PingOne Protect Sub flow for threat detection analysis using PingOne protect feature. | 
+
 
 
 
 
 ### Additional Properties
 flowType
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +33,7 @@ flowType
 
 
 ipAddress
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +65,7 @@ ipAddress
 
 
 riskPolicyID
- ```json 
+```json 
 [
   {
     "children": [
@@ -95,7 +97,7 @@ riskPolicyID
 
 
 skriskcomponent
- ```json 
+```json 
 [
   {
     "children": [
@@ -127,7 +129,7 @@ skriskcomponent
 
 
 userName
- ```json 
+```json 
 [
   {
     "children": [
@@ -160,7 +162,15 @@ userName
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qxdd8mlll5](./qxdd8mlll5.md) | [vexxoicu6a](./vexxoicu6a.md) |
+| EVAL | [qxdd8mlll5](./qxdd8mlll5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[vexxoicu6a](./vexxoicu6a.md) | 

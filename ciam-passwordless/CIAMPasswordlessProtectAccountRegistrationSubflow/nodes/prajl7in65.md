@@ -1,4 +1,5 @@
-# Node - Error
+# Node - string 
+Error
 ## Configuration
 ID:  prajl7in65
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -41,7 +39,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [ovgv5ycn3o](./ovgv5ycn3o.md) |

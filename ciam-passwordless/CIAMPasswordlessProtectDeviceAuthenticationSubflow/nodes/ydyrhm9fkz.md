@@ -5,36 +5,41 @@ ID:  ydyrhm9fkz
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 a58tdqlgfb
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 b01n00fwkm
- ```json 
+```string 
 allTriggersTrue
 ```
 
 
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [frh74jp1jg](./frh74jp1jg.md) | [a58tdqlgfb](./a58tdqlgfb.md), [xsm25p5qf7](./xsm25p5qf7.md) |
+| Only One Usable Device | [frh74jp1jg](./frh74jp1jg.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Magic Link Enabled |[xsm25p5qf7](./xsm25p5qf7.md)Node |[a58tdqlgfb](./a58tdqlgfb.md) | 

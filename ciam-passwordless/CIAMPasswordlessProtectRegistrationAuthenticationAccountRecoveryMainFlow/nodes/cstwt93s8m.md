@@ -1,4 +1,5 @@
-# Functions - Check Password Status
+# Functions - string 
+Check Password Status
 ## Configuration
 ID:  cstwt93s8m
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsMultipleB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Branches based on the password status returned by PingOne | 
- 
+| Node Description | string 
+Branches based on the password status returned by PingOne | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,14 +51,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [c9kmm14iq0](./c9kmm14iq0.md) | [rqsigpn591](./rqsigpn591.md), [imnmdfh12z](./imnmdfh12z.md), [nbcsfwxqvp](./nbcsfwxqvp.md) |
+| EVAL | [c9kmm14iq0](./c9kmm14iq0.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[nbcsfwxqvp](./nbcsfwxqvp.md) | 

@@ -1,4 +1,5 @@
-# Node - Return Error
+# Node - string 
+Return Error
 ## Configuration
 ID:  cl9ugbu07r
 
@@ -9,15 +10,16 @@ CapabilityName: startNode
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Redirect back to requesting resource (error) | 
- 
+| Node Description | js 
+Redirect back to requesting resource (error) | 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -42,7 +44,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [2ixdpv74ih](./2ixdpv74ih.md) |

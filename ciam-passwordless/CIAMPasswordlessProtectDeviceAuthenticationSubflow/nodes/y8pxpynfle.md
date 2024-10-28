@@ -1,4 +1,5 @@
-# Error Message - Invalid Device Error
+# Error Message - string 
+Invalid Device Error
 ## Configuration
 ID:  y8pxpynfle
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +47,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [fu06ckn12l](./fu06ckn12l.md) |  |

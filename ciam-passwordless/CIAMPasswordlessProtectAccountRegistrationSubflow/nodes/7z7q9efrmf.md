@@ -5,15 +5,20 @@ ID:  7z7q9efrmf
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [yktqs7gian](./yktqs7gian.md) | [8ymuhluq2b](./8ymuhluq2b.md) |
+| Name Form Selection | [yktqs7gian](./yktqs7gian.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[8ymuhluq2b](./8ymuhluq2b.md) | 

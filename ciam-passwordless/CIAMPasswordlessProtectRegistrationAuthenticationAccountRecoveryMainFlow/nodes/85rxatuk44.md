@@ -5,15 +5,20 @@ ID:  85rxatuk44
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [powvchr4kr](./powvchr4kr.md) | [qc1wiq047b](./qc1wiq047b.md) |
+| Reset Password | [powvchr4kr](./powvchr4kr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| NOP UI Page |[qc1wiq047b](./qc1wiq047b.md) | 

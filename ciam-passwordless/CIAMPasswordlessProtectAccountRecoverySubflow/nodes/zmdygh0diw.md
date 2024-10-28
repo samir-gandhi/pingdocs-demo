@@ -1,4 +1,5 @@
-# Functions - Check if RiskID is empty
+# Functions - string 
+Check if RiskID is empty
 ## Configuration
 ID:  zmdygh0diw
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [mkork4kg94](./mkork4kg94.md) | [x1gd8ktif6](./x1gd8ktif6.md) |
+| Evaluator | [mkork4kg94](./mkork4kg94.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[x1gd8ktif6](./x1gd8ktif6.md) | 

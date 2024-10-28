@@ -5,48 +5,53 @@ ID:  c6tyb3dxi1
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 2ofjla4won
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 591nm9p3b2
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 ccqivhr3uh
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 undefined
- ```json 
+```string 
 allTriggersFalse
 ```
 
 
 xpzbzwij1h
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [p7gnqv4r4t](./p7gnqv4r4t.md) | [ccqivhr3uh](./ccqivhr3uh.md), [jb2xut5506](./jb2xut5506.md) |
+| Set New Password | [p7gnqv4r4t](./p7gnqv4r4t.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Display Success Message |[jb2xut5506](./jb2xut5506.md)Set error message |[ccqivhr3uh](./ccqivhr3uh.md) | 

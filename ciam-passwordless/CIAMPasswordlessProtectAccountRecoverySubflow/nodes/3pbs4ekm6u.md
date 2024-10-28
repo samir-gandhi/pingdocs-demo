@@ -1,4 +1,5 @@
-# Functions - Is Validation Limit Reached?
+# Functions - string 
+Is Validation Limit Reached?
 ## Configuration
 ID:  3pbs4ekm6u
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: ALessThanB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,14 +78,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [xkvo347q5m](./xkvo347q5m.md) | [1brhauigps](./1brhauigps.md) |
+| EVAL | [xkvo347q5m](./xkvo347q5m.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[1brhauigps](./1brhauigps.md) | 

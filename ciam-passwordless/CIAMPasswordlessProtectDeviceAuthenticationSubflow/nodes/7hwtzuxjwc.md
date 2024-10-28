@@ -1,4 +1,5 @@
-# PingOne - Disable user
+# PingOne - string 
+Disable user
 ## Configuration
 ID:  7hwtzuxjwc
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: enableUser
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,22 @@ identifier
 
 
 matchAttribute
- ```json 
+```string 
 email
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [iz5nper189](./iz5nper189.md) | [99q38lg97t](./99q38lg97t.md) |
+| EVAL | [iz5nper189](./iz5nper189.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[99q38lg97t](./99q38lg97t.md) | 

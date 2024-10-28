@@ -1,4 +1,5 @@
-# Http - Return Success Response
+# Http - string 
+Return Success Response
 ## Configuration
 ID:  eagfn3lpbp
 
@@ -9,41 +10,37 @@ CapabilityName: createSuccessResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #9dc967ff | 
+| Node Background Color | html 
+#9dc967ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 additionalFieldsName
- ```json 
+```string 
 pingoneProtectEvaluation
 ```
 
 
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 oeInteractionCacheExpire
- ```json 
+```bool 
 true
 ```
 
 
 oeNodeCacheExpire
- ```json 
+```bool 
 true
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [uizc04ybxq](./uizc04ybxq.md) |  |

@@ -1,4 +1,5 @@
-# Http - Magic Link Form
+# Http - string 
+Magic Link Form
 ## Configuration
 ID:  w9wzxxn1e0
 
@@ -9,14 +10,20 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #c0dcfdff | 
+| Node Background Color | html 
+#c0dcfdff | 
 
-| Node Description | Request Magic Link | 
- 
+| Node Description | string 
+Request Magic Link | 
 
+## Custom CSS
+```css
+string 
+
+```
 
 ## Custom HTML
-```html
+```html 
 <div
     class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
     <div class="mh-100" style="max-width: 400px; width: 100%">
@@ -51,10 +58,15 @@ CapabilityName: customHTMLTemplate
 </div>
 ```
 
+## Custom Script
+```string 
+
+```
+
 
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,13 +98,12 @@ canChangeDevice
 
 
 formFieldsList
- ```json 
-
+```
 ```
 
 
 inputSchema
- ```json 
+```json 
 {
     "type": "object",
     "properties": {
@@ -106,27 +117,27 @@ inputSchema
 ```
 
 
-outputSchema
- ```json 
-
-```
-
-
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [p5i7v1wl02](./p5i7v1wl02.md) | [m2p5qnib8n](./m2p5qnib8n.md) |
+| EVAL | [p5i7v1wl02](./p5i7v1wl02.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[m2p5qnib8n](./m2p5qnib8n.md) | 

@@ -8,7 +8,8 @@ CapabilityName: goToNode
 
 ### Settings
 | Setting | Value  |
-| :------------------------ | ---------------------------------------- || Valid Authentication Method | [
+| :------------------------ | ---------------------------------------- || Valid Authentication Method | json 
+[
   {
     "children": [
       {
@@ -35,7 +36,8 @@ CapabilityName: goToNode
     ]
   }
 ]
-| Expire Authentication Token | [
+| Expire Authentication Token | json 
+[
   {
     "children": [
       {
@@ -62,14 +64,14 @@ CapabilityName: goToNode
     ]
   }
 ] |
- 
+
 
 
 
 
 ### Additional Properties
 createSession
- ```json 
+```json 
 [
   {
     "children": [
@@ -83,7 +85,7 @@ createSession
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -115,7 +117,7 @@ email
 
 
 flowMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -147,13 +149,13 @@ flowMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 x8uq3h1ccd
 ```
 
 
 password
- ```json 
+```json 
 [
   {
     "children": [
@@ -185,7 +187,7 @@ password
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -217,7 +219,7 @@ pingOneUserId
 
 
 rememberMe
- ```json 
+```json 
 [
   {
     "children": [
@@ -249,7 +251,7 @@ rememberMe
 
 
 username
- ```json 
+```json 
 [
   {
     "children": [
@@ -282,7 +284,3 @@ username
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [o5vjpzh7bq](./o5vjpzh7bq.md) |  |

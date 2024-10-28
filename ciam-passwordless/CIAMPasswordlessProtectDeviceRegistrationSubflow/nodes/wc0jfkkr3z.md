@@ -1,4 +1,5 @@
-# Node - Authentication method selection
+# Node - string 
+Authentication method selection
 ## Configuration
 ID:  wc0jfkkr3z
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -48,7 +46,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [k9rrvndxtf](./k9rrvndxtf.md) |

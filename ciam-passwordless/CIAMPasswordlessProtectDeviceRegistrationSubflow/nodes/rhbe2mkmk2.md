@@ -9,71 +9,68 @@ CapabilityName: updateAnnotationProperties
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #fffaa0ff | 
+| Node Background Color | html 
+#fffaa0ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 annotation
- ```json 
+```js 
 Note: Please note if "autoEnrollEmail"(Input Schema) value sent from calling flow is "true", it will be assumed that "email"(Input Schema) has already been verified and user will not be prompted to enter the OTP while registering this email device in this flow.
 ```
 
 
 annotationTextColor
- ```json 
+```html 
 #000000
 ```
 
 
 cornerRadius
- ```json 
+```float64 
 8.00
 ```
 
 
 fontFamily
- ```json 
+```string 
 sans-serif
 ```
 
 
 fontSize
- ```json 
+```float64 
 14.00
 ```
 
 
 strokeColor
- ```json 
+```html 
 #181818ff
 ```
 
 
 strokeEnabled
- ```json 
+```bool 
 false
 ```
 
 
 strokeWidth
- ```json 
+```float64 
 1.00
 ```
 
 
 width
- ```json 
+```float64 
 900.00
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  |  |

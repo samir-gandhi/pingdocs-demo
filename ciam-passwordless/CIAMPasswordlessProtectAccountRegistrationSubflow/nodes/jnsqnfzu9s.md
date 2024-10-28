@@ -1,4 +1,5 @@
-# Functions - Verify Passwords Match
+# Functions - string 
+Verify Passwords Match
 ## Configuration
 ID:  jnsqnfzu9s
 
@@ -9,15 +10,29 @@ CapabilityName: customFunction
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Verify new passwords match before setting | 
- 
+| Node Description | string 
+Verify new passwords match before setting | 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"success": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Test to ensure passwords match
 module.exports = a = async ({ params }) => {
 	const password = params.password;
@@ -32,30 +47,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"success": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [kerq5fyp8w](./kerq5fyp8w.md) | [k0x7ywsse6](./k0x7ywsse6.md) |
+| EVAL | [kerq5fyp8w](./kerq5fyp8w.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[k0x7ywsse6](./k0x7ywsse6.md) | 

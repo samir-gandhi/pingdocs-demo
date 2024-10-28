@@ -1,4 +1,5 @@
-# PingOne - Find user via userID
+# PingOne - string 
+Find user via userID
 ## Configuration
 ID:  flt9ewj1a9
 
@@ -6,23 +7,19 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +52,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [y2yl45morr](./y2yl45morr.md) | [k3qn24f8pv](./k3qn24f8pv.md) |
+| EVAL | [y2yl45morr](./y2yl45morr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[k3qn24f8pv](./k3qn24f8pv.md) | 

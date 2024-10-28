@@ -1,4 +1,5 @@
-# Functions - Update error message
+# Functions - string 
+Update error message
 ## Configuration
 ID:  okw0g6i84d
 
@@ -6,17 +7,27 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"updatedErrorMessage": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -88,30 +99,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"updatedErrorMessage": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ym31re8b7g](./ym31re8b7g.md) | [um3lcpaulo](./um3lcpaulo.md) |
+| EVAL | [ym31re8b7g](./ym31re8b7g.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[um3lcpaulo](./um3lcpaulo.md) | 

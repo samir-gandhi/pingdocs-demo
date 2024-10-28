@@ -5,15 +5,20 @@ ID:  uyltkub1v7
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [uh95uv8tkc](./uh95uv8tkc.md) | [igsfh12mz5](./igsfh12mz5.md) |
+| User action  | [uh95uv8tkc](./uh95uv8tkc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[igsfh12mz5](./igsfh12mz5.md) | 

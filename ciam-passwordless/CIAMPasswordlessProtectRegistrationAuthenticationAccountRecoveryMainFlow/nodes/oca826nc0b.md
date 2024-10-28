@@ -1,4 +1,5 @@
-# Http - Send Response
+# Http - string 
+Send Response
 ## Configuration
 ID:  oca826nc0b
 
@@ -9,14 +10,11 @@ CapabilityName: createErrorResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
-
- 
-
+| Node Background Color | html 
+#ffc8c1ff | 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [qdea3v0byw](./qdea3v0byw.md) |  |
+
+
+

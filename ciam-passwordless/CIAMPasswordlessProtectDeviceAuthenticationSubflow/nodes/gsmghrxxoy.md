@@ -1,4 +1,5 @@
-# Functions - Check for KNOWN DEVICE
+# Functions - string 
+Check for KNOWN DEVICE
 ## Configuration
 ID:  gsmghrxxoy
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [u22hch23vs](./u22hch23vs.md) | [nl0cxyid0x](./nl0cxyid0x.md) |
+| EVAL | [u22hch23vs](./u22hch23vs.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[nl0cxyid0x](./nl0cxyid0x.md) | 

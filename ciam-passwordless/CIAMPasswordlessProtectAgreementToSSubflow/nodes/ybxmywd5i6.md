@@ -9,71 +9,68 @@ CapabilityName: updateAnnotationProperties
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #fffaa0ff | 
+| Node Background Color | html 
+#fffaa0ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 annotation
- ```json 
+```string 
 Input Schema: CheckRequired, UserID, AgreementID*, AgreementEnabled*, *Optional
 ```
 
 
 annotationTextColor
- ```json 
+```html 
 #000000
 ```
 
 
 cornerRadius
- ```json 
+```float64 
 8.00
 ```
 
 
 fontFamily
- ```json 
+```string 
 sans-serif
 ```
 
 
 fontSize
- ```json 
+```float64 
 14.00
 ```
 
 
 strokeColor
- ```json 
+```html 
 #181818ff
 ```
 
 
 strokeEnabled
- ```json 
+```bool 
 false
 ```
 
 
 strokeWidth
- ```json 
+```float64 
 1.00
 ```
 
 
 width
- ```json 
+```float64 
 600.00
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  |  |

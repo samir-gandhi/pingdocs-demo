@@ -1,4 +1,5 @@
-# Functions - Mask Device
+# Functions - string 
+Mask Device
 ## Configuration
 ID:  fq7l0s8w2s
 
@@ -6,17 +7,30 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"maskedEmail": {
+				"type": "string"
+			},
+			"maskedPhone": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -42,33 +56,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"maskedEmail": {
-				"type": "string"
-			},
-			"maskedPhone": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [b0csz8cgnl](./b0csz8cgnl.md) | [bdjeulfdki](./bdjeulfdki.md) |
+| EVAL | [b0csz8cgnl](./b0csz8cgnl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[bdjeulfdki](./bdjeulfdki.md) | 

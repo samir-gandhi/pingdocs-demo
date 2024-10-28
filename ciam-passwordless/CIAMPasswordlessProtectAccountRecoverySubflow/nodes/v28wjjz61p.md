@@ -5,24 +5,29 @@ ID:  v28wjjz61p
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 0jvt7xvej2
- ```json 
+```string 
 allTriggersTrue
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [dvr3wi8hib](./dvr3wi8hib.md) | [0wx52cpso1](./0wx52cpso1.md) |
+| Split By User&#39;s Selection | [dvr3wi8hib](./dvr3wi8hib.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[0wx52cpso1](./0wx52cpso1.md) | 

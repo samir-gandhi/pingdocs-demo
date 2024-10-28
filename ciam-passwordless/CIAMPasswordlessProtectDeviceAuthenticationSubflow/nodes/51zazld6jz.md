@@ -5,24 +5,29 @@ ID:  51zazld6jz
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nvxwg0vum3
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gntsn38l9s](./gntsn38l9s.md) | [5gs9h0ar04](./5gs9h0ar04.md), [nvxwg0vum3](./nvxwg0vum3.md) |
+| CIAM - Magic Link Authentication | [gntsn38l9s](./gntsn38l9s.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[nvxwg0vum3](./nvxwg0vum3.md) | 

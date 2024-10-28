@@ -5,15 +5,20 @@ ID:  infm8ry8j9
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [kpq6uykwvz](./kpq6uykwvz.md) | [upanxjpo9i](./upanxjpo9i.md) |
+| Add rememberMe To authMethods | [kpq6uykwvz](./kpq6uykwvz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[upanxjpo9i](./upanxjpo9i.md) | 

@@ -5,24 +5,29 @@ ID:  ali9zum89s
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 gy5df5u07u
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fetjewgnk5](./fetjewgnk5.md) | [gy5df5u07u](./gy5df5u07u.md), [fhoue68esb](./fhoue68esb.md) |
+| Send Magic Link Email | [fetjewgnk5](./fetjewgnk5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Magic Link Polling |[fhoue68esb](./fhoue68esb.md)Node |[gy5df5u07u](./gy5df5u07u.md) | 

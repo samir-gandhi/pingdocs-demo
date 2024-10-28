@@ -5,15 +5,20 @@ ID:  pmzg2ixr1g
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [cqktdyqncg](./cqktdyqncg.md) | [90yph4ra19](./90yph4ra19.md) |
+| Split By Subflow&#39;s Result | [cqktdyqncg](./cqktdyqncg.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[90yph4ra19](./90yph4ra19.md) | 

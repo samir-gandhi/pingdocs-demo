@@ -5,24 +5,29 @@ ID:  npztwu892l
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 hb77by4606
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [4qv73tz0ug](./4qv73tz0ug.md) | [3koaafiiox](./3koaafiiox.md), [hb77by4606](./hb77by4606.md) |
+| Accept Agreement | [4qv73tz0ug](./4qv73tz0ug.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[hb77by4606](./hb77by4606.md) | 

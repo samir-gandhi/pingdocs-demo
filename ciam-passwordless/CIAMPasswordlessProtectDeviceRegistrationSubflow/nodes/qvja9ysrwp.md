@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 method
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +45,13 @@ method
 
 
 nodeInstanceId
- ```json 
+```string 
 4m767nsx46
 ```
 
 
 result
- ```json 
+```json 
 [
   {
     "children": [
@@ -69,7 +66,3 @@ result
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [531xfigfe0](./531xfigfe0.md) |  |

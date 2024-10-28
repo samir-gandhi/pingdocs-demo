@@ -1,4 +1,5 @@
-# Error Message - Device Already Paired
+# Error Message - string 
+Device Already Paired
 ## Configuration
 ID:  92ojigwmkh
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -34,7 +32,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [nxc2amxsdh](./nxc2amxsdh.md) |  |

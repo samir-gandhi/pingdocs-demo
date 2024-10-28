@@ -1,4 +1,5 @@
-# PingOne Authentication - Redirect With Error Response
+# PingOne Authentication - string 
+Redirect With Error Response
 ## Configuration
 ID:  yr9tytff7
 
@@ -9,22 +10,23 @@ CapabilityName: returnErrorResponseRedirect
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 customErrorFlag
- ```json 
+```bool 
 true
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,14 +58,10 @@ errorDescription
 
 
 errorMessage
- ```json 
+```string 
 invalid_request
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [yjz1weh9xh](./yjz1weh9xh.md) |  |

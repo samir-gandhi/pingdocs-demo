@@ -5,15 +5,20 @@ ID:  tir7r8fvkp
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [na4hef71sq](./na4hef71sq.md) | [kfqbhjjaqb](./kfqbhjjaqb.md) |
+| Gather Browser Information | [na4hef71sq](./na4hef71sq.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Filter Unusable Device Types |[kfqbhjjaqb](./kfqbhjjaqb.md) | 

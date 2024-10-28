@@ -1,4 +1,5 @@
-# Functions - Update error message
+# Functions - string 
+Update error message
 ## Configuration
 ID:  awcyj6ng8l
 
@@ -6,17 +7,27 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"updatedErrorMessage": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -88,30 +99,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"updatedErrorMessage": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [hb32pzk5ax](./hb32pzk5ax.md), [0dju0vxxvx](./0dju0vxxvx.md) | [nzgpez13rz](./nzgpez13rz.md) |
+| EVAL | [0dju0vxxvx](./0dju0vxxvx.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[nzgpez13rz](./nzgpez13rz.md) | 

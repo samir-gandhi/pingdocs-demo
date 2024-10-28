@@ -5,24 +5,29 @@ ID:  7vz1yqkdqo
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 2uhj1oobbe
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [czzrbt1dsb](./czzrbt1dsb.md) | [gntsn38l9s](./gntsn38l9s.md), [2uhj1oobbe](./2uhj1oobbe.md) |
+| Magic Link Enabled | [czzrbt1dsb](./czzrbt1dsb.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| CIAM - Magic Link Authentication |[gntsn38l9s](./gntsn38l9s.md)Node |[2uhj1oobbe](./2uhj1oobbe.md) | 

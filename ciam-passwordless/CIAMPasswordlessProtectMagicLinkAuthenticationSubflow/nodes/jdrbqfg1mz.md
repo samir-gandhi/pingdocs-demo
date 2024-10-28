@@ -1,4 +1,5 @@
-# Functions - Is Challenge Not Expired?
+# Functions - string 
+Is Challenge Not Expired?
 ## Configuration
 ID:  jdrbqfg1mz
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +49,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -65,14 +63,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [9rfeo7c8cp](./9rfeo7c8cp.md) | [v0rkta2j1x](./v0rkta2j1x.md) |
+| EVAL | [9rfeo7c8cp](./9rfeo7c8cp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[v0rkta2j1x](./v0rkta2j1x.md) | 

@@ -5,15 +5,20 @@ ID:  o0ebgiurvi
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gahfykd5pd](./gahfykd5pd.md) | [qmpie4zfny](./qmpie4zfny.md) |
+| Get Values from PingOne Protect analysis | [gahfykd5pd](./gahfykd5pd.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check if Known Device |[qmpie4zfny](./qmpie4zfny.md) | 

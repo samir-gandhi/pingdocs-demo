@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,7 +27,7 @@ authMethod
 
 
 method
- ```json 
+```json 
 [
   {
     "children": [
@@ -44,13 +41,13 @@ method
 
 
 nodeInstanceId
- ```json 
+```string 
 4m767nsx46
 ```
 
 
 result
- ```json 
+```json 
 [
   {
     "children": [
@@ -65,7 +62,3 @@ result
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [qj9x404zi1](./qj9x404zi1.md) |  |

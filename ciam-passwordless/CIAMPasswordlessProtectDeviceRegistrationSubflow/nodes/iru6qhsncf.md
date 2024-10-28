@@ -1,4 +1,5 @@
-# PingOne MFA - Activate FIDO2 Device
+# PingOne MFA - string 
+Activate FIDO2 Device
 ## Configuration
 ID:  iru6qhsncf
 
@@ -9,16 +10,16 @@ CapabilityName: activateDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 attestation
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +57,7 @@ attestation
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -94,7 +95,7 @@ deviceId
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -127,7 +128,15 @@ origin
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wpljz4km80](./wpljz4km80.md) | [h7w9k7knl9](./h7w9k7knl9.md) |
+| EVAL | [wpljz4km80](./wpljz4km80.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[h7w9k7knl9](./h7w9k7knl9.md) | 

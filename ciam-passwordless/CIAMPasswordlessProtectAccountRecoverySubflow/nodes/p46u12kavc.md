@@ -5,24 +5,29 @@ ID:  p46u12kavc
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 7dwvsl8sa8
- ```json 
+```string 
 allTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [7050iwhzic](./7050iwhzic.md) | [7dwvsl8sa8](./7dwvsl8sa8.md) |
+| Check if Risk ID is empty | [7050iwhzic](./7050iwhzic.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Update Risk Evaluation - FAILURE |[7dwvsl8sa8](./7dwvsl8sa8.md) | 

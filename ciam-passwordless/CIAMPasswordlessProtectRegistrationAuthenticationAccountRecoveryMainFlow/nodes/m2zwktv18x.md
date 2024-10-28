@@ -5,24 +5,29 @@ ID:  m2zwktv18x
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 drg4lvxpjw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2nlbum4ywj](./2nlbum4ywj.md) | [drg4lvxpjw](./drg4lvxpjw.md), [hk1hymxs4y](./hk1hymxs4y.md) |
+| Delete Session | [2nlbum4ywj](./2nlbum4ywj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[hk1hymxs4y](./hk1hymxs4y.md) | 

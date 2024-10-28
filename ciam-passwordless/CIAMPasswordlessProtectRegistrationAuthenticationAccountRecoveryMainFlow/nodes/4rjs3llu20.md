@@ -1,4 +1,5 @@
-# Functions - Set Industry Variables
+# Functions - string 
+Set Industry Variables
 ## Configuration
 ID:  4rjs3llu20
 
@@ -6,17 +7,30 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"flowCompanyLogo": {
+				"type": "string"
+			},
+			"flowCompanyGreeting": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -40,33 +54,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"flowCompanyLogo": {
-				"type": "string"
-			},
-			"flowCompanyGreeting": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2t8o7qakxh](./2t8o7qakxh.md) | [340awenest](./340awenest.md) |
+| EVAL | [2t8o7qakxh](./2t8o7qakxh.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[340awenest](./340awenest.md) | 

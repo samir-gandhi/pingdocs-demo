@@ -5,15 +5,20 @@ ID:  c69lo2tfh8
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [5mvyk1j6oz](./5mvyk1j6oz.md) | [xj97e6huu4](./xj97e6huu4.md) |
+| Get Values from PingOne Protect analysis | [5mvyk1j6oz](./5mvyk1j6oz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check for KNOWN DEVICE |[xj97e6huu4](./xj97e6huu4.md) | 

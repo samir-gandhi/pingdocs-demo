@@ -1,4 +1,5 @@
-# Functions - Check if Risk ID is Empty
+# Functions - string 
+Check if Risk ID is Empty
 ## Configuration
 ID:  hun8tkpynt
 
@@ -9,21 +10,22 @@ CapabilityName: AIsEmpty
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | If risk ID is empty, it can be returning from subflows. | 
- 
+| Node Description | string 
+If risk ID is empty, it can be returning from subflows. | 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +58,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [sdz87dk9h3](./sdz87dk9h3.md) | [7186msgx2b](./7186msgx2b.md) |
+| EVAL | [sdz87dk9h3](./sdz87dk9h3.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[7186msgx2b](./7186msgx2b.md) | 

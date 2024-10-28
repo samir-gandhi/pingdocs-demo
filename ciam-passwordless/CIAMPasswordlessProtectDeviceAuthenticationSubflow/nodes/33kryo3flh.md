@@ -1,4 +1,5 @@
-# Error Message - PingOne Protect Risk ID is Empty/NULL
+# Error Message - string 
+PingOne Protect Risk ID is Empty/NULL
 ## Configuration
 ID:  33kryo3flh
 
@@ -9,15 +10,16 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Provide the Risk ID in "Invoke PingOne Protect Subflow" | 
- 
+| Node Description | string 
+Provide the Risk ID in "Invoke PingOne Protect Subflow" | 
+
 
 
 
 
 ### Additional Properties
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +33,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -46,7 +48,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [33jpsgsdxv](./33jpsgsdxv.md) |  |

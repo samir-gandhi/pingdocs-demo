@@ -1,4 +1,5 @@
-# PingOne MFA - Create Device
+# PingOne MFA - string 
+Create Device
 ## Configuration
 ID:  fr9xup4p3z
 
@@ -9,47 +10,48 @@ CapabilityName: createDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Create Device | 
- 
+| Node Description | string 
+Create Device | 
+
 
 
 
 
 ### Additional Properties
 customApplicationId
- ```json 
+```json 
 {}
 ```
 
 
 customDeviceType
- ```json 
+```json 
 {}
 ```
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceType
- ```json 
+```string 
 EMAIL
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -81,13 +83,13 @@ email
 
 
 notificationPolicyId
- ```json 
+```string 
 6c9eb591-d8ea-4f90-8c04-8610e4f70203
 ```
 
 
 oneTimeDeviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -101,7 +103,7 @@ oneTimeDeviceType
 
 
 oneTimeEmailDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -133,20 +135,28 @@ oneTimeEmailDevice
 
 
 selectedDevice
- ```json 
+```string 
 oneTime
 ```
 
 
 status
- ```json 
+```string 
 ACTIVATION_REQUIRED
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [opojvoak73](./opojvoak73.md) | [3e3ddhe5la](./3e3ddhe5la.md) |
+| Evaluator | [opojvoak73](./opojvoak73.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[3e3ddhe5la](./3e3ddhe5la.md) | 

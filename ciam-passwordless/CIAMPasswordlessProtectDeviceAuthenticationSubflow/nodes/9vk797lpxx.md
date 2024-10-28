@@ -5,15 +5,20 @@ ID:  9vk797lpxx
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [737gi6ip3e](./737gi6ip3e.md) | [10uwd1ccc4](./10uwd1ccc4.md) |
+| Node | [737gi6ip3e](./737gi6ip3e.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Filter Unusable Devices |[10uwd1ccc4](./10uwd1ccc4.md) | 

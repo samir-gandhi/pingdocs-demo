@@ -1,4 +1,5 @@
-# Functions - Risk Score from PingOne Protect
+# Functions - string 
+Risk Score from PingOne Protect
 ## Configuration
 ID:  uekzlj66vx
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsMultipleB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Branching based on risk score from PingOne Protect | 
- 
+| Node Description | string 
+Branching based on risk score from PingOne Protect | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,14 +51,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [0eroz3r95x](./0eroz3r95x.md), [gaj3ygo1j4](./gaj3ygo1j4.md) | [oc2cqsl41l](./oc2cqsl41l.md), [0cmw42tqse](./0cmw42tqse.md), [80hktgiwnm](./80hktgiwnm.md) |
+| EVAL | [gaj3ygo1j4](./gaj3ygo1j4.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[80hktgiwnm](./80hktgiwnm.md) | 

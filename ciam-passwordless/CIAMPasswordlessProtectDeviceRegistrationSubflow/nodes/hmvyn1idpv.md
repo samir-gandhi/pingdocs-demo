@@ -1,4 +1,5 @@
-# PingOne MFA - Enable MFA For User
+# PingOne MFA - string 
+Enable MFA For User
 ## Configuration
 ID:  hmvyn1idpv
 
@@ -9,23 +10,31 @@ CapabilityName: updateUserMFAEnabled
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 mfaEnabled
- ```json 
+```bool 
 true
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [niwd9bvvyl](./niwd9bvvyl.md), [ug7cydwdhw](./ug7cydwdhw.md) | [rx5c39j4cx](./rx5c39j4cx.md) |
+| EVAL | [ug7cydwdhw](./ug7cydwdhw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[rx5c39j4cx](./rx5c39j4cx.md) | 

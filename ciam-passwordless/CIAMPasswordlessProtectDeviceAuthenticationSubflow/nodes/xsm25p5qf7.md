@@ -1,4 +1,5 @@
-# Functions - Magic Link Enabled
+# Functions - string 
+Magic Link Enabled
 ## Configuration
 ID:  xsm25p5qf7
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ydyrhm9fkz](./ydyrhm9fkz.md) | [ayodtok1lb](./ayodtok1lb.md) |
+| EVAL | [ydyrhm9fkz](./ydyrhm9fkz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ayodtok1lb](./ayodtok1lb.md) | 

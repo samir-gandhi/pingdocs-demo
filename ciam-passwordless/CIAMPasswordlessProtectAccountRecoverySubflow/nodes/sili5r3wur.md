@@ -1,4 +1,5 @@
-# Node - Go to Sign On Success
+# Node - string 
+Go to Sign On Success
 ## Configuration
 ID:  sili5r3wur
 
@@ -8,7 +9,8 @@ CapabilityName: goToNode
 
 ### Settings
 | Setting | Value  |
-| :------------------------ | ---------------------------------------- || Valid Authentication Method | [
+| :------------------------ | ---------------------------------------- || Valid Authentication Method | json 
+[
   {
     "children": [
       {
@@ -17,9 +19,10 @@ CapabilityName: goToNode
     ]
   }
 ]
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.0jvt7xvej2.payload.output.matchedUser.id}}",        "tooltip": "{{local.0jvt7xvej2.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.0jvt7xvej2.payload.output.matchedUser.id}}",        "tooltip": "{{local.0jvt7xvej2.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Expire Authentication Token | [
+| Expire Authentication Token | json 
+[
   {
     "children": [
       {
@@ -28,14 +31,14 @@ CapabilityName: goToNode
     ]
   }
 ] |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +52,7 @@ authMethod
 
 
 createSession
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,13 +66,13 @@ createSession
 
 
 nodeInstanceId
- ```json 
+```string 
 j3hvs9dks4
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -101,7 +104,7 @@ pingOneUserId
 
 
 sublfowResult
- ```json 
+```json 
 [
   {
     "children": [
@@ -116,7 +119,3 @@ sublfowResult
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [wy1q3vva1r](./wy1q3vva1r.md) |  |

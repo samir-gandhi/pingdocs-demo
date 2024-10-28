@@ -1,4 +1,5 @@
-# Functions - Check if Risk Policy ID is empty
+# Functions - string 
+Check if Risk Policy ID is empty
 ## Configuration
 ID:  dxowhkk5n5
 
@@ -9,21 +10,22 @@ CapabilityName: AIsEmpty
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Check if Risk Policy ID is empty | 
- 
+| Node Description | string 
+Check if Risk Policy ID is empty | 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +58,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [iloobtovwh](./iloobtovwh.md) | [kgxiu8h9i5](./kgxiu8h9i5.md) |
+| EVAL | [iloobtovwh](./iloobtovwh.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[kgxiu8h9i5](./kgxiu8h9i5.md) | 

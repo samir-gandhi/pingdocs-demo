@@ -5,15 +5,20 @@ ID:  2vij7q7i5j
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [64hrke1krq](./64hrke1krq.md) | [v68793bc1v](./v68793bc1v.md) |
+| NOP UI Page | [64hrke1krq](./64hrke1krq.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Is Agreement Enabled? |[v68793bc1v](./v68793bc1v.md) | 

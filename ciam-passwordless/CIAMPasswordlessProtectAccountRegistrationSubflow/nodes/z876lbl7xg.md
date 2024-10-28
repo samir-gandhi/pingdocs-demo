@@ -1,4 +1,5 @@
-# Http - Email Form
+# Http - string 
+Email Form
 ## Configuration
 ID:  z876lbl7xg
 
@@ -6,14 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -103,22 +100,29 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [xfe79n7ylz](./xfe79n7ylz.md), [9ajkfnvew2](./9ajkfnvew2.md) | [tew5x0pd7f](./tew5x0pd7f.md) |
+| EVAL | [9ajkfnvew2](./9ajkfnvew2.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[tew5x0pd7f](./tew5x0pd7f.md) | 

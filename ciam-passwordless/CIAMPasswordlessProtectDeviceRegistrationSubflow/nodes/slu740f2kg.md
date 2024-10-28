@@ -1,4 +1,5 @@
-# PingOne MFA - Delete Previous Device
+# PingOne MFA - string 
+Delete Previous Device
 ## Configuration
 ID:  slu740f2kg
 
@@ -9,17 +10,18 @@ CapabilityName: deleteDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Delete the non activated device to create a new one instead | 
- 
+| Node Description | string 
+Delete the non activated device to create a new one instead | 
+
 
 
 
 
 ### Additional Properties
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -58,7 +60,15 @@ deviceId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [h00gom93pv](./h00gom93pv.md) | [wdmeq58d57](./wdmeq58d57.md) |
+| EVAL | [h00gom93pv](./h00gom93pv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[wdmeq58d57](./wdmeq58d57.md) | 

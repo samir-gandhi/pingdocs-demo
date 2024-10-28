@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 SKRiskId
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +45,13 @@ SKRiskId
 
 
 nodeInstanceId
- ```json 
+```string 
 h2wapsopzt
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -87,7 +84,15 @@ pingOneUserId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [i21ma1l9mn](./i21ma1l9mn.md) | [yr66uwy0ma](./yr66uwy0ma.md) |
+| EVAL | [i21ma1l9mn](./i21ma1l9mn.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[yr66uwy0ma](./yr66uwy0ma.md) | 

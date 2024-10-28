@@ -1,4 +1,5 @@
-# Functions - Check for RIsk ID
+# Functions - string 
+Check for RIsk ID
 ## Configuration
 ID:  yesd4wr10s
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ovgv5ycn3o](./ovgv5ycn3o.md) | [kh21zbp6ux](./kh21zbp6ux.md) |
+| EVAL | [ovgv5ycn3o](./ovgv5ycn3o.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[kh21zbp6ux](./kh21zbp6ux.md) | 

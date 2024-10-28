@@ -1,4 +1,5 @@
-# Flow Connector - Continue Out of Band
+# Flow Connector - string 
+Continue Out of Band
 ## Configuration
 ID:  hhwhmetaid
 
@@ -6,15 +7,20 @@ Type: CONNECTION
 
 CapabilityName: oobContinue
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zv9k30dslp](./zv9k30dslp.md) | [ln2n5kqqb8](./ln2n5kqqb8.md) |
+| EVAL | [zv9k30dslp](./zv9k30dslp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ln2n5kqqb8](./ln2n5kqqb8.md) | 

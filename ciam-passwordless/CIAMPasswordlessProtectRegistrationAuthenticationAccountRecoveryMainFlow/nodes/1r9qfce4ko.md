@@ -1,4 +1,5 @@
-# Node - Authentication Complete
+# Node - string 
+Authentication Complete
 ## Configuration
 ID:  1r9qfce4ko
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -76,7 +74,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [n2c0bh5gsg](./n2c0bh5gsg.md) |

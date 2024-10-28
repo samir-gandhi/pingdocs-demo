@@ -6,23 +6,20 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 6ax7ut4bhe
 ```
 
 
 subflowResult
- ```json 
+```json 
 [
   {
     "children": [
@@ -37,7 +34,3 @@ subflowResult
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [j5g7kyj3v5](./j5g7kyj3v5.md) |  |

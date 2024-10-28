@@ -1,4 +1,5 @@
-# Error Message - Show Error From PingOne
+# Error Message - string 
+Show Error From PingOne
 ## Configuration
 ID:  qz2aml0p13
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +47,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [hqdb3y3i65](./hqdb3y3i65.md) |  |

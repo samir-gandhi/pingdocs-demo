@@ -1,4 +1,5 @@
-# Error Message - User Not Found Error
+# Error Message - string 
+User Not Found Error
 ## Configuration
 ID:  yfv4l5oqrn
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -36,7 +34,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +52,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ybma422b3i](./ybma422b3i.md) |  |

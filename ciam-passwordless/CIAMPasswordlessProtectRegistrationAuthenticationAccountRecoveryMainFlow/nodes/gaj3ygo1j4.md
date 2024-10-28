@@ -5,30 +5,35 @@ ID:  gaj3ygo1j4
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 mg0lkb9ayl
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qmpie4zfny](./qmpie4zfny.md) | [mg0lkb9ayl](./mg0lkb9ayl.md), [uekzlj66vx](./uekzlj66vx.md) |
+| Check if Known Device | [qmpie4zfny](./qmpie4zfny.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| PingOne Notifications |[mg0lkb9ayl](./mg0lkb9ayl.md)Risk Score from PingOne Protect |[uekzlj66vx](./uekzlj66vx.md) | 

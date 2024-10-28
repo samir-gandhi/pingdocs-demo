@@ -5,24 +5,29 @@ ID:  3v5v4xjvbl
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ovk5dkt9mw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ohp2wj0s2n](./ohp2wj0s2n.md) | [9lj2zn3s78](./9lj2zn3s78.md) |
+| Email Form Selection | [ohp2wj0s2n](./ohp2wj0s2n.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[9lj2zn3s78](./9lj2zn3s78.md) | 

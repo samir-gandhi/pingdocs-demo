@@ -1,4 +1,5 @@
-# Challenge - Check Challenge Status
+# Challenge - string 
+Check Challenge Status
 ## Configuration
 ID:  exmvyabfps
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: getChallenge
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 challenge
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +47,15 @@ challenge
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ln2n5kqqb8](./ln2n5kqqb8.md) | [9rfeo7c8cp](./9rfeo7c8cp.md) |
+| EVAL | [ln2n5kqqb8](./ln2n5kqqb8.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[9rfeo7c8cp](./9rfeo7c8cp.md) | 

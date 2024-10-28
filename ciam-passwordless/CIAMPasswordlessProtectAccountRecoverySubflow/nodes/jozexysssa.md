@@ -5,15 +5,20 @@ ID:  jozexysssa
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [mxiurb5xux](./mxiurb5xux.md) | [nc1ozqg2dy](./nc1ozqg2dy.md) |
+| Send email for threat detected | [mxiurb5xux](./mxiurb5xux.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Disable User |[nc1ozqg2dy](./nc1ozqg2dy.md) | 

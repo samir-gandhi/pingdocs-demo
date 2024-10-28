@@ -1,4 +1,5 @@
-# PingOne - Find User By Username
+# PingOne - string 
+Find User By Username
 ## Configuration
 ID:  4kcztxnwnw
 
@@ -6,23 +7,19 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +52,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [bv1bbofla6](./bv1bbofla6.md) | [va3e8v4pwh](./va3e8v4pwh.md) |
+| EVAL | [bv1bbofla6](./bv1bbofla6.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[va3e8v4pwh](./va3e8v4pwh.md) | 

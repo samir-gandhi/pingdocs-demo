@@ -1,4 +1,5 @@
-# Functions - Only One Usable Device
+# Functions - string 
+Only One Usable Device
 ## Configuration
 ID:  frh74jp1jg
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [v0t14r4lv2](./v0t14r4lv2.md) | [ydyrhm9fkz](./ydyrhm9fkz.md) |
+| EVAL | [v0t14r4lv2](./v0t14r4lv2.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ydyrhm9fkz](./ydyrhm9fkz.md) | 

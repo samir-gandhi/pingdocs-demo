@@ -5,30 +5,35 @@ ID:  4smjdpxvyk
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 866hws1wwv
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 sdvxpx62lw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [7mu81oaiqx](./7mu81oaiqx.md) | [sdvxpx62lw](./sdvxpx62lw.md), [bvogh6r954](./bvogh6r954.md) |
+| Check If User Needs To Enter Email | [7mu81oaiqx](./7mu81oaiqx.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check If User Can Auto Enroll? |[sdvxpx62lw](./sdvxpx62lw.md)Email Form |[bvogh6r954](./bvogh6r954.md) | 

@@ -5,24 +5,29 @@ ID:  fqkfitsm9p
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 w16j6hvh6d
- ```json 
+```string 
 allTriggersTrue
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ins74ygtvc](./ins74ygtvc.md) | [w16j6hvh6d](./w16j6hvh6d.md) |
+| Check Session | [ins74ygtvc](./ins74ygtvc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check For Valid Session |[w16j6hvh6d](./w16j6hvh6d.md) | 

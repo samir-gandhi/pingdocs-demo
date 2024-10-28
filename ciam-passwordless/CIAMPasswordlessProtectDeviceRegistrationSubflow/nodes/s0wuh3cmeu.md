@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 Country Code
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ Country Code
 
 
 Country Code Input
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ Country Code Input
 
 
 Device Type
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +109,7 @@ Device Type
 
 
 Phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,7 +141,7 @@ Phone
 
 
 PingOne User ID
- ```json 
+```json 
 [
   {
     "children": [
@@ -176,7 +173,7 @@ PingOne User ID
 
 
 countryCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -208,7 +205,7 @@ countryCode
 
 
 deviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -240,13 +237,13 @@ deviceType
 
 
 nodeInstanceId
- ```json 
+```string 
 dc2mhwx86e
 ```
 
 
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -278,7 +275,7 @@ phone
 
 
 rpid
- ```json 
+```json 
 [
   {
     "children": [
@@ -310,7 +307,7 @@ rpid
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -342,7 +339,7 @@ typeDisplayNames
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -375,7 +372,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [3mjp355lsy](./3mjp355lsy.md) |  |

@@ -5,24 +5,29 @@ ID:  8b7afymuxh
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 wdhgxaxnfa
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [y1g5lzp3md](./y1g5lzp3md.md) | [wdhgxaxnfa](./wdhgxaxnfa.md), [se0w7zdrd7](./se0w7zdrd7.md) |
+| Did Subflow Return Success | [y1g5lzp3md](./y1g5lzp3md.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[wdhgxaxnfa](./wdhgxaxnfa.md)Reset Password Success Message |[se0w7zdrd7](./se0w7zdrd7.md) | 

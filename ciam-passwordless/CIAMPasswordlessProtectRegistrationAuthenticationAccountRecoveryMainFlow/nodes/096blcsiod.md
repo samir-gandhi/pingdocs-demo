@@ -8,7 +8,8 @@ CapabilityName: goToNode
 
 ### Settings
 | Setting | Value  |
-| :------------------------ | ---------------------------------------- || Valid Authentication Method | [
+| :------------------------ | ---------------------------------------- || Valid Authentication Method | json 
+[
   {
     "children": [
       {
@@ -35,9 +36,10 @@ CapabilityName: goToNode
     ]
   }
 ]
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "flow-connector.svg",        "url": "ciam_pingOneUserId",        "data": "{{local.g1w1cltra3.payload.output.ciam_pingOneUserId}}",        "tooltip": "{{local.g1w1cltra3.payload.output.ciam_pingOneUserId}}",        "children": [          {            "text": "ciam_pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "flow-connector.svg",        "url": "ciam_pingOneUserId",        "data": "{{local.g1w1cltra3.payload.output.ciam_pingOneUserId}}",        "tooltip": "{{local.g1w1cltra3.payload.output.ciam_pingOneUserId}}",        "children": [          {            "text": "ciam_pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Expire Authentication Token | [
+| Expire Authentication Token | json 
+[
   {
     "children": [
       {
@@ -64,14 +66,14 @@ CapabilityName: goToNode
     ]
   }
 ] |
- 
+
 
 
 
 
 ### Additional Properties
 createSession
- ```json 
+```json 
 [
   {
     "children": [
@@ -85,7 +87,7 @@ createSession
 
 
 flowMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -117,13 +119,13 @@ flowMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 x8uq3h1ccd
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -156,7 +158,3 @@ pingOneUserId
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [tcx0nm2t9o](./tcx0nm2t9o.md) |  |

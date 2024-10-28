@@ -1,4 +1,5 @@
-# Functions - User action 
+# Functions - string 
+User action 
 ## Configuration
 ID:  t9jyjrzivl
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [rkuiz7q78p](./rkuiz7q78p.md) | [qwx56pgrc8](./qwx56pgrc8.md), [jm2mglfpb1](./jm2mglfpb1.md) |
+| EVAL | [rkuiz7q78p](./rkuiz7q78p.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[jm2mglfpb1](./jm2mglfpb1.md) | 

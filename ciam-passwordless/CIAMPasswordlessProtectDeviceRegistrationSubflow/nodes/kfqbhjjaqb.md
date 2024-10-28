@@ -1,4 +1,5 @@
-# Functions - Filter Unusable Device Types
+# Functions - string 
+Filter Unusable Device Types
 ## Configuration
 ID:  kfqbhjjaqb
 
@@ -6,17 +7,30 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+  "output": {
+    "type": "object",
+    "properties": {
+      "usableDevices": {
+        "type": "array"
+      },
+      "count": {
+        "type": "number"
+      }
+    }
+  }
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 module.exports = a = async ({ params }) => {
     console.log(&#39;params: &#39;, params)
 
@@ -66,33 +80,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-  "output": {
-    "type": "object",
-    "properties": {
-      "usableDevices": {
-        "type": "array"
-      },
-      "count": {
-        "type": "number"
-      }
-    }
-  }
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [tir7r8fvkp](./tir7r8fvkp.md) | [2ewaah2axe](./2ewaah2axe.md) |
+| EVAL | [tir7r8fvkp](./tir7r8fvkp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[2ewaah2axe](./2ewaah2axe.md) | 

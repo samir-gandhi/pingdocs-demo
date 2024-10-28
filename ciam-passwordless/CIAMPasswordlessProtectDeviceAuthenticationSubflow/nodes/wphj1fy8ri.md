@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ canChangeDevice
 
 
 deviceAuthId
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ deviceAuthId
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -103,7 +100,7 @@ deviceId
 
 
 maskedMagicLinkEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -135,13 +132,13 @@ maskedMagicLinkEmail
 
 
 nodeInstanceId
- ```json 
+```string 
 zbhvblc83s
 ```
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -173,7 +170,7 @@ origin
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -205,7 +202,7 @@ pingOneUserId
 
 
 publicKeyCredentialCreationOptions
- ```json 
+```json 
 [
   {
     "children": [
@@ -237,7 +234,7 @@ publicKeyCredentialCreationOptions
 
 
 status
- ```json 
+```json 
 [
   {
     "children": [
@@ -269,7 +266,7 @@ status
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -302,7 +299,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [47qta86y95](./47qta86y95.md) |  |

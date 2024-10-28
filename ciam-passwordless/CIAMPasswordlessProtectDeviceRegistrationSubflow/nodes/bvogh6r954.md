@@ -1,4 +1,5 @@
-# Http - Email Form
+# Http - string 
+Email Form
 ## Configuration
 ID:  bvogh6r954
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | User enters email | 
- 
+| Node Description | string 
+User enters email | 
 
 
 ## Custom HTML
-```html
+```html 
 <div
   class="bg-light d-flex flex-column justify-content-center align-items-center position-absolute top-0 start-0 bottom-0 end-0 overflow-auto">
   <div class="mh-100" style="max-width: 400px; width: 100%;">
@@ -53,22 +54,29 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [4smjdpxvyk](./4smjdpxvyk.md) | [rkuiz7q78p](./rkuiz7q78p.md) |
+| EVAL | [4smjdpxvyk](./4smjdpxvyk.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[rkuiz7q78p](./rkuiz7q78p.md) | 

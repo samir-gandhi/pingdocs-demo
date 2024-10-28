@@ -1,4 +1,5 @@
-# Flow Connector - CIAM - Device Authentication
+# Flow Connector - string 
+CIAM - Device Authentication
 ## Configuration
 ID:  eht5fkf5yz
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 allowedDeviceTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ allowedDeviceTypes
 
 
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +78,7 @@ ciam_companyLogo
 
 
 ciam_magicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +110,7 @@ ciam_magicLinkEnabled
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,7 +142,7 @@ email
 
 
 magicLinkEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -176,7 +174,7 @@ magicLinkEnabled
 
 
 magicLinkRegistered
- ```json 
+```json 
 [
   {
     "children": [
@@ -190,7 +188,7 @@ magicLinkRegistered
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -222,7 +220,7 @@ pingOneUserId
 
 
 username
- ```json 
+```json 
 [
   {
     "children": [
@@ -255,7 +253,15 @@ username
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [71chk8uoyb](./71chk8uoyb.md) | [hp2eob8gy8](./hp2eob8gy8.md) |
+| EVAL | [71chk8uoyb](./71chk8uoyb.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[hp2eob8gy8](./hp2eob8gy8.md) | 

@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authenticatorAttachment
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +45,13 @@ authenticatorAttachment
 
 
 nodeInstanceId
- ```json 
+```string 
 vc8o1wnpis
 ```
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ origin
 
 
 rpid
- ```json 
+```json 
 [
   {
     "children": [
@@ -118,7 +115,7 @@ rpid
 
 
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -150,7 +147,7 @@ type
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -182,7 +179,7 @@ typeDisplayNames
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -215,7 +212,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [j0zgu89bdj](./j0zgu89bdj.md) |  |

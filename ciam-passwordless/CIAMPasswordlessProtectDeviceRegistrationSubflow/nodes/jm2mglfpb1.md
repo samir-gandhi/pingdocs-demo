@@ -5,15 +5,20 @@ ID:  jm2mglfpb1
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [t9jyjrzivl](./t9jyjrzivl.md) | [gnhn62hei1](./gnhn62hei1.md) |
+| User action  | [t9jyjrzivl](./t9jyjrzivl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[gnhn62hei1](./gnhn62hei1.md) | 

@@ -1,4 +1,5 @@
-# Node - Success
+# Node - string 
+Success
 ## Configuration
 ID:  8qr5bc3clq
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -35,7 +33,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [jf9akdpa1q](./jf9akdpa1q.md) |

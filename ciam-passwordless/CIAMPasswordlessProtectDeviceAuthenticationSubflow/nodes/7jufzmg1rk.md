@@ -1,4 +1,5 @@
-# PingOne MFA - Activate MFA Device
+# PingOne MFA - string 
+Activate MFA Device
 ## Configuration
 ID:  7jufzmg1rk
 
@@ -9,34 +10,34 @@ CapabilityName: activateDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "tooltip": "{{local.3y03qc0kxe.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 customDeviceType
- ```json 
+```json 
 {}
 ```
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -68,13 +69,13 @@ deviceId
 
 
 deviceType
- ```json 
+```string 
 EMAIL
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -106,7 +107,7 @@ email
 
 
 otp
- ```json 
+```json 
 [
   {
     "children": [
@@ -138,14 +139,22 @@ otp
 
 
 status
- ```json 
+```string 
 ACTIVE
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [kho2rpwvb7](./kho2rpwvb7.md) | [qw4n733f3t](./qw4n733f3t.md) |
+| Evaluator | [kho2rpwvb7](./kho2rpwvb7.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[qw4n733f3t](./qw4n733f3t.md) | 

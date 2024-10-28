@@ -1,4 +1,5 @@
-# PingOne Notifications - Send Magic Link Email
+# PingOne Notifications - string 
+Send Magic Link Email
 ## Configuration
 ID:  fetjewgnk5
 
@@ -9,22 +10,22 @@ CapabilityName: sendEmail
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.n6qy3v9bsy.payload.output.matchedUser.id}}",        "tooltip": "{{local.n6qy3v9bsy.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.n6qy3v9bsy.payload.output.matchedUser.id}}",        "tooltip": "{{local.n6qy3v9bsy.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,20 +57,27 @@ email
 
 
 templateVariables
- ```json 
-
+```
 ```
 
 
 templateVariant
- ```json 
+```string 
 Magic Link
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [65s242z206](./65s242z206.md) | [ali9zum89s](./ali9zum89s.md) |
+| EVAL | [65s242z206](./65s242z206.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ali9zum89s](./ali9zum89s.md) | 

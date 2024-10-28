@@ -5,15 +5,20 @@ ID:  i21ma1l9mn
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qimhttv2jm](./qimhttv2jm.md) | [muyh5iinqk](./muyh5iinqk.md) |
+| Initiate Sk-risk | [qimhttv2jm](./qimhttv2jm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[muyh5iinqk](./muyh5iinqk.md) | 

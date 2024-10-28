@@ -1,4 +1,5 @@
-# Flow Connector - Create Magic Link
+# Flow Connector - string 
+Create Magic Link
 ## Configuration
 ID:  zsk0ny89ud
 
@@ -6,24 +7,29 @@ Type: CONNECTION
 
 CapabilityName: oobStart
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 challengeExpiry
- ```json 
+```float64 
 150.00
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zv9k30dslp](./zv9k30dslp.md) | [65s242z206](./65s242z206.md) |
+| EVAL | [zv9k30dslp](./zv9k30dslp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[65s242z206](./65s242z206.md) | 

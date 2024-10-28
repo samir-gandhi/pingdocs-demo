@@ -5,15 +5,20 @@ ID:  9rfeo7c8cp
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [exmvyabfps](./exmvyabfps.md) | [jdrbqfg1mz](./jdrbqfg1mz.md) |
+| Check Challenge Status | [exmvyabfps](./exmvyabfps.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Is Challenge Not Expired? |[jdrbqfg1mz](./jdrbqfg1mz.md) | 

@@ -5,15 +5,20 @@ ID:  531xfigfe0
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [cxjw4q2ocj](./cxjw4q2ocj.md) | [qvja9ysrwp](./qvja9ysrwp.md) |
+| Check Method Selected | [cxjw4q2ocj](./cxjw4q2ocj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[qvja9ysrwp](./qvja9ysrwp.md) | 

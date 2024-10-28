@@ -1,4 +1,5 @@
-# Functions - Is Passwordless Required?
+# Functions - string 
+Is Passwordless Required?
 ## Configuration
 ID:  8fovn3syu3
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [f0p9tnng3j](./f0p9tnng3j.md) | [mkz8u9xtjp](./mkz8u9xtjp.md) |
+| EVAL | [f0p9tnng3j](./f0p9tnng3j.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[mkz8u9xtjp](./mkz8u9xtjp.md) | 

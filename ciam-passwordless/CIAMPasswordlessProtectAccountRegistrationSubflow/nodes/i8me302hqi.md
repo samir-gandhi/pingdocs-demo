@@ -1,4 +1,5 @@
-# Functions - Is Passwordless Not Required?
+# Functions - string 
+Is Passwordless Not Required?
 ## Configuration
 ID:  i8me302hqi
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [x3sr98yxnv](./x3sr98yxnv.md) | [a2zg9lz4ta](./a2zg9lz4ta.md) |
+| EVAL | [x3sr98yxnv](./x3sr98yxnv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[a2zg9lz4ta](./a2zg9lz4ta.md) | 

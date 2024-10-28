@@ -1,4 +1,5 @@
-# PingOne MFA - Create OTP Device
+# PingOne MFA - string 
+Create OTP Device
 ## Configuration
 ID:  pjzv5pikab
 
@@ -9,16 +10,16 @@ CapabilityName: createDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 customDeviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -50,25 +51,25 @@ customDeviceType
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceType
- ```json 
+```string 
 enterDeviceType
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -106,7 +107,7 @@ email
 
 
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -150,13 +151,13 @@ phone
 
 
 status
- ```json 
+```string 
 ACTIVATION_REQUIRED
 ```
 
 
 workforceDeviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -195,7 +196,15 @@ workforceDeviceType
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [9a49qb1y7k](./9a49qb1y7k.md) | [thtxgh5tye](./thtxgh5tye.md) |
+| EVAL | [9a49qb1y7k](./9a49qb1y7k.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[thtxgh5tye](./thtxgh5tye.md) | 

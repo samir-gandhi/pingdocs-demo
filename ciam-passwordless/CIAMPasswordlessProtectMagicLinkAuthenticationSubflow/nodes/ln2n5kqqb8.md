@@ -5,15 +5,20 @@ ID:  ln2n5kqqb8
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [hhwhmetaid](./hhwhmetaid.md) | [exmvyabfps](./exmvyabfps.md) |
+| Continue Out of Band | [hhwhmetaid](./hhwhmetaid.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check Challenge Status |[exmvyabfps](./exmvyabfps.md) | 

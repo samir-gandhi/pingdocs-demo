@@ -1,4 +1,5 @@
-# Functions - Split By User&#39;s Selection
+# Functions - string 
+Split By User&#39;s Selection
 ## Configuration
 ID:  rtv1hwltfy
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsMultipleB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Branch based on the button selected on the forgot password form | 
- 
+| Node Description | string 
+Branch based on the button selected on the forgot password form | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,14 +65,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [n9tgrbpiz4](./n9tgrbpiz4.md) | [bl9wn96q7z](./bl9wn96q7z.md), [fecpsdg3u3](./fecpsdg3u3.md), [t6hyz30ejn](./t6hyz30ejn.md) |
+| EVAL | [n9tgrbpiz4](./n9tgrbpiz4.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[t6hyz30ejn](./t6hyz30ejn.md) | 

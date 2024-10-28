@@ -1,4 +1,5 @@
-# Error Message - No User Found Error
+# Error Message - string 
+No User Found Error
 ## Configuration
 ID:  ixpij6bdtq
 
@@ -9,15 +10,16 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | No existing user with this email. | 
- 
+| Node Description | string 
+No existing user with this email. | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -34,7 +36,7 @@ errorCode
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +50,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -65,7 +67,7 @@ errorMessage
 
 
 errorReason
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +82,3 @@ errorReason
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [mcc4xn7khm](./mcc4xn7khm.md) |  |

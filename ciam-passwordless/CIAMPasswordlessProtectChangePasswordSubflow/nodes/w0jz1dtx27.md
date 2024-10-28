@@ -1,4 +1,5 @@
-# Functions - Verify Passwords Match
+# Functions - string 
+Verify Passwords Match
 ## Configuration
 ID:  w0jz1dtx27
 
@@ -6,17 +7,27 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"success": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Test to ensure passwords match
 module.exports = a = async ({ params }) => {
 	const newPassword = params.newPassword;
@@ -31,30 +42,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"success": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2inl0soj3i](./2inl0soj3i.md) | [6oeo7c9bch](./6oeo7c9bch.md) |
+| EVAL | [2inl0soj3i](./2inl0soj3i.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[6oeo7c9bch](./6oeo7c9bch.md) | 

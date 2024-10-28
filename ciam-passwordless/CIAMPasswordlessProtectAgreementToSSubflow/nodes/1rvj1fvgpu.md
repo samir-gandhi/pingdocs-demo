@@ -1,4 +1,5 @@
-# Functions - Check If Consent Status Is Accepted
+# Functions - string 
+Check If Consent Status Is Accepted
 ## Configuration
 ID:  1rvj1fvgpu
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [h22w6agh1](./h22w6agh1.md) | [4h6hi1onkj](./4h6hi1onkj.md) |
+| Evaluator | [h22w6agh1](./h22w6agh1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[4h6hi1onkj](./4h6hi1onkj.md) | 

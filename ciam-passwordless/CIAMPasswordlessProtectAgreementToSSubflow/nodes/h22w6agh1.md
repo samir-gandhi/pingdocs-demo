@@ -5,24 +5,29 @@ ID:  h22w6agh1
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 8zvqjrwsj8
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8jemlov0oc](./8jemlov0oc.md) | [1rvj1fvgpu](./1rvj1fvgpu.md), [8zvqjrwsj8](./8zvqjrwsj8.md) |
+| Check User Consent Status | [8jemlov0oc](./8jemlov0oc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check If Consent Status Is Accepted |[1rvj1fvgpu](./1rvj1fvgpu.md)Node |[8zvqjrwsj8](./8zvqjrwsj8.md) | 

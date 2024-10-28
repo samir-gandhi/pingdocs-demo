@@ -5,15 +5,20 @@ ID:  qskpbqg2yf
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [xsb00g2t92](./xsb00g2t92.md) | [s5yykzv8zd](./s5yykzv8zd.md) |
+| Set Validation Attempt To Zero | [xsb00g2t92](./xsb00g2t92.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Prompt For Verification Code |[s5yykzv8zd](./s5yykzv8zd.md) | 

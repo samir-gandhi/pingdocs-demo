@@ -1,4 +1,5 @@
-# Functions - Can User Register Another Device?
+# Functions - string 
+Can User Register Another Device?
 ## Configuration
 ID:  2tv7r1hqp9
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: ALessThanB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -83,7 +81,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -118,14 +116,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [jh39me4hnk](./jh39me4hnk.md) | [qj3vhzekmd](./qj3vhzekmd.md) |
+| EVAL | [jh39me4hnk](./jh39me4hnk.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[qj3vhzekmd](./qj3vhzekmd.md) | 

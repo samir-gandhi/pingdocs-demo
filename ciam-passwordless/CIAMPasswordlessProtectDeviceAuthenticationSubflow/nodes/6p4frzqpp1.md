@@ -1,4 +1,5 @@
-# Http - Get Origin
+# Http - string 
+Get Origin
 ## Configuration
 ID:  6p4frzqpp1
 
@@ -9,18 +10,19 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Get Origin and initialise skrisk | 
- 
+| Node Description | string 
+Get Origin and initialise skrisk | 
 
 ## Custom CSS
 ```css
+json 
 .hidden-button{
     display: none;
 }
 ```
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -89,7 +91,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 setTimeout(function() {
     const origin = window.location.origin;
     document.getElementById("origin").value = origin;
@@ -101,16 +103,12 @@ setTimeout(function() {
 }, 1000);
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [sk7vd2o3r7](./sk7vd2o3r7.md) |

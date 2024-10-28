@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 countryCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ countryCode
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ deviceId
 
 
 deviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +109,7 @@ deviceType
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,13 +141,13 @@ email
 
 
 nodeInstanceId
- ```json 
+```string 
 eh45uuo9ep
 ```
 
 
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -182,7 +179,7 @@ phone
 
 
 rpid
- ```json 
+```json 
 [
   {
     "children": [
@@ -214,7 +211,7 @@ rpid
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -246,7 +243,7 @@ typeDisplayNames
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -279,7 +276,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [jacbwkhwfc](./jacbwkhwfc.md) |  |

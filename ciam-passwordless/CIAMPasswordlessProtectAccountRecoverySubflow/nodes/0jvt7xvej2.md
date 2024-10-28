@@ -1,4 +1,5 @@
-# PingOne - Lookup User
+# PingOne - string 
+Lookup User
 ## Configuration
 ID:  0jvt7xvej2
 
@@ -6,29 +7,25 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 matchAttributes
- ```json 
-
+```
 ```
 
 
 returnUserPasswordStatus
- ```json 
+```bool 
 true
 ```
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -61,7 +58,15 @@ userIdentifierForFindUser
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [k0gh9sf1l8](./k0gh9sf1l8.md) | [mcc4xn7khm](./mcc4xn7khm.md) |
+| EVAL | [k0gh9sf1l8](./k0gh9sf1l8.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[mcc4xn7khm](./mcc4xn7khm.md) | 

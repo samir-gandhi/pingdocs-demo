@@ -1,4 +1,5 @@
-# PingOne MFA - Start MFA Authentication
+# PingOne MFA - string 
+Start MFA Authentication
 ## Configuration
 ID:  10oaokas61
 
@@ -9,40 +10,39 @@ CapabilityName: createDeviceAuthentication
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 authTemplateName
- ```json 
-
+```
 ```
 
 
 customApplicationId
- ```json 
+```json 
 {}
 ```
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 fidoCompatibility
- ```json 
+```json 
 [
   {
     "children": [
@@ -74,7 +74,7 @@ fidoCompatibility
 
 
 rpId
- ```json 
+```json 
 [
   {
     "children": [
@@ -107,7 +107,15 @@ rpId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [0sua91hqk7](./0sua91hqk7.md) | [4l39ap532m](./4l39ap532m.md) |
+| EVAL | [0sua91hqk7](./0sua91hqk7.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[4l39ap532m](./4l39ap532m.md) | 

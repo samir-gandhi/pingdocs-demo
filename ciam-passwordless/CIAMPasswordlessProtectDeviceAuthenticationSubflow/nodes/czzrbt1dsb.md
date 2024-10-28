@@ -1,4 +1,5 @@
-# Functions - Magic Link Enabled
+# Functions - string 
+Magic Link Enabled
 ## Configuration
 ID:  czzrbt1dsb
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 boolean
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [0sua91hqk7](./0sua91hqk7.md), [bf9jlbogz1](./bf9jlbogz1.md) | [7vz1yqkdqo](./7vz1yqkdqo.md) |
+| EVAL | [bf9jlbogz1](./bf9jlbogz1.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[7vz1yqkdqo](./7vz1yqkdqo.md) | 

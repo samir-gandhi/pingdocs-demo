@@ -1,4 +1,5 @@
-# Flow Connector - Change Password
+# Flow Connector - string 
+Change Password
 ## Configuration
 ID:  sbudfzsp5m
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ ciam_companyLogo
 
 
 showSuccessMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,7 +60,7 @@ showSuccessMessage
 
 
 userID
- ```json 
+```json 
 [
   {
     "children": [
@@ -95,7 +93,15 @@ userID
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [83g36u9ohr](./83g36u9ohr.md) | [ug3m1588jl](./ug3m1588jl.md) |
+| EVAL | [83g36u9ohr](./83g36u9ohr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[ug3m1588jl](./ug3m1588jl.md) | 

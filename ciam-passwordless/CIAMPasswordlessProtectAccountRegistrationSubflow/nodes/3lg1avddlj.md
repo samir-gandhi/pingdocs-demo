@@ -5,15 +5,20 @@ ID:  3lg1avddlj
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [6tbnogu9pe](./6tbnogu9pe.md) | [onba8ryx6o](./onba8ryx6o.md) |
+| Get Values from PingOne Protect analysis | [6tbnogu9pe](./6tbnogu9pe.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[onba8ryx6o](./onba8ryx6o.md) | 

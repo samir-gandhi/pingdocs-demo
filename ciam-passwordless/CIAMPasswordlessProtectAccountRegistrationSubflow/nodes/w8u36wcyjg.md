@@ -1,4 +1,5 @@
-# Http - NOP UI Page
+# Http - string 
+NOP UI Page
 ## Configuration
 ID:  w8u36wcyjg
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Initiate SK Risk SDK with appropriate details to initiate PingOne Protect feature. | 
- 
+| Node Description | string 
+Initiate SK Risk SDK with appropriate details to initiate PingOne Protect feature. | 
 
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -143,16 +144,12 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [9ajkfnvew2](./9ajkfnvew2.md) |

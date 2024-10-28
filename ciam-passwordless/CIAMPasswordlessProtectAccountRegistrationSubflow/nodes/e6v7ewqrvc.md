@@ -5,15 +5,20 @@ ID:  e6v7ewqrvc
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ounerl6t9](./ounerl6t9.md) | [g0ofs7x7ej](./g0ofs7x7ej.md) |
+| Device Registration Result | [ounerl6t9](./ounerl6t9.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[g0ofs7x7ej](./g0ofs7x7ej.md) | 

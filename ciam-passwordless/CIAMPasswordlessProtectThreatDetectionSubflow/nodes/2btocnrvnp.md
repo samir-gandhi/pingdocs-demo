@@ -9,59 +9,56 @@ CapabilityName: updateAnnotationProperties
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #5D00D6ff | 
+| Node Background Color | html 
+#5D00D6ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 annotation
- ```json 
+```string 
 Detect Threat using PingOne
 ```
 
 
 annotationTextColor
- ```json 
+```html 
 #ffffffff
 ```
 
 
 cornerRadius
- ```json 
+```float64 
 20.00
 ```
 
 
 fontFamily
- ```json 
+```string 
 sans-serif
 ```
 
 
 fontSize
- ```json 
+```float64 
 14.00
 ```
 
 
 fontStyle
- ```json 
+```string 
 bold
 ```
 
 
 width
- ```json 
+```float64 
 1500.00
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  |  |

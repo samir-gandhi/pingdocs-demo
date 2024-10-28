@@ -1,4 +1,5 @@
-# PingOne MFA - Create device
+# PingOne MFA - string 
+Create device
 ## Configuration
 ID:  ybbdsq2fzf
 
@@ -9,16 +10,16 @@ CapabilityName: createDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 customDeviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -50,25 +51,25 @@ customDeviceType
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceType
- ```json 
+```string 
 enterDeviceType
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -106,7 +107,7 @@ email
 
 
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -168,13 +169,13 @@ phone
 
 
 status
- ```json 
+```string 
 ACTIVATION_REQUIRED
 ```
 
 
 workforceDeviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -205,7 +206,15 @@ workforceDeviceType
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wdmeq58d57](./wdmeq58d57.md) | [jozso5l9gu](./jozso5l9gu.md) |
+| EVAL | [wdmeq58d57](./wdmeq58d57.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[jozso5l9gu](./jozso5l9gu.md) | 

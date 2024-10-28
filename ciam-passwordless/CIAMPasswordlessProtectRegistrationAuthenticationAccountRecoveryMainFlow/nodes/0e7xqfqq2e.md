@@ -1,4 +1,5 @@
-# PingOne Authentication - Return With Success Response
+# PingOne Authentication - string 
+Return With Success Response
 ## Configuration
 ID:  0e7xqfqq2e
 
@@ -8,26 +9,28 @@ CapabilityName: returnSuccessResponseWidget
 
 ### Settings
 | Setting | Value  |
-| :------------------------ | ---------------------------------------- || Valid Authentication Method | useCustomAuthenticationMethods
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.jimu9wsyls.payload.output.matchedUser.id}}",        "tooltip": "{{local.jimu9wsyls.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| :------------------------ | ---------------------------------------- || Valid Authentication Method | string 
+useCustomAuthenticationMethods
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.jimu9wsyls.payload.output.matchedUser.id}}",        "tooltip": "{{local.jimu9wsyls.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Expire Authentication Token | useCustomAuthenticationMethods |
-| Node Background Color | #9dc967ff | 
+| Expire Authentication Token | string 
+useCustomAuthenticationMethods |
+| Node Background Color | html 
+#9dc967ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 additionalProperties
- ```json 
-
+```
 ```
 
 
 customAuthenticationMethods
- ```json 
+```json 
 [
   {
     "children": [
@@ -60,7 +63,15 @@ customAuthenticationMethods
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [jio5trsqxr](./jio5trsqxr.md) | [69tmgilhek](./69tmgilhek.md) |
+| EVAL | [jio5trsqxr](./jio5trsqxr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[69tmgilhek](./69tmgilhek.md) | 

@@ -5,24 +5,29 @@ ID:  drn0tajuo1
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ebtd5fr0tn](./ebtd5fr0tn.md) | [footoj1rr5](./footoj1rr5.md) |
+| Approve Challenge Status | [ebtd5fr0tn](./ebtd5fr0tn.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Success Message |[footoj1rr5](./footoj1rr5.md) | 

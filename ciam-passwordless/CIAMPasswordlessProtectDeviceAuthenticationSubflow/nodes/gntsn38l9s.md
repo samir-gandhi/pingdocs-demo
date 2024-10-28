@@ -1,4 +1,5 @@
-# Flow Connector - CIAM - Magic Link Authentication
+# Flow Connector - string 
+CIAM - Magic Link Authentication
 ## Configuration
 ID:  gntsn38l9s
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 anyMfaDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ anyMfaDevices
 
 
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,7 +60,7 @@ canChangeDevice
 
 
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -94,7 +92,7 @@ ciam_companyLogo
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -126,7 +124,7 @@ email
 
 
 mfaEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -159,7 +157,15 @@ mfaEnabled
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [7vz1yqkdqo](./7vz1yqkdqo.md) | [51zazld6jz](./51zazld6jz.md) |
+| Evaluator | [7vz1yqkdqo](./7vz1yqkdqo.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[51zazld6jz](./51zazld6jz.md) | 

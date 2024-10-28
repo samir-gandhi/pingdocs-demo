@@ -1,4 +1,5 @@
-# Node - Post Account Creation
+# Node - string 
+Post Account Creation
 ## Configuration
 ID:  i2k2g4dd4k
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -48,7 +46,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [waqap3wtx](./waqap3wtx.md) |

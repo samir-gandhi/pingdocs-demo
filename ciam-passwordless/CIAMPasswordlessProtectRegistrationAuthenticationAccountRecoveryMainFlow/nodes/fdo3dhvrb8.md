@@ -1,4 +1,5 @@
-# Error Message - Error Message for user not found.
+# Error Message - string 
+Error Message for user not found.
 ## Configuration
 ID:  fdo3dhvrb8
 
@@ -9,21 +10,22 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Error message for user not found. | 
- 
+| Node Description | string 
+Error message for user not found. | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -37,7 +39,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -52,7 +54,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [71uz2oxfw9](./71uz2oxfw9.md) |  |

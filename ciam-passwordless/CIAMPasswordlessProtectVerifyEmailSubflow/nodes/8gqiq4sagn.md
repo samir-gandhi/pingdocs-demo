@@ -1,4 +1,5 @@
-# Error Message - Could not validate the verification code
+# Error Message - string 
+Could not validate the verification code
 ## Configuration
 ID:  8gqiq4sagn
 
@@ -9,16 +10,17 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -50,7 +52,7 @@ errorCode
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -67,7 +69,7 @@ errorMessage
 
 
 errorReason
- ```json 
+```json 
 [
   {
     "children": [
@@ -100,7 +102,3 @@ errorReason
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [r8sc175hhf](./r8sc175hhf.md) |  |

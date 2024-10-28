@@ -1,4 +1,5 @@
-# Http - Forgot Password Form
+# Http - string 
+Forgot Password Form
 ## Configuration
 ID:  klrsk927mu
 
@@ -9,12 +10,12 @@ CapabilityName: customHTMLTemplate
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | A form for the user to submit the email of the account they forgot the password to | 
- 
+| Node Description | string 
+A form for the user to submit the email of the account they forgot the password to | 
 
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -104,7 +105,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 const focusOnFirstInputElement = () => {
   document.getElementById("username").focus();
 };
@@ -127,22 +128,29 @@ if (document.readyState === "loading") {
 
 ```
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [n9k3edxufj](./n9k3edxufj.md), [b9635u4i3w](./b9635u4i3w.md) | [c52w1izn8f](./c52w1izn8f.md) |
+| EVAL | [b9635u4i3w](./b9635u4i3w.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[c52w1izn8f](./c52w1izn8f.md) | 

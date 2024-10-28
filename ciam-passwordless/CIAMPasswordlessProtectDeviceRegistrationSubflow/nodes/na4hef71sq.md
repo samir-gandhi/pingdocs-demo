@@ -1,4 +1,5 @@
-# Http - Gather Browser Information
+# Http - string 
+Gather Browser Information
 ## Configuration
 ID:  na4hef71sq
 
@@ -6,20 +7,17 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 ## Custom CSS
 ```css
+json 
 .hidden-button {
   display: none;
 }
 ```
 
 ## Custom HTML
-```html
+```string 
 <!-- Check whether the end-user browser is supporting WebAuthn to understand if security keys and platform biomentic method are usable -->
 <form id="webAuthenSupportForm" method="post">
     <input type="hidden" name="webAuthenSupport" id="webAuthenSupport">
@@ -28,7 +26,7 @@ CapabilityName: customHTMLTemplate
 ```
 
 ## Custom Script
-```js
+```js 
 function isWebAuthnSupported() {
     try {
         if (!window.PublicKeyCredential) {
@@ -91,21 +89,8 @@ setTimeout(function () {
 }, 400);
 ```
 
-### Additional Properties
-formFieldsList
- ```json 
-
-```
-
-
-inputSchema
- ```json 
-
-```
-
-
-outputSchema
- ```json 
+### Output Schema
+``` json 
 {
 	"type": "object",
 	"properties": {
@@ -118,25 +103,41 @@ outputSchema
 			"propertyName": "webAuthenSupport"
 		}
 	}
-}
+} 
+```
+
+### Additional Properties
+formFieldsList
+```
+```
+
+
+inputSchema
+```
 ```
 
 
 undefined
- ```json 
-
+```
 ```
 
 
 validationRules
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [p8n9w6rdgy](./p8n9w6rdgy.md) | [tir7r8fvkp](./tir7r8fvkp.md) |
+| EVAL | [p8n9w6rdgy](./p8n9w6rdgy.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[tir7r8fvkp](./tir7r8fvkp.md) | 

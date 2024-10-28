@@ -1,4 +1,5 @@
-# Error Message - Check if MFA is Enabled.
+# Error Message - string 
+Check if MFA is Enabled.
 ## Configuration
 ID:  rs2jbqnsry
 
@@ -9,21 +10,22 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | This check is done from Passwordless user and hence MFA has to be enabled | 
- 
+| Node Description | string 
+This check is done from Passwordless user and hence MFA has to be enabled | 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -37,7 +39,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -52,7 +54,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [fm7p6z4lgt](./fm7p6z4lgt.md) |  |

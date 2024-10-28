@@ -1,4 +1,5 @@
-# Functions - Split By User&#39;s Selection 
+# Functions - string 
+Split By User&#39;s Selection 
 ## Configuration
 ID:  z86jockb1t
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [m2p5qnib8n](./m2p5qnib8n.md) | [zv9k30dslp](./zv9k30dslp.md), [4ry973ap9g](./4ry973ap9g.md) |
+| EVAL | [m2p5qnib8n](./m2p5qnib8n.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[4ry973ap9g](./4ry973ap9g.md) | 

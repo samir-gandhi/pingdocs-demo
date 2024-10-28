@@ -1,4 +1,5 @@
-# Functions - Risk Score from PingOne Protect
+# Functions - string 
+Risk Score from PingOne Protect
 ## Configuration
 ID:  dpyuspmzna
 
@@ -9,15 +10,16 @@ CapabilityName: AEqualsMultipleB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Branching based on risk score from PingOne Protect | 
- 
+| Node Description | string 
+Branching based on risk score from PingOne Protect | 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,14 +51,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vkiofgjsix](./vkiofgjsix.md) | [d4x3gb8izo](./d4x3gb8izo.md), [obdb16fbj2](./obdb16fbj2.md), [v7rng0sn5c](./v7rng0sn5c.md) |
+| EVAL | [vkiofgjsix](./vkiofgjsix.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[v7rng0sn5c](./v7rng0sn5c.md) | 

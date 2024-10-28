@@ -1,4 +1,5 @@
-# Node - Password Authentication
+# Node - string 
+Password Authentication
 ## Configuration
 ID:  rstodi2zw1
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -118,7 +116,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [bilu0ighwr](./bilu0ighwr.md) |

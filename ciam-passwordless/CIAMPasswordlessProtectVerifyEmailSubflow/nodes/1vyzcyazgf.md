@@ -1,4 +1,5 @@
-# PingOne - Validate verification code
+# PingOne - string 
+Validate verification code
 ## Configuration
 ID:  1vyzcyazgf
 
@@ -9,15 +10,16 @@ CapabilityName: verifyEmail
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Sends the verification code to PingOne to validate | 
- 
+| Node Description | string 
+Sends the verification code to PingOne to validate | 
+
 
 
 
 
 ### Additional Properties
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +51,7 @@ identifier
 
 
 verificationCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -82,7 +84,15 @@ verificationCode
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [hpve55zazv](./hpve55zazv.md) | [r8sc175hhf](./r8sc175hhf.md) |
+| EVAL | [hpve55zazv](./hpve55zazv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[r8sc175hhf](./r8sc175hhf.md) | 

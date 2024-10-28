@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +45,13 @@ authMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 v9e53rljmv
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ pingOneUserId
 
 
 rememberMe
- ```json 
+```json 
 [
   {
     "children": [
@@ -118,7 +115,7 @@ rememberMe
 
 
 sublfowResult
- ```json 
+```json 
 [
   {
     "children": [
@@ -133,7 +130,3 @@ sublfowResult
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [3ma220y2v8](./3ma220y2v8.md) |  |

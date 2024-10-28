@@ -6,23 +6,20 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 k46n95w9eo
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +51,7 @@ pingOneUserId
 
 
 subflowResult
- ```json 
+```json 
 [
   {
     "children": [
@@ -69,7 +66,3 @@ subflowResult
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [vr1msssq3l](./vr1msssq3l.md) |  |

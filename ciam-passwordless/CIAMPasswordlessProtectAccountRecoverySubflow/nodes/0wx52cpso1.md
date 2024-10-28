@@ -6,24 +6,29 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 m1lp5172g7
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [v28wjjz61p](./v28wjjz61p.md) | [k0gh9sf1l8](./k0gh9sf1l8.md) |
+| EVAL | [v28wjjz61p](./v28wjjz61p.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[k0gh9sf1l8](./k0gh9sf1l8.md) | 

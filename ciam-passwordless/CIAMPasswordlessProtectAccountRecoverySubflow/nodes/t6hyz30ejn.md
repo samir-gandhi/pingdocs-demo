@@ -5,15 +5,20 @@ ID:  t6hyz30ejn
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [rtv1hwltfy](./rtv1hwltfy.md) | [rfwgqmb87x](./rfwgqmb87x.md) |
+| Split By User&#39;s Selection | [rtv1hwltfy](./rtv1hwltfy.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Resend recovery code |[rfwgqmb87x](./rfwgqmb87x.md) | 

@@ -5,15 +5,20 @@ ID:  ux1izu65m4
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3zzt3vrb0k](./3zzt3vrb0k.md) | [smnjhqmjr2](./smnjhqmjr2.md) |
+| Error Type | [3zzt3vrb0k](./3zzt3vrb0k.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[smnjhqmjr2](./smnjhqmjr2.md) | 

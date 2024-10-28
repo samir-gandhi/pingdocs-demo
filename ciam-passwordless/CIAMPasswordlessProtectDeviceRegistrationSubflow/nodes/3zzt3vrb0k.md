@@ -1,4 +1,5 @@
-# Functions - Error Type
+# Functions - string 
+Error Type
 ## Configuration
 ID:  3zzt3vrb0k
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,14 +49,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ug7cydwdhw](./ug7cydwdhw.md) | [ux1izu65m4](./ux1izu65m4.md), [vqogwo2qjm](./vqogwo2qjm.md) |
+| EVAL | [ug7cydwdhw](./ug7cydwdhw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[vqogwo2qjm](./vqogwo2qjm.md) | 

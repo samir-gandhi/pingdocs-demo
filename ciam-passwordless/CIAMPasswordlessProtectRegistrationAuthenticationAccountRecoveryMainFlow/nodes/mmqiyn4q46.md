@@ -1,4 +1,5 @@
-# Functions - Verification Not Required
+# Functions - string 
+Verification Not Required
 ## Configuration
 ID:  mmqiyn4q46
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: ANotEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 string
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [r01x04oq1y](./r01x04oq1y.md) | [cao68g3gyc](./cao68g3gyc.md) |
+| Evaluator | [r01x04oq1y](./r01x04oq1y.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[cao68g3gyc](./cao68g3gyc.md) | 

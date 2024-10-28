@@ -1,4 +1,5 @@
-# Node - to otp
+# Node - string 
+to otp
 ## Configuration
 ID:  kok73n8hkt
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 canChangeDevice
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ canChangeDevice
 
 
 deviceAuthId
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +78,7 @@ deviceAuthId
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +110,7 @@ deviceId
 
 
 deviceName
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,7 +142,7 @@ deviceName
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -176,7 +174,7 @@ email
 
 
 maskedMagicLinkEmail
- ```json 
+```json 
 [
   {
     "children": [
@@ -208,7 +206,7 @@ maskedMagicLinkEmail
 
 
 maskedUsableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -240,13 +238,13 @@ maskedUsableDevices
 
 
 nodeInstanceId
- ```json 
+```string 
 zxfluj3oxa
 ```
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -278,7 +276,7 @@ origin
 
 
 phone
- ```json 
+```json 
 [
   {
     "children": [
@@ -310,7 +308,7 @@ phone
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -342,7 +340,7 @@ pingOneUserId
 
 
 publicKeyCredentialCreationOptions
- ```json 
+```json 
 [
   {
     "children": [
@@ -374,7 +372,7 @@ publicKeyCredentialCreationOptions
 
 
 type
- ```json 
+```json 
 [
   {
     "children": [
@@ -406,7 +404,7 @@ type
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -439,7 +437,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [1gtc5d0awz](./1gtc5d0awz.md) |  |

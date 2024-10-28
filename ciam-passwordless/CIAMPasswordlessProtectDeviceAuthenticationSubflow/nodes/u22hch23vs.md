@@ -5,15 +5,20 @@ ID:  u22hch23vs
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3s5kidc2wc](./3s5kidc2wc.md) | [gsmghrxxoy](./gsmghrxxoy.md) |
+| Get Values from PingOne Protect analysis | [3s5kidc2wc](./3s5kidc2wc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check for KNOWN DEVICE |[gsmghrxxoy](./gsmghrxxoy.md) | 

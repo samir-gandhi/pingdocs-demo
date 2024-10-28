@@ -1,4 +1,5 @@
-# Node - Device Registration
+# Node - string 
+Device Registration
 ## Configuration
 ID:  6trtikxvu3
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -27,7 +25,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [4nbljmsup0](./4nbljmsup0.md) |

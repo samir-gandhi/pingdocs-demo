@@ -5,15 +5,20 @@ ID:  ldx8d6ahwt
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8x2gjjcvxj](./8x2gjjcvxj.md) | [4qv73tz0ug](./4qv73tz0ug.md) |
+| Check User Action | [8x2gjjcvxj](./8x2gjjcvxj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Accept Agreement |[4qv73tz0ug](./4qv73tz0ug.md) | 

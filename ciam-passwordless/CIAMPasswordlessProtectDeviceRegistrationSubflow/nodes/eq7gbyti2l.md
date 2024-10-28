@@ -6,23 +6,20 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 4m767nsx46
 ```
 
 
 result
- ```json 
+```json 
 [
   {
     "children": [
@@ -37,7 +34,3 @@ result
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [eczw2t8dc](./eczw2t8dc.md) |  |

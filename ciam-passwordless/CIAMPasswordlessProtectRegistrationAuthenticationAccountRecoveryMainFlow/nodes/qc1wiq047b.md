@@ -1,4 +1,5 @@
-# Http - NOP UI Page
+# Http - string 
+NOP UI Page
 ## Configuration
 ID:  qc1wiq047b
 
@@ -6,14 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -86,16 +83,24 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [85rxatuk44](./85rxatuk44.md) | [83g36u9ohr](./83g36u9ohr.md) |
+| EVAL | [85rxatuk44](./85rxatuk44.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[83g36u9ohr](./83g36u9ohr.md) | 

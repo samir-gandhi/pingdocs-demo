@@ -1,7 +1,6 @@
 # CIAM-Passwordless-Protect-Threat-Detection-Subflow
-Description: Imported on Mon Apr 01 2024 07:56:25 GMT&#43;0000 (Coordinated Universal Time) 
+Description: Imported on Thu Oct 24 2024 20:38:12 GMT&#43;0000 (Coordinated Universal Time) 
 
-Color: #ff661c
 
 ## Settings
 An exhaustive list of settings including defaults.
@@ -26,6 +25,7 @@ An exhaustive list of settings including defaults.
  | usercookie | PingOne Protect User Cookie to trigger flow. | true | textField | string | false | 
  
 
+
 ## Variables
 | Variable | Value | Context | Display Name | Field Type | Min | Max | Mutable | Type |                                                                                                                                                                
 |----------------------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
@@ -37,4 +37,38 @@ An exhaustive list of settings including defaults.
 
 ```css
 
+```
+
+
+### Flow Diagram
+```mermaid
+flowchart LR
+    6b03psy0ol((EVAL)) --> ue7utb27ym[Error Message]
+    uizc04ybxq((Evaluator)) --> k6hynhaety[Threat detected response.]
+    uizc04ybxq((Evaluator)) --> eagfn3lpbp[Return Success Response]
+    y6rdbg2ky5[Create PingOne Protect Risk with user and Environment details] --> vknqtnu7y2((EVAL))
+    c2ulwnph9p[Detect Threat] --> uizc04ybxq((Evaluator))
+    vknqtnu7y2((EVAL)) --> f994y44c9q[Error While creating a risk evaluation]
+    vknqtnu7y2((EVAL)) --> c2ulwnph9p[Detect Threat]
+    6b03psy0ol((EVAL)) --> y6rdbg2ky5[Create PingOne Protect Risk with user and Environment details]
+    qbf0qv8qi0[Flow Configuration Check] --> 6b03psy0ol((EVAL))
+
+    click 6b03psy0ol "6b03psy0ol" "6b03psy0ol"
+    click ue7utb27ym "ue7utb27ym" "ue7utb27ym"
+    click uizc04ybxq "uizc04ybxq" "uizc04ybxq"
+    click k6hynhaety "k6hynhaety" "k6hynhaety"
+    click uizc04ybxq "uizc04ybxq" "uizc04ybxq"
+    click eagfn3lpbp "eagfn3lpbp" "eagfn3lpbp"
+    click y6rdbg2ky5 "y6rdbg2ky5" "y6rdbg2ky5"
+    click vknqtnu7y2 "vknqtnu7y2" "vknqtnu7y2"
+    click c2ulwnph9p "c2ulwnph9p" "c2ulwnph9p"
+    click uizc04ybxq "uizc04ybxq" "uizc04ybxq"
+    click vknqtnu7y2 "vknqtnu7y2" "vknqtnu7y2"
+    click f994y44c9q "f994y44c9q" "f994y44c9q"
+    click vknqtnu7y2 "vknqtnu7y2" "vknqtnu7y2"
+    click c2ulwnph9p "c2ulwnph9p" "c2ulwnph9p"
+    click 6b03psy0ol "6b03psy0ol" "6b03psy0ol"
+    click y6rdbg2ky5 "y6rdbg2ky5" "y6rdbg2ky5"
+    click qbf0qv8qi0 "qbf0qv8qi0" "qbf0qv8qi0"
+    click 6b03psy0ol "6b03psy0ol" "6b03psy0ol"
 ```

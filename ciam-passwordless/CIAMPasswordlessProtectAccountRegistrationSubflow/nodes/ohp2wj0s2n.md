@@ -1,4 +1,5 @@
-# Functions - Email Form Selection
+# Functions - string 
+Email Form Selection
 ## Configuration
 ID:  ohp2wj0s2n
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [tew5x0pd7f](./tew5x0pd7f.md) | [3v5v4xjvbl](./3v5v4xjvbl.md), [j5g7kyj3v5](./j5g7kyj3v5.md) |
+| EVAL | [tew5x0pd7f](./tew5x0pd7f.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[j5g7kyj3v5](./j5g7kyj3v5.md) | 

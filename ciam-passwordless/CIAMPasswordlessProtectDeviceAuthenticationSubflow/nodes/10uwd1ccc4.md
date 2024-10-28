@@ -1,4 +1,5 @@
-# Functions - Filter Unusable Devices
+# Functions - string 
+Filter Unusable Devices
 ## Configuration
 ID:  10uwd1ccc4
 
@@ -6,17 +7,36 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+  "output": {
+    "type": "object",
+    "properties": {
+      "usableDevices": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "count": {
+        "type": "number"
+      },
+      "canChangeDevice": {
+        "type": "boolean"
+      }
+    }
+  }
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 module.exports = a = async ({ params }) => {
   var usableDevices = JSON.parse(params.devices);
 
@@ -64,39 +84,22 @@ module.exports = a = async ({ params }) => {
 ```
 
 
-outputSchema
- ```json 
-{
-  "output": {
-    "type": "object",
-    "properties": {
-      "usableDevices": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "count": {
-        "type": "number"
-      },
-      "canChangeDevice": {
-        "type": "boolean"
-      }
-    }
-  }
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [9vk797lpxx](./9vk797lpxx.md) | [se271xaurx](./se271xaurx.md) |
+| EVAL | [9vk797lpxx](./9vk797lpxx.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[se271xaurx](./se271xaurx.md) | 

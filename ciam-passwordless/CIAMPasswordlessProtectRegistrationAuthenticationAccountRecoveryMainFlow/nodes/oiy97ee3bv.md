@@ -5,24 +5,29 @@ ID:  oiy97ee3bv
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 vlngo6a8gl
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [5863kwjvsw](./5863kwjvsw.md) | [vlngo6a8gl](./vlngo6a8gl.md), [79qzr2aabs](./79qzr2aabs.md) |
+| Activate Device | [5863kwjvsw](./5863kwjvsw.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Configure email notification to send an email for new device added. |[79qzr2aabs](./79qzr2aabs.md)Node |[vlngo6a8gl](./vlngo6a8gl.md) | 

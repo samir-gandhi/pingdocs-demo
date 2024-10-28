@@ -1,4 +1,5 @@
-# PingOne - Find User
+# PingOne - string 
+Find User
 ## Configuration
 ID:  n6qy3v9bsy
 
@@ -6,23 +7,19 @@ Type: CONNECTION
 
 CapabilityName: userLookup
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 additionalUserProperties
- ```json 
-
+```
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +51,7 @@ email
 
 
 family
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ family
 
 
 given
- ```json 
+```json 
 [
   {
     "children": [
@@ -118,13 +115,12 @@ given
 
 
 matchAttributes
- ```json 
-
+```
 ```
 
 
 populationId
- ```json 
+```json 
 [
   {
     "children": [
@@ -156,7 +152,7 @@ populationId
 
 
 userIdentifierForFindUser
- ```json 
+```json 
 [
   {
     "children": [
@@ -188,7 +184,7 @@ userIdentifierForFindUser
 
 
 username
- ```json 
+```json 
 [
   {
     "children": [
@@ -221,7 +217,3 @@ username
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [p5i7v1wl02](./p5i7v1wl02.md) |

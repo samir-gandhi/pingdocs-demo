@@ -1,4 +1,5 @@
-# Variables - Set Device ID
+# Variables - string 
+Set Device ID
 ## Configuration
 ID:  8oqliw5zps
 
@@ -6,24 +7,28 @@ Type: CONNECTION
 
 CapabilityName: saveValue
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 saveVariables
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [thtxgh5tye](./thtxgh5tye.md) | [jacbwkhwfc](./jacbwkhwfc.md) |
+| EVAL | [thtxgh5tye](./thtxgh5tye.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[jacbwkhwfc](./jacbwkhwfc.md) | 

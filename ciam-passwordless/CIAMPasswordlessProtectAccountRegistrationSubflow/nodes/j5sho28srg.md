@@ -5,15 +5,20 @@ ID:  j5sho28srg
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ounerl6t9](./ounerl6t9.md) | [fvt1eikqlw](./fvt1eikqlw.md) |
+| Device Registration Result | [ounerl6t9](./ounerl6t9.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[fvt1eikqlw](./fvt1eikqlw.md) | 

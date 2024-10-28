@@ -1,4 +1,5 @@
-# Node - OTP
+# Node - string 
+OTP
 ## Configuration
 ID:  zxfluj3oxa
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -118,7 +116,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [b0csz8cgnl](./b0csz8cgnl.md) |

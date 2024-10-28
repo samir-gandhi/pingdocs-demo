@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +51,7 @@ email
 
 
 firstName
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ firstName
 
 
 lastName
- ```json 
+```json 
 [
   {
     "children": [
@@ -118,13 +115,13 @@ lastName
 
 
 nodeInstanceId
- ```json 
+```string 
 i2k2g4dd4k
 ```
 
 
 password
- ```json 
+```json 
 [
   {
     "children": [
@@ -156,7 +153,7 @@ password
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -189,7 +186,3 @@ pingOneUserId
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ocq1m14pys](./ocq1m14pys.md) |  |

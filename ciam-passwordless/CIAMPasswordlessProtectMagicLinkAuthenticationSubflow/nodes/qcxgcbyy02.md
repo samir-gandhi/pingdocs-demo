@@ -5,30 +5,35 @@ ID:  qcxgcbyy02
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 2nagahrwxs
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 31jujh5ubp
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [z80t8d8glj](./z80t8d8glj.md) | [31jujh5ubp](./31jujh5ubp.md), [qvn5tw6kbc](./qvn5tw6kbc.md) |
+| Check Challenge Status | [z80t8d8glj](./z80t8d8glj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Is Challenge Approved? |[qvn5tw6kbc](./qvn5tw6kbc.md)Node |[31jujh5ubp](./31jujh5ubp.md) | 

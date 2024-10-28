@@ -1,4 +1,5 @@
-# PingOne Protect - Update risk evaluation with SUCCESS
+# PingOne Protect - string 
+Update risk evaluation with SUCCESS
 ## Configuration
 ID:  fqw47ezfd4
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: updateRiskEvaluation
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 completionStatus
- ```json 
+```json 
 [
   {
     "children": [
@@ -30,7 +28,7 @@ completionStatus
 
 
 riskId
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,3 @@ riskId
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [7186msgx2b](./7186msgx2b.md) |  |

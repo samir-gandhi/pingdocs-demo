@@ -1,4 +1,5 @@
-# Challenge - Deny Challenge After Expiration
+# Challenge - string 
+Deny Challenge After Expiration
 ## Configuration
 ID:  si1p71skgq
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: updateChallenge
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 challenge
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,22 @@ challenge
 
 
 challengeStatus
- ```json 
+```string 
 denied
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [3ma220y2v8](./3ma220y2v8.md) | [rbbahd8wkk](./rbbahd8wkk.md) |
+| EVAL | [3ma220y2v8](./3ma220y2v8.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[rbbahd8wkk](./rbbahd8wkk.md) | 

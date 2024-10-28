@@ -1,4 +1,5 @@
-# PingOne Authentication - Delete Session
+# PingOne Authentication - string 
+Delete Session
 ## Configuration
 ID:  2nlbum4ywj
 
@@ -6,24 +7,29 @@ Type: CONNECTION
 
 CapabilityName: deleteSession
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 softDelete
- ```json 
+```bool 
 false
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [qn65h94yqq](./qn65h94yqq.md) | [m2zwktv18x](./m2zwktv18x.md) |
+| EVAL | [qn65h94yqq](./qn65h94yqq.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[m2zwktv18x](./m2zwktv18x.md) | 

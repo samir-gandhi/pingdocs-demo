@@ -1,4 +1,5 @@
-# Functions - Risk Score from PingOne Protect
+# Functions - string 
+Risk Score from PingOne Protect
 ## Configuration
 ID:  o4xxassgqz
 
@@ -9,21 +10,22 @@ CapabilityName: AEqualsMultipleB
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Branching based on risk score from PingOne Protect | 
- 
+| Node Description | string 
+Branching based on risk score from PingOne Protect | 
+
 
 
 
 
 ### Additional Properties
 caseSensitive
- ```json 
+```bool 
 false
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,14 +57,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8u4731kx7c](./8u4731kx7c.md), [lonpqbsfiu](./lonpqbsfiu.md) | [f4he7cr9jf](./f4he7cr9jf.md), [tr6ask2nn2](./tr6ask2nn2.md), [4tfnhsx2bw](./4tfnhsx2bw.md) |
+| EVAL | [lonpqbsfiu](./lonpqbsfiu.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[4tfnhsx2bw](./4tfnhsx2bw.md) | 

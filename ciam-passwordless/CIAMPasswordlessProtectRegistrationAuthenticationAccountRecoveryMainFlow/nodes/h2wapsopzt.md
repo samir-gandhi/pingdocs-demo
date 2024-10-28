@@ -1,4 +1,5 @@
-# Node - PingOne Protect Analysis
+# Node - string 
+PingOne Protect Analysis
 ## Configuration
 ID:  h2wapsopzt
 
@@ -9,15 +10,16 @@ CapabilityName: startNode
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | This branch will perform a threat analysis using PingOne Protect feature. | 
- 
+| Node Description | string 
+This branch will perform a threat analysis using PingOne Protect feature. | 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -49,7 +51,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [y2yl45morr](./y2yl45morr.md) |

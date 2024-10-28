@@ -1,4 +1,5 @@
-# PingOne MFA - Register User&#39;s Email As MFA Device
+# PingOne MFA - string 
+Register User&#39;s Email As MFA Device
 ## Configuration
 ID:  2yjiwd8na2
 
@@ -9,40 +10,40 @@ CapabilityName: createDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 customDeviceType
- ```json 
+```json 
 {}
 ```
 
 
 customNotificationPolicyId
- ```json 
+```json 
 {}
 ```
 
 
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 deviceType
- ```json 
+```string 
 EMAIL
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -74,14 +75,22 @@ email
 
 
 status
- ```json 
+```string 
 ACTIVE
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [zdzabypfcv](./zdzabypfcv.md) | [ltkdlim024](./ltkdlim024.md) |
+| EVAL | [zdzabypfcv](./zdzabypfcv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[ltkdlim024](./ltkdlim024.md) | 

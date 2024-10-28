@@ -1,4 +1,5 @@
-# Variables - Set Validation Attempt To Zero
+# Variables - string 
+Set Validation Attempt To Zero
 ## Configuration
 ID:  z1uxnr4psu
 
@@ -6,24 +7,28 @@ Type: CONNECTION
 
 CapabilityName: saveValue
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 saveVariables
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [n0ympwqzwl](./n0ympwqzwl.md) | [zvl6xidgq9](./zvl6xidgq9.md) |
+| EVAL | [n0ympwqzwl](./n0ympwqzwl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[zvl6xidgq9](./zvl6xidgq9.md) | 

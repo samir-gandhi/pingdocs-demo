@@ -1,4 +1,5 @@
-# Functions - Check Flow Method
+# Functions - string 
+Check Flow Method
 ## Configuration
 ID:  gm6xl62pf3
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [bkuqv7wdoo](./bkuqv7wdoo.md) | [yjz1weh9xh](./yjz1weh9xh.md), [qdea3v0byw](./qdea3v0byw.md) |
+| EVAL | [bkuqv7wdoo](./bkuqv7wdoo.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[qdea3v0byw](./qdea3v0byw.md) | 

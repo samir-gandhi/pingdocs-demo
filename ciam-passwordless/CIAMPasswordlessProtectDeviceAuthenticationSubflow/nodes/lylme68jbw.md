@@ -5,15 +5,20 @@ ID:  lylme68jbw
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1lam7h7jbc](./1lam7h7jbc.md) | [fkkub10ukt](./fkkub10ukt.md) |
+| Split By Subflow&#39;s Result | [1lam7h7jbc](./1lam7h7jbc.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[fkkub10ukt](./fkkub10ukt.md) | 

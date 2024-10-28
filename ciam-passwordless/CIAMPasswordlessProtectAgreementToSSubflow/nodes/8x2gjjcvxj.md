@@ -1,4 +1,5 @@
-# Functions - Check User Action
+# Functions - string 
+Check User Action
 ## Configuration
 ID:  8x2gjjcvxj
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [it43isf5sm](./it43isf5sm.md) | [jcpocm4del](./jcpocm4del.md), [ldx8d6ahwt](./ldx8d6ahwt.md) |
+| EVAL | [it43isf5sm](./it43isf5sm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ldx8d6ahwt](./ldx8d6ahwt.md) | 

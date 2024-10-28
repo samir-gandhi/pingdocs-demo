@@ -1,4 +1,5 @@
-# PingOne Notifications - Configure email notification to send an email for new device added.
+# PingOne Notifications - string 
+Configure email notification to send an email for new device added.
 ## Configuration
 ID:  79qzr2aabs
 
@@ -9,23 +10,24 @@ CapabilityName: sendEmail
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Configure email notification to send an email for new device added. | 
- 
+| Node Description | string 
+Configure email notification to send an email for new device added. | 
+
 
 
 
 
 ### Additional Properties
 customTemplateVariant
- ```json 
+```json 
 {}
 ```
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -58,7 +60,15 @@ email
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [oiy97ee3bv](./oiy97ee3bv.md) | [7nmwxj5w0p](./7nmwxj5w0p.md) |
+| EVAL | [oiy97ee3bv](./oiy97ee3bv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[7nmwxj5w0p](./7nmwxj5w0p.md) | 

@@ -1,4 +1,5 @@
-# PingOne MFA - Get User&#39;s Existing Devices
+# PingOne MFA - string 
+Get User&#39;s Existing Devices
 ## Configuration
 ID:  9m5a2f4emp
 
@@ -9,41 +10,47 @@ CapabilityName: readAllDevices
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 deviceTypes
- ```json 
-
+```
 ```
 
 
 setFilterFlag
- ```json 
+```bool 
 true
 ```
 
 
 statusFilter
- ```json 
+```string 
 ACTIVE
 ```
 
 
 workforceDeviceTypes
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [sk7vd2o3r7](./sk7vd2o3r7.md) | [nydopq0ve3](./nydopq0ve3.md) |
+| EVAL | [sk7vd2o3r7](./sk7vd2o3r7.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[nydopq0ve3](./nydopq0ve3.md) | 

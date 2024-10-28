@@ -1,4 +1,5 @@
-# Http - Return Success Response
+# Http - string 
+Return Success Response
 ## Configuration
 ID:  vi56defl6q
 
@@ -9,22 +10,22 @@ CapabilityName: createSuccessResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #9dc967ff | 
+| Node Background Color | html 
+#9dc967ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 message
- ```json 
+```json 
 [
   {
     "children": [
@@ -74,7 +75,3 @@ message
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [0ugqstlmcb](./0ugqstlmcb.md) |  |

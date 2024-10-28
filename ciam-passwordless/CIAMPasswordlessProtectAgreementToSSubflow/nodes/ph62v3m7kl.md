@@ -1,4 +1,5 @@
-# Error Message - Decline Agreement
+# Error Message - string 
+Decline Agreement
 ## Configuration
 ID:  ph62v3m7kl
 
@@ -9,16 +10,17 @@ CapabilityName: customErrorMessage
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -50,7 +52,7 @@ errorCode
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -68,7 +70,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [jcpocm4del](./jcpocm4del.md) |  |

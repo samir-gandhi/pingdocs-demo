@@ -5,15 +5,20 @@ ID:  j0zgu89bdj
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [cxjw4q2ocj](./cxjw4q2ocj.md) | [elvm9hs51q](./elvm9hs51q.md) |
+| Check Method Selected | [cxjw4q2ocj](./cxjw4q2ocj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[elvm9hs51q](./elvm9hs51q.md) | 

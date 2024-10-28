@@ -1,4 +1,5 @@
-# Variables - Set error message
+# Variables - string 
+Set error message
 ## Configuration
 ID:  itzday4ij6
 
@@ -6,24 +7,28 @@ Type: CONNECTION
 
 CapabilityName: saveValue
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 saveVariables
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ocq1m14pys](./ocq1m14pys.md) | [hb32pzk5ax](./hb32pzk5ax.md) |
+| EVAL | [ocq1m14pys](./ocq1m14pys.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[hb32pzk5ax](./hb32pzk5ax.md) | 

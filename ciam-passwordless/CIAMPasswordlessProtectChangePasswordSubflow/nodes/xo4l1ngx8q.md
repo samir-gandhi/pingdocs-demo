@@ -1,4 +1,5 @@
-# Http - NOP UI Page
+# Http - string 
+NOP UI Page
 ## Configuration
 ID:  xo4l1ngx8q
 
@@ -6,14 +7,10 @@ Type: CONNECTION
 
 CapabilityName: customHTMLTemplate
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 ## Custom HTML
-```html
+```html 
 [
   {
     "children": [
@@ -86,16 +83,24 @@ CapabilityName: customHTMLTemplate
 ```
 
 
+
 ### Additional Properties
 formFieldsList
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [v738ey1b5y](./v738ey1b5y.md) | [ixq0pq1td7](./ixq0pq1td7.md) |
+| EVAL | [v738ey1b5y](./v738ey1b5y.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ixq0pq1td7](./ixq0pq1td7.md) | 

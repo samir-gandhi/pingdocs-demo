@@ -5,15 +5,20 @@ ID:  3e3ddhe5la
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fr9xup4p3z](./fr9xup4p3z.md) | [79cmhtu9fy](./79cmhtu9fy.md) |
+| Create Device | [fr9xup4p3z](./fr9xup4p3z.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Prompt For OTP |[79cmhtu9fy](./79cmhtu9fy.md) | 

@@ -1,4 +1,5 @@
-# Http - Return Success Response
+# Http - string 
+Return Success Response
 ## Configuration
 ID:  tidk1pmqix
 
@@ -9,29 +10,25 @@ CapabilityName: createSuccessResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #9dc967ff | 
+| Node Background Color | html 
+#9dc967ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 returnRequestParameters
- ```json 
+```bool 
 false
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [5uyrxkfgza](./5uyrxkfgza.md) |  |

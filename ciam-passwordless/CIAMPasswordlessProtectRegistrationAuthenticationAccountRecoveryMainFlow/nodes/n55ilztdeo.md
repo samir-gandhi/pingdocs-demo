@@ -1,4 +1,5 @@
-# Error Message - User Not Found Error
+# Error Message - string 
+User Not Found Error
 ## Configuration
 ID:  n55ilztdeo
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```string 
 400
 ```
 
 
 errorDescription
- ```json 
+```json 
 [
   {
     "children": [
@@ -36,7 +34,7 @@ errorDescription
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -51,7 +49,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [71chk8uoyb](./71chk8uoyb.md) |  |

@@ -1,4 +1,5 @@
-# Functions - Split by user selection 
+# Functions - string 
+Split by user selection 
 ## Configuration
 ID:  qurffyxc2d
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [l5z3ngnhjv](./l5z3ngnhjv.md) | [gsw5wwtm7t](./gsw5wwtm7t.md), [00j11fkhbx](./00j11fkhbx.md), [ig2ndq8bf2](./ig2ndq8bf2.md) |
+| EVAL | [l5z3ngnhjv](./l5z3ngnhjv.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ig2ndq8bf2](./ig2ndq8bf2.md) | 

@@ -1,4 +1,5 @@
-# Functions - Split By Subflow&#39;s Result
+# Functions - string 
+Split By Subflow&#39;s Result
 ## Configuration
 ID:  oiauhhhv4k
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [21l7s55n2w](./21l7s55n2w.md) | [aw3ce1sq70](./aw3ce1sq70.md), [o5vjpzh7bq](./o5vjpzh7bq.md) |
+| EVAL | [21l7s55n2w](./21l7s55n2w.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[o5vjpzh7bq](./o5vjpzh7bq.md) | 

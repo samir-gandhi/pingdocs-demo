@@ -6,23 +6,20 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 wc0jfkkr3z
 ```
 
 
 origin
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +51,7 @@ origin
 
 
 rpid
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ rpid
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -100,7 +97,7 @@ typeDisplayNames
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -133,7 +130,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [qj3vhzekmd](./qj3vhzekmd.md) |  |

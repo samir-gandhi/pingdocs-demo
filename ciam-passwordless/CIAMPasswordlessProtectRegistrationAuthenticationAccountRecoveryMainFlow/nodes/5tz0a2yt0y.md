@@ -1,4 +1,5 @@
-# Functions - Check if MFA Size is 0
+# Functions - string 
+Check if MFA Size is 0
 ## Configuration
 ID:  5tz0a2yt0y
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 number
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1gv745vu9f](./1gv745vu9f.md) | [opojvoak73](./opojvoak73.md) |
+| EVAL | [1gv745vu9f](./1gv745vu9f.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[opojvoak73](./opojvoak73.md) | 

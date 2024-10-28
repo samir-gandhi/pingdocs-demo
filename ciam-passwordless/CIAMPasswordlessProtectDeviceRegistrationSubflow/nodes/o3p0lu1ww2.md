@@ -1,4 +1,5 @@
-# Functions - Mask Phone Number/Email Address
+# Functions - string 
+Mask Phone Number/Email Address
 ## Configuration
 ID:  o3p0lu1ww2
 
@@ -6,17 +7,30 @@ Type: CONNECTION
 
 CapabilityName: customFunction
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
 
 
 
+
+### Output Schema
+``` json 
+{
+	"output": {
+		"type": "object",
+		"properties": {
+			"maskedEmail": {
+				"type": "string"
+			},
+			"maskedPhone": {
+				"type": "string"
+			}
+		}
+	}
+} 
+```
 
 ### Additional Properties
 code
- ```json 
+```js 
 // Write your code here
 // Supported language: Javascript 
 module.exports = a = async ({params}) => {
@@ -42,33 +56,22 @@ module.exports = a = async ({params}) => {
 ```
 
 
-outputSchema
- ```json 
-{
-	"output": {
-		"type": "object",
-		"properties": {
-			"maskedEmail": {
-				"type": "string"
-			},
-			"maskedPhone": {
-				"type": "string"
-			}
-		}
-	}
-}
-```
-
-
 variableInputList
- ```json 
-
 ```
+```
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [522ujtnujz](./522ujtnujz.md) | [xceoebu0xh](./xceoebu0xh.md) |
+| EVAL | [522ujtnujz](./522ujtnujz.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[xceoebu0xh](./xceoebu0xh.md) | 

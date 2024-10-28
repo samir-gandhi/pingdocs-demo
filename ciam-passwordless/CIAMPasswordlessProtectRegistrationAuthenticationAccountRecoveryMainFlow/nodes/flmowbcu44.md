@@ -5,15 +5,20 @@ ID:  flmowbcu44
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [cqktdyqncg](./cqktdyqncg.md) | [aeev9gqagj](./aeev9gqagj.md) |
+| Split By Subflow&#39;s Result | [cqktdyqncg](./cqktdyqncg.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[aeev9gqagj](./aeev9gqagj.md) | 

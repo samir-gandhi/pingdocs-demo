@@ -5,48 +5,53 @@ ID:  thtxgh5tye
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 gnmbshsowi
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 ptg682rh3f
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 qz2aml0p13
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 x4iurqyl99
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [pjzv5pikab](./pjzv5pikab.md) | [gnmbshsowi](./gnmbshsowi.md), [8oqliw5zps](./8oqliw5zps.md) |
+| Create OTP Device | [pjzv5pikab](./pjzv5pikab.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Is Error Invalid Phone Number/Email Address? |[gnmbshsowi](./gnmbshsowi.md)Set Device ID |[8oqliw5zps](./8oqliw5zps.md) | 

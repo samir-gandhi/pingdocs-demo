@@ -5,15 +5,20 @@ ID:  iz5nper189
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [78i0a08xfl](./78i0a08xfl.md) | [7hwtzuxjwc](./7hwtzuxjwc.md) |
+| Send email for threat detection | [78i0a08xfl](./78i0a08xfl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Disable user |[7hwtzuxjwc](./7hwtzuxjwc.md) | 

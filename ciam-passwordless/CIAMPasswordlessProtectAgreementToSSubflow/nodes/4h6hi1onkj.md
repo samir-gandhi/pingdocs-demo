@@ -5,24 +5,29 @@ ID:  4h6hi1onkj
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 8zvqjrwsj8
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1rvj1fvgpu](./1rvj1fvgpu.md) | [6pm1x665h0](./6pm1x665h0.md), [8zvqjrwsj8](./8zvqjrwsj8.md) |
+| Check If Consent Status Is Accepted | [1rvj1fvgpu](./1rvj1fvgpu.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[8zvqjrwsj8](./8zvqjrwsj8.md) | 

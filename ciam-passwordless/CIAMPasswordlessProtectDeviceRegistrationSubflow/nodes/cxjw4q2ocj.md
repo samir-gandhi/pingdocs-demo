@@ -1,4 +1,5 @@
-# Functions - Check Method Selected
+# Functions - string 
+Check Method Selected
 ## Configuration
 ID:  cxjw4q2ocj
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [k44ne8uadp](./k44ne8uadp.md) | [eczw2t8dc](./eczw2t8dc.md), [ocsgnkoz0e](./ocsgnkoz0e.md), [j0zgu89bdj](./j0zgu89bdj.md), [531xfigfe0](./531xfigfe0.md), [k90u9roz6q](./k90u9roz6q.md) |
+| EVAL | [k44ne8uadp](./k44ne8uadp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[k90u9roz6q](./k90u9roz6q.md) | 

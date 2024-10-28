@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorCode
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ errorCode
 
 
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +77,7 @@ errorMessage
 
 
 flowMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,14 +109,10 @@ flowMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 cl9ugbu07r
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [scxeegwacj](./scxeegwacj.md) |  |

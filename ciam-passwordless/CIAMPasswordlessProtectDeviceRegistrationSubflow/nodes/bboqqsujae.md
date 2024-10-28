@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ authMethod
 
 
 authType
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,13 +77,13 @@ authType
 
 
 nodeInstanceId
- ```json 
+```string 
 fcajmc2304
 ```
 
 
 result
- ```json 
+```json 
 [
   {
     "children": [
@@ -101,7 +98,3 @@ result
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [ltkdlim024](./ltkdlim024.md) |  |

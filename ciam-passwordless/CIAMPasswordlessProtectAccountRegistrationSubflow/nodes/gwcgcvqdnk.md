@@ -1,4 +1,5 @@
-# Error Message - Passwords Do Not Match
+# Error Message - string 
+Passwords Do Not Match
 ## Configuration
 ID:  gwcgcvqdnk
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: customErrorMessage
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 errorMessage
- ```json 
+```json 
 [
   {
     "children": [
@@ -31,7 +29,3 @@ errorMessage
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [updxs8x4oi](./updxs8x4oi.md) |  |

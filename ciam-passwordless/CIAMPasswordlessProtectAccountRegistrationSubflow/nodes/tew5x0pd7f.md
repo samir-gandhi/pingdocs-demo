@@ -5,15 +5,20 @@ ID:  tew5x0pd7f
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [z876lbl7xg](./z876lbl7xg.md) | [ohp2wj0s2n](./ohp2wj0s2n.md) |
+| Email Form | [z876lbl7xg](./z876lbl7xg.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Email Form Selection |[ohp2wj0s2n](./ohp2wj0s2n.md) | 

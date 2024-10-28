@@ -6,23 +6,20 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 nodeInstanceId
- ```json 
+```string 
 wc0jfkkr3z
 ```
 
 
 rpid
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +51,7 @@ rpid
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ typeDisplayNames
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -119,7 +116,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [car7f7wytu](./car7f7wytu.md) |  |

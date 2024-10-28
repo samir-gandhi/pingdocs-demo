@@ -5,24 +5,29 @@ ID:  7nmwxj5w0p
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ml14k5xdb5
- ```json 
+```string 
 always
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [79qzr2aabs](./79qzr2aabs.md) | [ml14k5xdb5](./ml14k5xdb5.md) |
+| Configure email notification to send an email for new device added. | [79qzr2aabs](./79qzr2aabs.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Return |[ml14k5xdb5](./ml14k5xdb5.md) | 

@@ -5,30 +5,35 @@ ID:  8l8a54vefk
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 ab91zkjrgx
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 undefined
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [9lrqw38492](./9lrqw38492.md) | [ab91zkjrgx](./ab91zkjrgx.md), [527m4tr2s2](./527m4tr2s2.md) |
+| Resend Verification Code | [9lrqw38492](./9lrqw38492.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[ab91zkjrgx](./ab91zkjrgx.md)Verification Code Resent |[527m4tr2s2](./527m4tr2s2.md) | 

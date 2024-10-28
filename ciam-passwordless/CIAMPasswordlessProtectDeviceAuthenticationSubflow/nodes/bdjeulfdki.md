@@ -5,15 +5,20 @@ ID:  bdjeulfdki
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [fq7l0s8w2s](./fq7l0s8w2s.md) | [r0hto2xun7](./r0hto2xun7.md) |
+| Mask Device | [fq7l0s8w2s](./fq7l0s8w2s.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Present OTP Form |[r0hto2xun7](./r0hto2xun7.md) | 

@@ -1,4 +1,5 @@
-# Functions - Check for KNOWN DEVICE
+# Functions - string 
+Check for KNOWN DEVICE
 ## Configuration
 ID:  xj97e6huu4
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [c69lo2tfh8](./c69lo2tfh8.md) | [lonpqbsfiu](./lonpqbsfiu.md) |
+| EVAL | [c69lo2tfh8](./c69lo2tfh8.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[lonpqbsfiu](./lonpqbsfiu.md) | 

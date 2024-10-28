@@ -5,15 +5,20 @@ ID:  eczw2t8dc
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [cxjw4q2ocj](./cxjw4q2ocj.md) | [eq7gbyti2l](./eq7gbyti2l.md) |
+| Check Method Selected | [cxjw4q2ocj](./cxjw4q2ocj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[eq7gbyti2l](./eq7gbyti2l.md) | 

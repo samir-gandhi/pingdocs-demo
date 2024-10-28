@@ -1,4 +1,5 @@
-# Functions - Not Magic Link?
+# Functions - string 
+Not Magic Link?
 ## Configuration
 ID:  wa07p8s7qm
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [iagfrg0an6](./iagfrg0an6.md) | [vr1msssq3l](./vr1msssq3l.md), [vul5k2q2dw](./vul5k2q2dw.md), [imhudhsy1w](./imhudhsy1w.md) |
+| EVAL | [iagfrg0an6](./iagfrg0an6.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[imhudhsy1w](./imhudhsy1w.md) | 

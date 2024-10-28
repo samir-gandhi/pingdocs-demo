@@ -1,4 +1,5 @@
-# Node - Ask for agreement
+# Node - string 
+Ask for agreement
 ## Configuration
 ID:  qhcqow5g8y
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -27,7 +25,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [je23nstva5](./je23nstva5.md) |

@@ -5,30 +5,35 @@ ID:  prjjhhmndv
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 8zvqjrwsj8
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 vktyr722ji
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [6x74clj9zm](./6x74clj9zm.md) | [8jemlov0oc](./8jemlov0oc.md), [8zvqjrwsj8](./8zvqjrwsj8.md) |
+| Check For User Consent? | [6x74clj9zm](./6x74clj9zm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Check User Consent Status |[8jemlov0oc](./8jemlov0oc.md)Node |[8zvqjrwsj8](./8zvqjrwsj8.md) | 

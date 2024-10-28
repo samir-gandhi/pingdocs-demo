@@ -5,15 +5,20 @@ ID:  k9rrvndxtf
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [wc0jfkkr3z](./wc0jfkkr3z.md) | [2whff30xov](./2whff30xov.md) |
+| Authentication method selection | [wc0jfkkr3z](./wc0jfkkr3z.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Mask Email Address |[2whff30xov](./2whff30xov.md) | 

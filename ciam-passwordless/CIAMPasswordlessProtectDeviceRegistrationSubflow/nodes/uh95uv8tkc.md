@@ -1,4 +1,5 @@
-# Functions - User action 
+# Functions - string 
+User action 
 ## Configuration
 ID:  uh95uv8tkc
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [0s68cax470](./0s68cax470.md) | [3mjp355lsy](./3mjp355lsy.md), [uyltkub1v7](./uyltkub1v7.md) |
+| EVAL | [0s68cax470](./0s68cax470.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[uyltkub1v7](./uyltkub1v7.md) | 

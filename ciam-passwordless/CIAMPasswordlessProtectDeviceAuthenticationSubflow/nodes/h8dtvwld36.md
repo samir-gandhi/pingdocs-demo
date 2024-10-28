@@ -5,15 +5,20 @@ ID:  h8dtvwld36
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [4psx471uwp](./4psx471uwp.md) | [76reddil11](./76reddil11.md) |
+| Authentication Required | [4psx471uwp](./4psx471uwp.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[76reddil11](./76reddil11.md) | 

@@ -5,42 +5,47 @@ ID:  wdmeq58d57
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 0u4e3z1n5b
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 4he5hctlgw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 lgvsqsc11o
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 y3zkvpoq4x
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [slu740f2kg](./slu740f2kg.md) | [4he5hctlgw](./4he5hctlgw.md), [ybbdsq2fzf](./ybbdsq2fzf.md) |
+| Delete Previous Device | [slu740f2kg](./slu740f2kg.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Create device |[ybbdsq2fzf](./ybbdsq2fzf.md)Node |[4he5hctlgw](./4he5hctlgw.md) | 

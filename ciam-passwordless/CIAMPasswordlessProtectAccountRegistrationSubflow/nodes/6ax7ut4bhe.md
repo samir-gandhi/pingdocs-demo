@@ -1,4 +1,5 @@
-# Node - Success
+# Node - string 
+Success
 ## Configuration
 ID:  6ax7ut4bhe
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -48,7 +46,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [vs1a4w3l05](./vs1a4w3l05.md) |

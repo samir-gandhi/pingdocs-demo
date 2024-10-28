@@ -1,4 +1,5 @@
-# Functions - User Chose Passwordless Registration?
+# Functions - string 
+User Chose Passwordless Registration?
 ## Configuration
 ID:  rgghrjdny1
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [4nbljmsup0](./4nbljmsup0.md), [yauguijv8y](./yauguijv8y.md) | [r6sues2bxt](./r6sues2bxt.md) |
+| EVAL | [yauguijv8y](./yauguijv8y.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[r6sues2bxt](./r6sues2bxt.md) | 

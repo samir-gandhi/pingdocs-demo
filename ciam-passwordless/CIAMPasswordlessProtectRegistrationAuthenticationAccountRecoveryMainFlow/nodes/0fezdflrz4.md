@@ -1,4 +1,5 @@
-# Node - Go to Sign On Success
+# Node - string 
+Go to Sign On Success
 ## Configuration
 ID:  0fezdflrz4
 
@@ -8,7 +9,8 @@ CapabilityName: goToNode
 
 ### Settings
 | Setting | Value  |
-| :------------------------ | ---------------------------------------- || Valid Authentication Method | [
+| :------------------------ | ---------------------------------------- || Valid Authentication Method | json 
+[
   {
     "children": [
       {
@@ -17,9 +19,10 @@ CapabilityName: goToNode
     ]
   }
 ]
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "teleport.svg",        "url": "userId",        "data": "{{local.powvchr4kr.payload.output.userId}}",        "tooltip": "{{local.powvchr4kr.payload.output.userId}}",        "children": [          {            "text": "userId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "teleport.svg",        "url": "userId",        "data": "{{local.powvchr4kr.payload.output.userId}}",        "tooltip": "{{local.powvchr4kr.payload.output.userId}}",        "children": [          {            "text": "userId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Expire Authentication Token | [
+| Expire Authentication Token | json 
+[
   {
     "children": [
       {
@@ -28,14 +31,14 @@ CapabilityName: goToNode
     ]
   }
 ] |
- 
+
 
 
 
 
 ### Additional Properties
 createSession
- ```json 
+```json 
 [
   {
     "children": [
@@ -49,7 +52,7 @@ createSession
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -81,7 +84,7 @@ email
 
 
 flowMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -113,13 +116,13 @@ flowMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 x8uq3h1ccd
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -152,7 +155,3 @@ pingOneUserId
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [yr66uwy0ma](./yr66uwy0ma.md) |  |

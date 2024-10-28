@@ -5,15 +5,20 @@ ID:  jcpocm4del
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [8x2gjjcvxj](./8x2gjjcvxj.md) | [ph62v3m7kl](./ph62v3m7kl.md) |
+| Check User Action | [8x2gjjcvxj](./8x2gjjcvxj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Decline Agreement |[ph62v3m7kl](./ph62v3m7kl.md) | 

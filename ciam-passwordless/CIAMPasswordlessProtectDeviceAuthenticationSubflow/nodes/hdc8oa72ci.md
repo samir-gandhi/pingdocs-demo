@@ -1,4 +1,5 @@
-# Functions - Is invalidOTP Error
+# Functions - string 
+Is invalidOTP Error
 ## Configuration
 ID:  hdc8oa72ci
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,21 @@ leftValueA
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [7vrrd3uuhm](./7vrrd3uuhm.md) | [8h5tjkrug9](./8h5tjkrug9.md), [v97rmwpban](./v97rmwpban.md) |
+| EVAL | [7vrrd3uuhm](./7vrrd3uuhm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[v97rmwpban](./v97rmwpban.md) | 

@@ -1,4 +1,5 @@
-# PingOne - Update password
+# PingOne - string 
+Update password
 ## Configuration
 ID:  7eaxdz9nwk
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: resetPassword
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 currentPassword
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ currentPassword
 
 
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +78,7 @@ identifier
 
 
 newPassword
- ```json 
+```json 
 [
   {
     "children": [
@@ -113,7 +111,15 @@ newPassword
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [6oeo7c9bch](./6oeo7c9bch.md) | [ateb0l10nl](./ateb0l10nl.md) |
+| Evaluator | [6oeo7c9bch](./6oeo7c9bch.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[ateb0l10nl](./ateb0l10nl.md) | 

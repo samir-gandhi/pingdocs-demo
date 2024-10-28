@@ -1,4 +1,5 @@
-# Node - Success
+# Node - string 
+Success
 ## Configuration
 ID:  j3hvs9dks4
 
@@ -9,15 +10,16 @@ CapabilityName: startNode
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Description | Successfully recovered user&#39;s account | 
- 
+| Node Description | string 
+Successfully recovered user&#39;s account | 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -56,7 +58,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [mkork4kg94](./mkork4kg94.md) |

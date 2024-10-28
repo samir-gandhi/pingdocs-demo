@@ -5,15 +5,20 @@ ID:  xfe79n7ylz
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ce1r0zvwxl](./ce1r0zvwxl.md) | [z876lbl7xg](./z876lbl7xg.md) |
+| Enter Email | [ce1r0zvwxl](./ce1r0zvwxl.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Email Form |[z876lbl7xg](./z876lbl7xg.md) | 

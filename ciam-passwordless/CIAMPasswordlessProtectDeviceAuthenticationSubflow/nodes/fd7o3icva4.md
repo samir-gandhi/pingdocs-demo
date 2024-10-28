@@ -5,24 +5,29 @@ ID:  fd7o3icva4
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 9q9zj5ndao
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ms19ql02hi](./ms19ql02hi.md) | [j8lmuiytzs](./j8lmuiytzs.md), [9q9zj5ndao](./9q9zj5ndao.md) |
+| Get MFA Status | [ms19ql02hi](./ms19ql02hi.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Is MFA Enabled? |[j8lmuiytzs](./j8lmuiytzs.md)Node |[9q9zj5ndao](./9q9zj5ndao.md) | 

@@ -9,71 +9,68 @@ CapabilityName: updateAnnotationProperties
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #f2f3f4ff | 
+| Node Background Color | html 
+#f2f3f4ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 annotation
- ```json 
+```string 
 Perform PingOne Protect analysis
 ```
 
 
 annotationTextColor
- ```json 
+```html 
 #000000
 ```
 
 
 cornerRadius
- ```json 
+```float64 
 8.00
 ```
 
 
 fontFamily
- ```json 
+```string 
 sans-serif
 ```
 
 
 fontSize
- ```json 
+```float64 
 14.00
 ```
 
 
 strokeColor
- ```json 
+```html 
 #181818ff
 ```
 
 
 strokeEnabled
- ```json 
+```bool 
 true
 ```
 
 
 strokeWidth
- ```json 
+```float64 
 1.00
 ```
 
 
 width
- ```json 
+```float64 
 240.00
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  |  |

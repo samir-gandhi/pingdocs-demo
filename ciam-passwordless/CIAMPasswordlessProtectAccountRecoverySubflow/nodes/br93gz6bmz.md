@@ -1,4 +1,5 @@
-# Http - Return Error Response
+# Http - string 
+Return Error Response
 ## Configuration
 ID:  br93gz6bmz
 
@@ -9,23 +10,19 @@ CapabilityName: createErrorResponse
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| Node Background Color | #ffc8c1ff | 
+| Node Background Color | html 
+#ffc8c1ff | 
 
- 
+
 
 
 
 
 ### Additional Properties
 claimsNameValuePairs
- ```json 
-
+```
 ```
 
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [u0kjt3cxvi](./u0kjt3cxvi.md) |  |

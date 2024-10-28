@@ -5,24 +5,29 @@ ID:  2my7xaouma
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 z7l0uzlcxw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [gnmbshsowi](./gnmbshsowi.md) | [z7l0uzlcxw](./z7l0uzlcxw.md), [f93pbyvrj2](./f93pbyvrj2.md) |
+| Is Error Invalid Phone Number/Email Address? | [gnmbshsowi](./gnmbshsowi.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[z7l0uzlcxw](./z7l0uzlcxw.md)Update Error Message |[f93pbyvrj2](./f93pbyvrj2.md) | 

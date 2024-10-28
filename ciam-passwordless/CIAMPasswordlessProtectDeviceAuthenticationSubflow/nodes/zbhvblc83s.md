@@ -1,4 +1,5 @@
-# Node - Authentication Method Selection
+# Node - string 
+Authentication Method Selection
 ## Configuration
 ID:  zbhvblc83s
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 inputSchema
- ```json 
+```json 
 {
 	"type": "object",
 	"properties": {
@@ -97,7 +95,3 @@ inputSchema
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-|  | [ybwxgols9w](./ybwxgols9w.md) |

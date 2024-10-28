@@ -1,4 +1,5 @@
-# PingOne - Disable user
+# PingOne - string 
+Disable user
 ## Configuration
 ID:  yzoki16xti
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: enableUser
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 identifier
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,14 +46,22 @@ identifier
 
 
 matchAttribute
- ```json 
+```string 
 id
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [1v3t743uow](./1v3t743uow.md) | [dt7mj4nem1](./dt7mj4nem1.md) |
+| EVAL | [1v3t743uow](./1v3t743uow.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[dt7mj4nem1](./dt7mj4nem1.md) | 

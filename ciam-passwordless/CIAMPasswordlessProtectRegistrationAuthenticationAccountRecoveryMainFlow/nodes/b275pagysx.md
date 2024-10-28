@@ -1,4 +1,5 @@
-# Functions - Is Account Locked?
+# Functions - string 
+Is Account Locked?
 ## Configuration
 ID:  b275pagysx
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -63,7 +61,15 @@ rightValueB
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [c9kmm14iq0](./c9kmm14iq0.md) | [scxeegwacj](./scxeegwacj.md) |
+| EVAL | [c9kmm14iq0](./c9kmm14iq0.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[scxeegwacj](./scxeegwacj.md) | 

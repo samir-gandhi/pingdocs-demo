@@ -5,15 +5,20 @@ ID:  m2p5qnib8n
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [w9wzxxn1e0](./w9wzxxn1e0.md) | [z86jockb1t](./z86jockb1t.md) |
+| Magic Link Form | [w9wzxxn1e0](./w9wzxxn1e0.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Split By User&#39;s Selection  |[z86jockb1t](./z86jockb1t.md) | 

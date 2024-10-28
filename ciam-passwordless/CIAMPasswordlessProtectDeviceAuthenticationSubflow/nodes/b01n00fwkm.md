@@ -1,4 +1,5 @@
-# PingOne MFA - Continue MFA With Only Device
+# PingOne MFA - string 
+Continue MFA With Only Device
 ## Configuration
 ID:  b01n00fwkm
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: deviceSelectDeviceAuthentication
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 deviceAuthenticationId
- ```json 
+```json 
 [
   {
     "children": [
@@ -54,7 +52,7 @@ deviceAuthenticationId
 
 
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -78,7 +76,15 @@ deviceId
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ayodtok1lb](./ayodtok1lb.md) | [47qta86y95](./47qta86y95.md) |
+| EVAL | [ayodtok1lb](./ayodtok1lb.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[47qta86y95](./47qta86y95.md) | 

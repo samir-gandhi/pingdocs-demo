@@ -1,4 +1,5 @@
-# PingOne MFA - Activate OTP Device
+# PingOne MFA - string 
+Activate OTP Device
 ## Configuration
 ID:  uoppd09l5f
 
@@ -9,16 +10,16 @@ CapabilityName: activateDevice
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "auth.svg",        "url": "pingOneUserId",        "data": "{{global.parameters.pingOneUserId}}",        "tooltip": "{{global.parameters.pingOneUserId}}",        "children": [          {            "text": "pingOneUserId"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
- 
+
 
 
 
 
 ### Additional Properties
 deviceId
- ```json 
+```json 
 [
   {
     "children": [
@@ -56,7 +57,7 @@ deviceId
 
 
 otp
- ```json 
+```json 
 [
   {
     "children": [
@@ -107,7 +108,15 @@ otp
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [ih33zryjpu](./ih33zryjpu.md) | [ug7cydwdhw](./ug7cydwdhw.md) |
+| EVAL | [ih33zryjpu](./ih33zryjpu.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[ug7cydwdhw](./ug7cydwdhw.md) | 

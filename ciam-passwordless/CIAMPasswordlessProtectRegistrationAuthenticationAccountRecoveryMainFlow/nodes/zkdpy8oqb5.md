@@ -5,24 +5,29 @@ ID:  zkdpy8oqb5
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 r60mrklkuw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [m8opeg6ilr](./m8opeg6ilr.md) | [5g1u9k5fi3](./5g1u9k5fi3.md), [r60mrklkuw](./r60mrklkuw.md) |
+| Verify Email | [m8opeg6ilr](./m8opeg6ilr.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Is Remember Me Checked |[5g1u9k5fi3](./5g1u9k5fi3.md)Node |[r60mrklkuw](./r60mrklkuw.md) | 

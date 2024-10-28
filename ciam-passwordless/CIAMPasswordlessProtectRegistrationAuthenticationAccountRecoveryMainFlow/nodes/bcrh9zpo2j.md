@@ -1,4 +1,5 @@
-# PingOne MFA - Read all MFA devices
+# PingOne MFA - string 
+Read all MFA devices
 ## Configuration
 ID:  bcrh9zpo2j
 
@@ -9,24 +10,33 @@ CapabilityName: readAllDevices
 ### Settings
 | Setting | Value  |
 | :------------------------ | ---------------------------------------- |
-| User ID |```[  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
+| User ID |```json [  {    "children": [      {        "text": ""      },      {        "text": ""      },      {        "type": "link",        "src": "pingIdentity.svg",        "url": "id",        "data": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "tooltip": "{{local.flt9ewj1a9.payload.output.matchedUser.id}}",        "children": [          {            "text": "id"          }        ]      },      {        "text": ""      }    ]  }] ```| 
 
-| Node Description | Read all MFA devices | 
- 
+| Node Description | string 
+Read all MFA devices | 
+
 
 
 
 
 ### Additional Properties
 setFilterFlag
- ```json 
+```bool 
 true
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [0cmw42tqse](./0cmw42tqse.md) | [1gv745vu9f](./1gv745vu9f.md) |
+| EVAL | [0cmw42tqse](./0cmw42tqse.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[1gv745vu9f](./1gv745vu9f.md) | 

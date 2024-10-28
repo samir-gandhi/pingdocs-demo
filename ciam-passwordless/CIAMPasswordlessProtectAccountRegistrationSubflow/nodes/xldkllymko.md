@@ -1,4 +1,5 @@
-# Functions - Check for RIsk ID
+# Functions - string 
+Check for RIsk ID
 ## Configuration
 ID:  xldkllymko
 
@@ -6,23 +7,20 @@ Type: CONNECTION
 
 CapabilityName: AIsEmpty
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 checkNullORUndefined
- ```json 
+```bool 
 true
 ```
 
 
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -55,7 +53,15 @@ leftValueA
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [vs1a4w3l05](./vs1a4w3l05.md) | [f7deeungd4](./f7deeungd4.md) |
+| EVAL | [vs1a4w3l05](./vs1a4w3l05.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[f7deeungd4](./f7deeungd4.md) | 

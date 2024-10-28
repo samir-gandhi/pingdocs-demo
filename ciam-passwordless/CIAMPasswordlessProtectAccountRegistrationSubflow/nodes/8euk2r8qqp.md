@@ -5,24 +5,29 @@ ID:  8euk2r8qqp
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 9731nsl2tw
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [hbtxkrrfyo](./hbtxkrrfyo.md) | [ounerl6t9](./ounerl6t9.md), [9731nsl2tw](./9731nsl2tw.md) |
+| Device Registration | [hbtxkrrfyo](./hbtxkrrfyo.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Device Registration Result |[ounerl6t9](./ounerl6t9.md)Node |[9731nsl2tw](./9731nsl2tw.md) | 

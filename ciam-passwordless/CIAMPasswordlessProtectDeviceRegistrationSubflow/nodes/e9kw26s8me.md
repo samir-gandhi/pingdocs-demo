@@ -5,15 +5,20 @@ ID:  e9kw26s8me
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
+
 
 
 
 
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [hili7n1bzj](./hili7n1bzj.md) | [ew8wmbtjs7](./ew8wmbtjs7.md) |
+| Get Auth Method | [hili7n1bzj](./hili7n1bzj.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Node |[ew8wmbtjs7](./ew8wmbtjs7.md) | 

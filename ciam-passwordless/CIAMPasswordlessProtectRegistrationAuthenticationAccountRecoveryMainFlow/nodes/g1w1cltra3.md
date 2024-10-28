@@ -1,4 +1,5 @@
-# Flow Connector - CIAM - Account Registration 
+# Flow Connector - string 
+CIAM - Account Registration 
 ## Configuration
 ID:  g1w1cltra3
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: startUiSubFlow
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 allowedDeviceTypes
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ allowedDeviceTypes
 
 
 ciam_agreementEnabled
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,7 +78,7 @@ ciam_agreementEnabled
 
 
 ciam_agreementId
- ```json 
+```json 
 [
   {
     "children": [
@@ -112,7 +110,7 @@ ciam_agreementId
 
 
 ciam_companyLogo
- ```json 
+```json 
 [
   {
     "children": [
@@ -144,7 +142,7 @@ ciam_companyLogo
 
 
 ciam_passwordlessRequired
- ```json 
+```json 
 [
   {
     "children": [
@@ -177,7 +175,15 @@ ciam_passwordlessRequired
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [d5jso3qit5](./d5jso3qit5.md) | [hzmdf4b1w6](./hzmdf4b1w6.md) |
+| EVAL | [d5jso3qit5](./d5jso3qit5.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Evaluator |[hzmdf4b1w6](./hzmdf4b1w6.md) | 

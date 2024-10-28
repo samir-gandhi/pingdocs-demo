@@ -1,4 +1,5 @@
-# Functions - Does User Have Existing Password
+# Functions - string 
+Does User Have Existing Password
 ## Configuration
 ID:  ux2xzdhk0a
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: ANotEqualsB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,22 @@ rightValueB
 
 
 type
- ```json 
+```string 
 string
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [mcc4xn7khm](./mcc4xn7khm.md) | [eph6l2tfnr](./eph6l2tfnr.md) |
+| EVAL | [mcc4xn7khm](./mcc4xn7khm.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[eph6l2tfnr](./eph6l2tfnr.md) | 

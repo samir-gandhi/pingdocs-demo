@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 deviceType
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +45,7 @@ deviceType
 
 
 email
- ```json 
+```json 
 [
   {
     "children": [
@@ -80,13 +77,13 @@ email
 
 
 nodeInstanceId
- ```json 
+```string 
 dc2mhwx86e
 ```
 
 
 rpid
- ```json 
+```json 
 [
   {
     "children": [
@@ -118,7 +115,7 @@ rpid
 
 
 typeDisplayNames
- ```json 
+```json 
 [
   {
     "children": [
@@ -150,7 +147,7 @@ typeDisplayNames
 
 
 usableDevices
- ```json 
+```json 
 [
   {
     "children": [
@@ -183,7 +180,3 @@ usableDevices
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [zdzabypfcv](./zdzabypfcv.md) |  |

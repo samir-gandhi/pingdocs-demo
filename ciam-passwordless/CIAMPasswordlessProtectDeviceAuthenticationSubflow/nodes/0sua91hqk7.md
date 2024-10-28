@@ -5,24 +5,29 @@ ID:  0sua91hqk7
 Type: EVAL 
 
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 czzrbt1dsb
- ```json 
+```string 
 anyTriggersFalse
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [2n3az4vori](./2n3az4vori.md) | [10oaokas61](./10oaokas61.md), [czzrbt1dsb](./czzrbt1dsb.md) |
+| User Has Active Devices | [2n3az4vori](./2n3az4vori.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| Magic Link Enabled |[czzrbt1dsb](./czzrbt1dsb.md)Start MFA Authentication |[10oaokas61](./10oaokas61.md) | 

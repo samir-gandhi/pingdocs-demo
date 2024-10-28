@@ -1,4 +1,5 @@
-# Functions - Authentication Prompt
+# Functions - string 
+Authentication Prompt
 ## Configuration
 ID:  icy7kw57ll
 
@@ -6,17 +7,14 @@ Type: CONNECTION
 
 CapabilityName: AEqualsMultipleB
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 leftValueA
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,7 +46,7 @@ leftValueA
 
 
 rightValueB
- ```json 
+```json 
 [
   {
     "children": [
@@ -62,14 +60,21 @@ rightValueB
 
 
 rightValueMultiple
- ```json 
-
+```
 ```
 
 
 
 
+
 ### Position
-| Previous Nodes | Future Nodes |
+
+#### Previous Nodes
+| Node Title | Node ID |
 | :------------- | ------------ |
-| [4l39ap532m](./4l39ap532m.md) | [v0t14r4lv2](./v0t14r4lv2.md), [wj5284rjb8](./wj5284rjb8.md), [vw8zbuzgod](./vw8zbuzgod.md) |
+| Evaluator | [4l39ap532m](./4l39ap532m.md) | 
+ 
+ #### Future Nodes
+| Node Title | Node ID |
+| :------------- | ------------ |
+| EVAL |[vw8zbuzgod](./vw8zbuzgod.md) | 

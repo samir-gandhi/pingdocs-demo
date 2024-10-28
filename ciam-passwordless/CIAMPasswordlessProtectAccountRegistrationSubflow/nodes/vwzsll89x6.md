@@ -6,17 +6,14 @@ Type: CONNECTION
 
 CapabilityName: goToNode
 
-### Settings
-| Setting | Value  |
-| :------------------------ | ---------------------------------------- |
- 
+
 
 
 
 
 ### Additional Properties
 authMethod
- ```json 
+```json 
 [
   {
     "children": [
@@ -48,13 +45,13 @@ authMethod
 
 
 nodeInstanceId
- ```json 
+```string 
 6ax7ut4bhe
 ```
 
 
 pingOneUserId
- ```json 
+```json 
 [
   {
     "children": [
@@ -86,7 +83,7 @@ pingOneUserId
 
 
 subflowResult
- ```json 
+```json 
 [
   {
     "children": [
@@ -101,7 +98,3 @@ subflowResult
 
 
 
-### Position
-| Previous Nodes | Future Nodes |
-| :------------- | ------------ |
-| [oi73z7ak2s](./oi73z7ak2s.md) |  |
