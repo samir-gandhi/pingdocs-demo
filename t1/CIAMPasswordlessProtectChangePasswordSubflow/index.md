@@ -39,6 +39,7 @@ flowchart LR
     okw0g6i84d["Update error message"] --> um3lcpaulo(("EVAL"))
     rysh2x3iz2["Set error message"] --> ym31re8b7g(("EVAL"))
     ateb0l10nl(("Evaluator")) --> rysh2x3iz2["Set error message"]
+    6oeo7c9bch(("Evaluator")) --> t0vllny9q["Http"]
 
     click v738ey1b5y "vscode://file/./nodes/v738ey1b5y.md" _parent
     click xo4l1ngx8q "vscode://file/./nodes/xo4l1ngx8q.md" _parent
@@ -112,6 +113,8 @@ flowchart LR
     click ym31re8b7g "vscode://file/./nodes/ym31re8b7g.md" _parent
     click ateb0l10nl "vscode://file/./nodes/ateb0l10nl.md" _parent
     click rysh2x3iz2 "vscode://file/./nodes/rysh2x3iz2.md" _parent
+    click 6oeo7c9bch "vscode://file/./nodes/6oeo7c9bch.md" _parent
+    click t0vllny9q "vscode://file/./nodes/t0vllny9q.md" _parent
 ```
 
 

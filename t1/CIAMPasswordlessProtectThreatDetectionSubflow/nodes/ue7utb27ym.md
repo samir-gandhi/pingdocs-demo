@@ -83,7 +83,7 @@ inputSchema
 
 sktemplate
 ```string 
-4283c0de636208a4273efe1c9fda225f
+
 ```
 
 
