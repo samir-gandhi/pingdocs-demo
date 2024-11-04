@@ -10,6 +10,15 @@ Type: EVAL
 
 
 
+### Additional Properties
+qc1wiq047b
+```string 
+allTriggersTrue
+```
+
+
+
+
 
 ### Position
 
