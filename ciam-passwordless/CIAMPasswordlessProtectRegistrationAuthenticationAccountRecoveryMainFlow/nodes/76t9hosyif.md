@@ -10,6 +10,15 @@ Type: EVAL
 
 
 
+### Additional Properties
+frkr1a0u82
+```string 
+allTriggersTrue
+```
+
+
+
+
 
 ### Position
 
